@@ -1,0 +1,14 @@
+quantity,value
+price p1,36.0
+price p2,34.0
+x (A's inner customers),14.0
+y (B's inner customers),16.0
+quantity q1,18.0
+quantity q2,17.0
+profit pi1,648.0
+profit pi2,578.0
+dAGT condition (1): (l+(a-b)/3)^2,1296.0
+dAGT condition (1): (4/3) l (a+2b),280.0
+dAGT condition (2): (l-(a-b)/3)^2,1156.0
+dAGT condition (2): (4/3) l (b+2a),420.0
+symmetric equilibrium needs a = b <= l/4,8.75

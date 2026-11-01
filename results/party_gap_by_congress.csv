@@ -1,0 +1,149 @@
+congress,chamber,start_year,n_dem,n_rep,dem_median,rep_median,gap,dems_right_of_most_liberal_rep,reps_left_of_most_conservative_dem,most_conservative_dem,most_conservative_dem_score,most_liberal_rep,most_liberal_rep_score,overlap_members
+46,House,1879,145,135,-0.395,0.399,0.794,0,0,"MORSE, Leopold",-0.117,"KILLINGER, John Weinland",0.143,0
+46,Senate,1879,45,35,-0.43,0.286,0.716,0,0,"McDONALD, Joseph Ewing",-0.296,"BOOTH, Newton",0.104,0
+47,House,1881,136,159,-0.396,0.391,0.787,0,0,"MOULTON, Samuel Wheeler",-0.001,"BELFORD, James Burns",0.178,0
+47,Senate,1881,38,45,-0.4335,0.314,0.7475,0,0,"BROWN, Joseph Emerson",-0.312,"TELLER, Henry Moore",0.161,0
+48,House,1883,203,125,-0.337,0.385,0.722,0,0,"MOULTON, Samuel Wheeler",-0.001,"HENDERSON, David Bremner",0.161,0
+48,Senate,1883,36,40,-0.4335,0.308,0.7415,0,0,"BROWN, Joseph Emerson",-0.312,"VAN WYCK, Charles Henry",0.176,0
+49,House,1885,187,143,-0.357,0.391,0.748,1,1,"BEACH, Lewis",-0.12,"WADSWORTH, William Henry",-0.122,2
+49,Senate,1885,39,45,-0.43,0.288,0.718,0,0,"PAYNE, Henry B.",-0.225,"RIDDLEBERGER, Harrison Holt",0.011,0
+50,House,1887,170,153,-0.379,0.398,0.777,2,1,"GREENMAN, Edward Whitford",-0.095,"FITCH, Ashbel Parmelee",-0.124,3
+50,Senate,1887,37,40,-0.457,0.287,0.744,0,0,"PAYNE, Henry B.",-0.225,"RIDDLEBERGER, Harrison Holt",0.011,0
+51,House,1889,169,184,-0.381,0.408,0.7889999999999999,0,0,"FITCH, Ashbel Parmelee",-0.124,"LIND, John",0.082,0
+51,Senate,1889,38,53,-0.447,0.304,0.751,0,0,"PAYNE, Henry B.",-0.225,"PETTIGREW, Richard Franklin",0.071,0
+52,House,1891,247,89,-0.32,0.426,0.746,0,0,"CABLE, Benjamin Taylor",-0.082,"LIND, John",0.082,0
+52,Senate,1891,45,49,-0.43,0.305,0.735,0,0,"HILL, David Bennett",-0.118,"PETTIGREW, Richard Franklin",0.071,0
+53,House,1893,228,133,-0.339,0.439,0.778,0,0,"SIBLEY, Joseph Crocker",0.021,"HARTMAN, Charles Sampson",0.062,0
+53,Senate,1893,48,44,-0.4265,0.3115,0.738,0,0,"HILL, David Bennett",-0.118,"PETTIGREW, Richard Franklin",0.071,0
+54,House,1895,103,253,-0.422,0.43,0.852,2,1,"BARTLETT, Franklin",-0.158,"SHAFROTH, John Franklin",-0.198,3
+54,Senate,1895,40,44,-0.41400000000000003,0.3215,0.7355,0,0,"HILL, David Bennett",-0.118,"PETTIGREW, Richard Franklin",0.071,0
+55,House,1897,132,212,-0.396,0.4345,0.8305,0,0,"BAKER, Jehu",0.016,"HENDERSON, David Bremner",0.161,0
+55,Senate,1897,37,46,-0.424,0.374,0.798,0,0,"McENERY, Samuel Douglas",-0.052,"WELLINGTON, George Louis",0.148,0
+56,House,1899,169,197,-0.36,0.442,0.802,0,0,"SIBLEY, Joseph Crocker",0.021,"HENDERSON, David Bremner",0.161,0
+56,Senate,1899,28,56,-0.4325,0.386,0.8185,0,0,"TOWNE, Charles Arnette",-0.017,"WELLINGTON, George Louis",0.148,0
+57,House,1901,160,206,-0.3645,0.4435,0.808,0,0,"BUTLER, James Joseph",-0.061,"HENDERSON, David Bremner",0.161,0
+57,Senate,1901,32,60,-0.397,0.4015,0.7985,3,2,"TELLER, Henry Moore",0.161,"KYLE, James Henderson",-0.108,5
+58,House,1903,176,214,-0.368,0.443,0.8109999999999999,0,0,"LIND, John",0.082,"NORRIS, George William",0.134,0
+58,Senate,1903,33,60,-0.39,0.435,0.825,0,0,"TELLER, Henry Moore",0.161,"QUAY, Matthew Stanley",0.171,0
+59,House,1905,138,259,-0.395,0.444,0.839,0,0,"TOWNE, Charles Arnette",-0.017,"NORRIS, George William",0.134,0
+59,Senate,1905,35,61,-0.395,0.433,0.8280000000000001,1,1,"TELLER, Henry Moore",0.161,"LA FOLLETTE, Robert Marion",0.098,2
+60,House,1907,168,230,-0.3665,0.442,0.8085,0,0,"SHERWOOD, Isaac R.",-0.103,"NORRIS, George William",0.134,0
+60,Senate,1907,36,65,-0.3905,0.426,0.8165,1,1,"TELLER, Henry Moore",0.161,"LA FOLLETTE, Robert Marion",0.098,2
+61,House,1909,179,222,-0.365,0.432,0.7969999999999999,1,1,"SHARP, William Graves",-0.068,"MORGAN, Charles Henry",-0.082,2
+61,Senate,1909,38,63,-0.38,0.417,0.7969999999999999,0,0,"McENERY, Samuel Douglas",-0.052,"LA FOLLETTE, Robert Marion",0.098,0
+62,House,1911,237,169,-0.32,0.414,0.734,0,0,"SHARP, William Graves",-0.068,"KENT, William",0.083,0
+62,Senate,1911,51,57,-0.298,0.417,0.715,0,0,"GORE, Thomas Pryor",-0.127,"LA FOLLETTE, Robert Marion",0.098,0
+63,House,1913,301,138,-0.304,0.4005,0.7045,0,0,"KINDEL, George John",0.07,"RUPLEY, Arthur Ringwalt",0.159,0
+63,Senate,1913,56,44,-0.278,0.4175,0.6955,0,0,"CAMDEN, Johnson Newlon, Jr.",-0.09,"LA FOLLETTE, Robert Marion",0.098,0
+64,House,1915,234,200,-0.318,0.4105,0.7284999999999999,0,0,"DILL, Clarence Cleveland",-0.022,"CARY, William Joseph",0.178,0
+64,Senate,1915,58,42,-0.2865,0.432,0.7184999999999999,0,0,"GORE, Thomas Pryor",-0.127,"LA FOLLETTE, Robert Marion",0.098,0
+65,House,1917,225,223,-0.312,0.4,0.712,0,0,"DILL, Clarence Cleveland",-0.022,"CARY, William Joseph",0.178,0
+65,Senate,1917,61,47,-0.269,0.403,0.672,0,0,"KENDRICK, John Benjamin",-0.034,"LA FOLLETTE, Robert Marion",0.098,0
+66,House,1919,204,248,-0.3195,0.4095,0.729,0,0,"EVANS, Charles Robley",0.006,"BURKE, William Joseph",0.037,0
+66,Senate,1919,50,51,-0.281,0.426,0.7070000000000001,0,0,"KENDRICK, John Benjamin",-0.034,"LA FOLLETTE, Robert Marion",0.098,0
+67,House,1921,138,311,-0.312,0.403,0.7150000000000001,1,1,"RANKIN, John Elliott",0.006,"RYAN, Thomas Jefferson",0.003,2
+67,Senate,1921,39,66,-0.269,0.432,0.7010000000000001,0,0,"BROUSSARD, Edwin Sidney",-0.034,"LA FOLLETTE, Robert Marion",0.098,0
+68,House,1923,217,233,-0.279,0.413,0.692,1,2,"MOREHEAD, John Henry",0.117,"PERLMAN, Nathan David",0.079,3
+68,Senate,1923,43,59,-0.259,0.43,0.6890000000000001,0,0,"WHEELER, Burton Kendall",0.065,"LA FOLLETTE, Robert Marion",0.098,0
+69,House,1925,185,250,-0.265,0.401,0.666,40,3,"MOREHEAD, John Henry",0.117,"WELCH, Richard Joseph",-0.174,43
+69,Senate,1925,43,61,-0.267,0.419,0.6859999999999999,1,1,"WHEELER, Burton Kendall",0.065,"LA FOLLETTE, Robert Marion, Jr.",0.048,2
+70,House,1927,198,241,-0.2655,0.39,0.6555,41,4,"MOREHEAD, John Henry",0.117,"WELCH, Richard Joseph",-0.174,45
+70,Senate,1927,48,53,-0.263,0.417,0.6799999999999999,1,2,"WHEELER, Burton Kendall",0.065,"BLAINE, John James",0.022,3
+71,House,1929,173,277,-0.265,0.376,0.641,35,7,"MOREHEAD, John Henry",0.117,"WELCH, Richard Joseph",-0.174,42
+71,Senate,1929,44,64,-0.268,0.4185,0.6865,1,2,"WHEELER, Burton Kendall",0.065,"BLAINE, John James",0.022,3
+72,House,1931,231,220,-0.249,0.3775,0.6265000000000001,157,11,"MOREHEAD, John Henry",0.117,"AMLIE, Thomas Ryum",-0.322,168
+72,Senate,1931,52,52,-0.2365,0.3705,0.607,3,15,"LONG, Huey Pierce",0.251,"BLAINE, John James",0.022,18
+73,House,1933,322,120,-0.2415,0.348,0.5894999999999999,182,20,"TERRELL, George Butler",0.191,"BOILEAU, Gerald John",-0.26,202
+73,Senate,1933,65,37,-0.221,0.323,0.544,4,12,"LONG, Huey Pierce",0.251,"LA FOLLETTE, Robert Marion, Jr.",0.048,16
+74,House,1935,327,105,-0.243,0.318,0.5609999999999999,268,9,"TAYLOR, John Clarence",0.118,"MARCANTONIO, Vito Anthony",-0.415,277
+74,Senate,1935,75,25,-0.209,0.276,0.485,4,14,"HOLT, Rush Dew",0.283,"AUSTIN, Warren Robinson",0.106,18
+75,House,1937,340,93,-0.239,0.318,0.5569999999999999,99,6,"TAYLOR, John Clarence",0.118,"WELCH, Richard Joseph",-0.174,105
+75,Senate,1937,82,17,-0.2275,0.255,0.48250000000000004,3,11,"HOLT, Rush Dew",0.283,"LODGE, Henry Cabot, Jr.",0.083,14
+76,House,1939,273,178,-0.232,0.3025,0.5345,87,10,"COFFEE, Harry Buffington",0.101,"WELCH, Richard Joseph",-0.174,97
+76,Senate,1939,73,27,-0.224,0.246,0.47,9,17,"HOLT, Rush Dew",0.283,"GIBSON, Ernest William, Jr.",0.006,26
+77,House,1941,276,168,-0.2375,0.316,0.5535,84,10,"COFFEE, Harry Buffington",0.101,"WELCH, Richard Joseph",-0.174,94
+77,Senate,1941,73,30,-0.221,0.254,0.475,6,13,"O'DANIEL, Wilbert Lee (Pappy)",0.231,"LANGER, William",0.023,19
+78,House,1943,228,218,-0.2295,0.3025,0.532,78,17,"ROBERTSON, Absalom Willis",0.078,"WELCH, Richard Joseph",-0.174,95
+78,Senate,1943,60,42,-0.191,0.277,0.468,6,15,"O'DANIEL, Wilbert Lee (Pappy)",0.231,"LANGER, William",0.023,21
+79,House,1945,250,195,-0.2575,0.297,0.5545,78,15,"ROBERTSON, Absalom Willis",0.078,"WELCH, Richard Joseph",-0.174,93
+79,Senate,1945,65,42,-0.209,0.271,0.48,27,17,"O'DANIEL, Wilbert Lee (Pappy)",0.231,"MORSE, Wayne Lyman",-0.186,44
+80,House,1947,194,253,-0.2195,0.278,0.49750000000000005,72,34,"WILLIAMS, John Bell",0.127,"WELCH, Richard Joseph",-0.174,106
+80,Senate,1947,47,51,-0.195,0.287,0.482,23,19,"O'DANIEL, Wilbert Lee (Pappy)",0.231,"MORSE, Wayne Lyman",-0.186,42
+81,House,1949,267,176,-0.303,0.2715,0.5745,72,26,"WILLIAMS, John Bell",0.127,"WELCH, Richard Joseph",-0.174,98
+81,Senate,1949,61,47,-0.221,0.248,0.469,23,15,"BYRD, Harry Flood",0.188,"MORSE, Wayne Lyman",-0.186,38
+82,House,1951,240,207,-0.2855,0.271,0.5565,62,27,"WILLIAMS, John Bell",0.127,"JAVITS, Jacob Koppel",-0.124,89
+82,Senate,1951,51,48,-0.206,0.273,0.479,22,16,"BYRD, Harry Flood",0.188,"MORSE, Wayne Lyman",-0.186,38
+83,House,1953,218,222,-0.271,0.2745,0.5455000000000001,60,82,"GENTRY, Brady Preston",0.234,"JAVITS, Jacob Koppel",-0.124,142
+83,Senate,1953,53,54,-0.204,0.273,0.477,8,17,"BYRD, Harry Flood",0.188,"LANGER, William",0.023,25
+84,House,1955,235,203,-0.305,0.268,0.573,32,78,"GENTRY, Brady Preston",0.234,"BURDICK, Usher Lloyd",-0.048,110
+84,Senate,1955,51,47,-0.242,0.28,0.522,14,24,"THURMOND, James Strom",0.282,"CASE, Clifford Philip",-0.108,38
+85,House,1957,240,204,-0.306,0.2645,0.5705,33,43,"TUCK, William Munford",0.166,"BURDICK, Usher Lloyd",-0.048,76
+85,Senate,1957,53,48,-0.242,0.28,0.522,16,25,"THURMOND, James Strom",0.282,"JAVITS, Jacob Koppel",-0.124,41
+86,House,1959,286,156,-0.313,0.255,0.5680000000000001,48,35,"TUCK, William Munford",0.166,"HALPERN, Seymour",-0.094,83
+86,Senate,1959,67,36,-0.265,0.257,0.522,15,20,"THURMOND, James Strom",0.282,"JAVITS, Jacob Koppel",-0.124,35
+87,House,1961,273,176,-0.304,0.2445,0.5485,50,42,"TUCK, William Munford",0.166,"HALPERN, Seymour",-0.094,92
+87,Senate,1961,65,40,-0.296,0.2775,0.5735,14,21,"THURMOND, James Strom",0.282,"JAVITS, Jacob Koppel",-0.124,35
+88,House,1963,262,181,-0.3275,0.25,0.5775,46,42,"TUCK, William Munford",0.166,"HALPERN, Seymour",-0.094,88
+88,Senate,1963,69,33,-0.311,0.232,0.543,13,18,"THURMOND, James Strom",0.282,"JAVITS, Jacob Koppel",-0.124,31
+89,House,1965,301,143,-0.327,0.243,0.5700000000000001,46,83,"SATTERFIELD, David Edward, III",0.265,"HALPERN, Seymour",-0.094,129
+89,Senate,1965,70,33,-0.316,0.308,0.624,14,14,"LAUSCHE, Frank John",0.213,"JAVITS, Jacob Koppel",-0.124,28
+90,House,1967,250,189,-0.3425,0.241,0.5835,56,150,"RARICK, John Richard",0.333,"WHALEN, Charles William, Jr.",-0.139,206
+90,Senate,1967,64,37,-0.312,0.275,0.587,11,16,"LAUSCHE, Frank John",0.213,"JAVITS, Jacob Koppel",-0.124,27
+91,House,1969,250,199,-0.3445,0.244,0.5885,50,153,"RARICK, John Richard",0.333,"WHALEN, Charles William, Jr.",-0.139,203
+91,Senate,1969,58,44,-0.319,0.273,0.5920000000000001,11,8,"BYRD, Harry Flood, Jr.",0.092,"JAVITS, Jacob Koppel",-0.124,19
+92,House,1971,259,185,-0.344,0.246,0.59,53,144,"RARICK, John Richard",0.333,"WHALEN, Charles William, Jr.",-0.139,197
+92,Senate,1971,56,45,-0.31,0.271,0.581,10,4,"EASTLAND, James Oliver",0.024,"JAVITS, Jacob Koppel",-0.124,14
+93,House,1973,246,195,-0.3505,0.25,0.6005,41,150,"RARICK, John Richard",0.333,"WHALEN, Charles William, Jr.",-0.139,191
+93,Senate,1973,57,43,-0.319,0.278,0.597,6,4,"EASTLAND, James Oliver",0.024,"JAVITS, Jacob Koppel",-0.124,10
+94,House,1975,294,147,-0.3385,0.25,0.5885,47,147,"McDONALD, Lawrence Patton",0.884,"WHALEN, Charles William, Jr.",-0.139,194
+94,Senate,1975,61,38,-0.319,0.28049999999999997,0.5994999999999999,5,4,"EASTLAND, James Oliver",0.024,"JAVITS, Jacob Koppel",-0.124,9
+95,House,1977,294,147,-0.3235,0.262,0.5855,49,147,"McDONALD, Lawrence Patton",0.884,"WHALEN, Charles William, Jr.",-0.139,196
+95,Senate,1977,65,38,-0.329,0.2935,0.6225,7,11,"ALLEN, Maryon Pittman",0.128,"JAVITS, Jacob Koppel",-0.124,18
+96,House,1979,281,161,-0.321,0.281,0.6020000000000001,26,161,"McDONALD, Lawrence Patton",0.884,"GREEN, Sedgwick William (Bill)",-0.044,187
+96,Senate,1979,59,41,-0.319,0.275,0.5940000000000001,4,1,"STENNIS, John Cornelius",-0.056,"JAVITS, Jacob Koppel",-0.124,5
+97,House,1981,247,196,-0.32,0.307,0.627,24,196,"McDONALD, Lawrence Patton",0.884,"GREEN, Sedgwick William (Bill)",-0.044,220
+97,Senate,1981,46,54,-0.314,0.294,0.608,0,0,"STENNIS, John Cornelius",-0.056,"MATHIAS, Charles McCurdy, Jr.",-0.033,0
+98,House,1983,272,167,-0.317,0.328,0.645,22,167,"McDONALD, Lawrence Patton",0.884,"GREEN, Sedgwick William (Bill)",-0.044,189
+98,Senate,1983,46,55,-0.314,0.283,0.597,0,0,"STENNIS, John Cornelius",-0.056,"MATHIAS, Charles McCurdy, Jr.",-0.033,0
+99,House,1985,257,182,-0.32,0.344,0.6639999999999999,18,24,"ROEMER, Charles Elson (Buddy), III",0.178,"GREEN, Sedgwick William (Bill)",-0.044,42
+99,Senate,1985,47,54,-0.322,0.281,0.603,0,0,"STENNIS, John Cornelius",-0.056,"MATHIAS, Charles McCurdy, Jr.",-0.033,0
+100,House,1987,262,179,-0.32,0.346,0.6659999999999999,16,26,"ROEMER, Charles Elson (Buddy), III",0.178,"GREEN, Sedgwick William (Bill)",-0.044,42
+100,Senate,1987,55,46,-0.313,0.3025,0.6154999999999999,0,0,"SHELBY, Richard C.",0.013,"STAFFORD, Robert Theodore",0.055,0
+101,House,1989,265,180,-0.32,0.344,0.6639999999999999,15,11,"HALL, Ralph Moody",0.096,"GREEN, Sedgwick William (Bill)",-0.044,26
+101,Senate,1989,56,46,-0.306,0.316,0.622,0,0,"SHELBY, Richard C.",0.013,"JEFFORDS, James Merrill",0.014,0
+102,House,1991,270,170,-0.32,0.3495,0.6695,13,9,"HALL, Ralph Moody",0.096,"GREEN, Sedgwick William (Bill)",-0.044,22
+102,Senate,1991,58,44,-0.311,0.307,0.618,0,0,"SHELBY, Richard C.",0.013,"JEFFORDS, James Merrill",0.014,0
+103,House,1993,262,180,-0.337,0.377,0.714,6,5,"HALL, Ralph Moody",0.096,"MORELLA, Constance A.",-0.018,11
+103,Senate,1993,57,45,-0.309,0.346,0.655,0,0,"SHELBY, Richard C.",0.013,"JEFFORDS, James Merrill",0.014,0
+104,House,1995,208,236,-0.3805,0.3845,0.765,5,3,"HALL, Ralph Moody",0.096,"MORELLA, Constance A.",-0.018,8
+104,Senate,1995,48,55,-0.3085,0.361,0.6695,0,0,"HEFLIN, Howell Thomas",-0.095,"JEFFORDS, James Merrill",0.014,0
+105,House,1997,212,231,-0.3835,0.39,0.7735000000000001,3,5,"GOODE, Virgil H., Jr.",0.118,"MORELLA, Constance A.",-0.018,8
+105,Senate,1997,45,55,-0.308,0.381,0.6890000000000001,0,0,"BREAUX, John Berlinger",-0.123,"JEFFORDS, James Merrill",0.014,0
+106,House,1999,213,225,-0.384,0.391,0.775,3,4,"GOODE, Virgil H., Jr.",0.118,"MORELLA, Constance A.",-0.018,7
+106,Senate,1999,46,56,-0.302,0.3735,0.6755,1,6,"MILLER, Zell Bryan",0.146,"CHAFEE, Lincoln Davenport",0.003,7
+107,House,2001,214,228,-0.3845,0.4025,0.787,2,2,"HALL, Ralph Moody",0.096,"MORELLA, Constance A.",-0.018,4
+107,Senate,2001,50,50,-0.308,0.3815,0.6895,1,5,"MILLER, Zell Bryan",0.146,"CHAFEE, Lincoln Davenport",0.003,6
+108,House,2003,208,231,-0.3825,0.403,0.7855000000000001,0,0,"HALL, Ralph Moody",0.096,"BOEHLERT, Sherwood Louis",0.103,0
+108,Senate,2003,48,51,-0.3085,0.364,0.6725,1,4,"MILLER, Zell Bryan",0.146,"CHAFEE, Lincoln Davenport",0.003,5
+109,House,2005,203,235,-0.392,0.409,0.8009999999999999,0,0,"TAYLOR, Gary Eugene (Gene)",-0.045,"BOEHLERT, Sherwood Louis",0.103,0
+109,Senate,2005,45,55,-0.326,0.381,0.7070000000000001,0,0,"NELSON, Earl Benjamin (Ben)",-0.03,"CHAFEE, Lincoln Davenport",0.003,0
+110,House,2007,243,206,-0.379,0.426,0.8049999999999999,0,0,"CHILDERS, Travis W.",-0.011,"SHAYS, Christopher H.",0.129,0
+110,Senate,2007,50,51,-0.3135,0.395,0.7085,0,0,"NELSON, Earl Benjamin (Ben)",-0.03,"SPECTER, Arlen",0.068,0
+111,House,2009,265,183,-0.349,0.446,0.7949999999999999,0,0,"MINNICK, Walt",0.088,"CAO, Anh (Joseph)",0.133,0
+111,Senate,2009,66,44,-0.3165,0.3985,0.7150000000000001,0,0,"NELSON, Earl Benjamin (Ben)",-0.03,"SPECTER, Arlen",0.068,0
+112,House,2011,200,245,-0.399,0.467,0.8660000000000001,0,0,"SHULER, Heath",-0.07,"SMITH, Christopher Henry",0.184,0
+112,Senate,2011,53,48,-0.319,0.413,0.732,0,0,"NELSON, Earl Benjamin (Ben)",-0.03,"SNOWE, Olympia Jean",0.091,0
+113,House,2013,204,240,-0.393,0.49,0.883,0,0,"SINEMA, Kyrsten",-0.105,"SMITH, Christopher Henry",0.184,0
+113,Senate,2013,57,46,-0.335,0.425,0.76,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+114,House,2015,190,251,-0.396,0.49,0.886,0,0,"SINEMA, Kyrsten",-0.105,"DOLD, Robert",0.176,0
+114,Senate,2015,44,54,-0.3365,0.445,0.7815000000000001,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+115,House,2017,200,250,-0.393,0.497,0.89,0,0,"SINEMA, Kyrsten",-0.105,"FITZPATRICK, Brian K.",0.141,0
+115,Senate,2017,48,55,-0.339,0.461,0.8,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+116,House,2019,240,208,-0.3795,0.5045,0.8839999999999999,0,0,"MCADAMS, Ben",-0.069,"FITZPATRICK, Brian K.",0.141,0
+116,Senate,2019,46,54,-0.339,0.4615,0.8005,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+117,House,2021,232,223,-0.3845,0.498,0.8825000000000001,0,0,"GOLDEN, Jared",-0.106,"FITZPATRICK, Brian K.",0.141,0
+117,Senate,2021,49,51,-0.343,0.505,0.8480000000000001,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+118,House,2023,221,230,-0.389,0.504,0.893,0,0,"PEREZ, Marie Gluesenkamp",-0.099,"FITZPATRICK, Brian K.",0.141,0
+118,Senate,2023,52,49,-0.346,0.536,0.882,0,0,"MANCHIN, Joe, III",-0.057,"COLLINS, Susan Margaret",0.124,0
+119,House,2025,222,227,-0.395,0.53,0.925,0,0,"PEREZ, Marie Gluesenkamp",-0.099,"FITZPATRICK, Brian K.",0.141,0
+119,Senate,2025,45,57,-0.356,0.558,0.914,0,0,"FETTERMAN, John Karl",-0.177,"COLLINS, Susan Margaret",0.124,0

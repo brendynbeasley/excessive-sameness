@@ -1,0 +1,993 @@
+chain_a,chain_b,n_a,n_b,median_miles_to_b,n_within_0.25,share_within_0.25,n_within_0.5,share_within_0.5,n_within_1.0,share_within_1.0,category_a,format_a,category_b,format_b,same_format,rival,pair_id
+Home Depot,Lowe's,2013,1761,2.67867174221808,80,0.03974167908594138,277,0.13760556383507203,543,0.2697466467958271,home improvement,big box,home improvement,big box,True,True,Home Depot / Lowe's
+Home Depot,Menards,2013,341,324.30199801482456,11,0.00546448087431694,41,0.02036761053154496,78,0.038748137108792845,home improvement,big box,home improvement,big box,True,True,Home Depot / Menards
+Home Depot,Costco,2013,655,5.619862649916475,63,0.03129657228017884,140,0.06954793840039741,258,0.12816691505216096,home improvement,big box,warehouse club,big box,True,False,Costco / Home Depot
+Home Depot,Sam's Club,2013,595,6.757647648630906,61,0.030303030303030304,145,0.07203179334326876,271,0.13462493790362642,home improvement,big box,warehouse club,big box,True,False,Home Depot / Sam's Club
+Home Depot,BJ's Wholesale,2013,269,74.87495402348979,35,0.017386984600099353,78,0.038748137108792845,127,0.06308991554893194,home improvement,big box,warehouse club,big box,True,False,BJ's Wholesale / Home Depot
+Home Depot,PetSmart,2013,1525,2.1208481890051876,231,0.11475409836065574,469,0.23298559364133134,708,0.35171385991058124,home improvement,big box,pet supplies,big box,True,False,Home Depot / PetSmart
+Home Depot,Petco,2013,1373,2.9532467962362774,136,0.06756085444610035,282,0.14008941877794337,475,0.23596621957277694,home improvement,big box,pet supplies,big box,True,False,Home Depot / Petco
+Home Depot,Target,2013,2026,1.582979252591968,241,0.11972180824639841,487,0.24192747143566815,767,0.381023348236463,home improvement,big box,none,big box,True,False,Home Depot / Target
+Home Depot,Kohl's,2013,1150,3.467769038201558,114,0.05663189269746647,270,0.13412816691505217,465,0.23099850968703428,home improvement,big box,none,big box,True,False,Home Depot / Kohl's
+Home Depot,Best Buy,2013,1010,3.760982794033571,134,0.06656731246895181,285,0.14157973174366617,501,0.2488822652757079,home improvement,big box,none,big box,True,False,Best Buy / Home Depot
+Home Depot,CVS,2013,7103,1.490355668215599,94,0.04669647292598112,237,0.11773472429210134,601,0.2985593641331346,home improvement,big box,pharmacy,small box,False,False,CVS / Home Depot
+Home Depot,Walgreens,2013,7680,1.1920468317557096,173,0.08594138102334824,402,0.19970193740685543,831,0.4128166915052161,home improvement,big box,pharmacy,small box,False,False,Home Depot / Walgreens
+Home Depot,Dollar General,2013,20494,2.1223299216672435,46,0.022851465474416296,145,0.07203179334326876,400,0.19870839542970692,home improvement,big box,dollar store,small box,False,False,Dollar General / Home Depot
+Home Depot,Family Dollar,2013,7080,3.3323501903420847,24,0.011922503725782414,70,0.03477396920019871,228,0.11326378539493294,home improvement,big box,dollar store,small box,False,False,Family Dollar / Home Depot
+Home Depot,Dollar Tree,2013,9103,0.7557553832767253,347,0.17237953303527073,721,0.3581718827620467,1239,0.6154992548435171,home improvement,big box,dollar store,small box,False,False,Dollar Tree / Home Depot
+Home Depot,AutoZone,2013,6394,1.208405167547632,166,0.08246398410332836,426,0.21162444113263784,841,0.4177844013909588,home improvement,big box,auto parts,small box,False,False,AutoZone / Home Depot
+Home Depot,O'Reilly,2013,6613,1.5339934062589577,117,0.05812220566318927,286,0.14207650273224043,624,0.30998509687034276,home improvement,big box,auto parts,small box,False,False,Home Depot / O'Reilly
+Home Depot,Advance Auto Parts,2013,4049,2.106010641956738,106,0.05265772478887233,240,0.11922503725782414,501,0.2488822652757079,home improvement,big box,auto parts,small box,False,False,Advance Auto Parts / Home Depot
+Home Depot,Chase,2013,3569,2.5007891571294514,125,0.06209637357178341,276,0.13710879284649777,519,0.2578241430700447,home improvement,big box,bank,small box,False,False,Chase / Home Depot
+Home Depot,Bank of America,2013,3531,1.7460488163493182,131,0.06507699950322901,307,0.15250869349230006,619,0.3075012419274714,home improvement,big box,bank,small box,False,False,Bank of America / Home Depot
+Home Depot,Wells Fargo,2013,4056,1.8186099087097625,134,0.06656731246895181,307,0.15250869349230006,598,0.29706905116741184,home improvement,big box,bank,small box,False,False,Home Depot / Wells Fargo
+Home Depot,McDonald's,2013,13486,0.6188165308596272,365,0.18132141082960754,829,0.41182314952806753,1449,0.7198211624441133,home improvement,big box,burgers,restaurant,False,False,Home Depot / McDonald's
+Home Depot,Burger King,2013,6168,1.188366697213498,204,0.10134128166915052,469,0.23298559364133134,869,0.43169398907103823,home improvement,big box,burgers,restaurant,False,False,Burger King / Home Depot
+Home Depot,Wendy's,2013,5867,1.0695145939894053,265,0.13164431197218082,548,0.27223050173869845,951,0.47242921013412814,home improvement,big box,burgers,restaurant,False,False,Home Depot / Wendy's
+Home Depot,KFC,2013,3661,1.7846650785885658,123,0.06110283159463487,291,0.14456035767511177,581,0.2886239443616493,home improvement,big box,chicken,restaurant,False,False,Home Depot / KFC
+Home Depot,Popeyes,2013,3124,2.037008788527682,118,0.058618976651763535,292,0.14505712866368603,563,0.2796820665673125,home improvement,big box,chicken,restaurant,False,False,Home Depot / Popeyes
+Home Depot,Chick-fil-A,2013,3440,1.3329937122768778,226,0.1122702434177844,557,0.2767014406358669,882,0.43815201192250375,home improvement,big box,chicken,restaurant,False,False,Chick-fil-A / Home Depot
+Home Depot,Starbucks,2013,9983,0.5491313214732433,435,0.21609538002980627,942,0.46795827123695977,1436,0.7133631395926477,home improvement,big box,coffee,restaurant,False,False,Home Depot / Starbucks
+Home Depot,Dunkin',2013,10482,1.239801410317221,246,0.12220566318926974,532,0.26428216592151016,892,0.4431197218082464,home improvement,big box,coffee,restaurant,False,False,Dunkin' / Home Depot
+Home Depot,Taco Bell,2013,8280,0.843422471761352,234,0.11624441132637854,627,0.3114754098360656,1170,0.5812220566318927,home improvement,big box,none,restaurant,False,False,Home Depot / Taco Bell
+Home Depot,Subway,2013,17793,0.6659599590380442,375,0.18628912071535023,807,0.4008941877794337,1363,0.6770988574267263,home improvement,big box,none,restaurant,False,False,Home Depot / Subway
+Lowe's,Home Depot,1761,2013,2.235629717949236,80,0.045428733674048836,277,0.1572969903463941,543,0.3083475298126065,home improvement,big box,home improvement,big box,True,True,Home Depot / Lowe's
+Lowe's,Menards,1761,341,264.48972538577095,8,0.004542873367404884,29,0.016467915956842702,62,0.03520726859738785,home improvement,big box,home improvement,big box,True,True,Lowe's / Menards
+Lowe's,Costco,1761,655,8.959864234724776,41,0.02328222600795003,80,0.045428733674048836,167,0.09483248154457695,home improvement,big box,warehouse club,big box,True,False,Costco / Lowe's
+Lowe's,Sam's Club,1761,595,7.833329782185805,58,0.032935831913685404,148,0.08404315729699034,247,0.14026121521862578,home improvement,big box,warehouse club,big box,True,False,Lowe's / Sam's Club
+Lowe's,BJ's Wholesale,1761,269,60.58307962763211,32,0.018171493469619535,65,0.03691084611016468,94,0.05337876206700738,home improvement,big box,warehouse club,big box,True,False,BJ's Wholesale / Lowe's
+Lowe's,PetSmart,1761,1525,2.2868651352399834,183,0.10391822827938671,377,0.21408290743895514,598,0.33957978421351503,home improvement,big box,pet supplies,big box,True,False,Lowe's / PetSmart
+Lowe's,Petco,1761,1373,4.008113982325379,101,0.05735377626348666,256,0.14537194775695628,410,0.23282226007950027,home improvement,big box,pet supplies,big box,True,False,Lowe's / Petco
+Lowe's,Target,1761,2026,2.1131151488683164,149,0.08461101646791595,343,0.1947756956274844,600,0.34071550255536626,home improvement,big box,none,big box,True,False,Lowe's / Target
+Lowe's,Kohl's,1761,1150,3.835915314825637,105,0.059625212947189095,255,0.14480408858603067,441,0.2504258943781942,home improvement,big box,none,big box,True,False,Kohl's / Lowe's
+Lowe's,Best Buy,1761,1010,4.657625662353549,109,0.06189664963089154,236,0.13401476433844406,393,0.2231686541737649,home improvement,big box,none,big box,True,False,Best Buy / Lowe's
+Lowe's,CVS,1761,7103,1.5818415396425303,99,0.056218057921635436,223,0.12663259511641112,505,0.2867688813174333,home improvement,big box,pharmacy,small box,False,False,CVS / Lowe's
+Lowe's,Walgreens,1761,7680,1.2101778521488022,158,0.08972174900624645,366,0.20783645655877342,738,0.4190800681431005,home improvement,big box,pharmacy,small box,False,False,Lowe's / Walgreens
+Lowe's,Dollar General,1761,20494,1.728513085342867,58,0.032935831913685404,164,0.09312890403180012,451,0.2561044860874503,home improvement,big box,dollar store,small box,False,False,Dollar General / Lowe's
+Lowe's,Family Dollar,1761,7080,3.16094371299397,19,0.010789324247586598,51,0.028960817717206135,187,0.10618966496308915,home improvement,big box,dollar store,small box,False,False,Family Dollar / Lowe's
+Lowe's,Dollar Tree,1761,9103,0.6024369948995247,343,0.1947756956274844,754,0.4281658148779103,1238,0.7030096536059057,home improvement,big box,dollar store,small box,False,False,Dollar Tree / Lowe's
+Lowe's,AutoZone,1761,6394,1.1866746812216549,180,0.10221465076660988,383,0.2174900624645088,759,0.43100511073253833,home improvement,big box,auto parts,small box,False,False,AutoZone / Lowe's
+Lowe's,O'Reilly,1761,6613,1.5024985574653376,89,0.05053946621237933,240,0.1362862010221465,561,0.3185689948892675,home improvement,big box,auto parts,small box,False,False,Lowe's / O'Reilly
+Lowe's,Advance Auto Parts,1761,4049,1.7904027857596219,100,0.05678591709256105,229,0.13003975014196478,515,0.2924474730266894,home improvement,big box,auto parts,small box,False,False,Advance Auto Parts / Lowe's
+Lowe's,Chase,1761,3569,22.552895516636415,89,0.05053946621237933,188,0.10675752413401476,358,0.20329358319136853,home improvement,big box,bank,small box,False,False,Chase / Lowe's
+Lowe's,Bank of America,1761,3531,2.747266206163914,114,0.06473594548551959,246,0.13969335604770017,449,0.25496876774559907,home improvement,big box,bank,small box,False,False,Bank of America / Lowe's
+Lowe's,Wells Fargo,1761,4056,2.4860500050251018,113,0.06416808631459398,273,0.15502555366269166,507,0.2879045996592845,home improvement,big box,bank,small box,False,False,Lowe's / Wells Fargo
+Lowe's,McDonald's,1761,13486,0.5957814992642997,344,0.19534355479841,752,0.42703009653605906,1285,0.7296990346394094,home improvement,big box,burgers,restaurant,False,False,Lowe's / McDonald's
+Lowe's,Burger King,1761,6168,1.2064810430614543,189,0.10732538330494037,421,0.239068710959682,766,0.4349801249290176,home improvement,big box,burgers,restaurant,False,False,Burger King / Lowe's
+Lowe's,Wendy's,1761,5867,0.9620504298889389,246,0.13969335604770017,537,0.3049403747870528,901,0.511641113003975,home improvement,big box,burgers,restaurant,False,False,Lowe's / Wendy's
+Lowe's,KFC,1761,3661,1.8014102914453305,108,0.06132879045996593,280,0.15900056785917094,536,0.3043725156161272,home improvement,big box,chicken,restaurant,False,False,KFC / Lowe's
+Lowe's,Popeyes,1761,3124,2.414046815715378,112,0.06360022714366836,258,0.1465076660988075,469,0.2663259511641113,home improvement,big box,chicken,restaurant,False,False,Lowe's / Popeyes
+Lowe's,Chick-fil-A,1761,3440,1.0785277003019096,280,0.15900056785917094,577,0.3276547416240772,856,0.48608745031232253,home improvement,big box,chicken,restaurant,False,False,Chick-fil-A / Lowe's
+Lowe's,Starbucks,1761,9983,0.5386735760962817,412,0.2339579784213515,822,0.46678023850085176,1241,0.7047132311186826,home improvement,big box,coffee,restaurant,False,False,Lowe's / Starbucks
+Lowe's,Dunkin',1761,10482,1.2018732066143847,222,0.1260647359454855,504,0.28620102214650767,799,0.45371947756956277,home improvement,big box,coffee,restaurant,False,False,Dunkin' / Lowe's
+Lowe's,Taco Bell,1761,8280,0.7439299597743585,263,0.14934696195343555,621,0.3526405451448041,1094,0.6212379329926179,home improvement,big box,none,restaurant,False,False,Lowe's / Taco Bell
+Lowe's,Subway,1761,17793,0.5942606869605381,358,0.20329358319136853,768,0.43611584327086883,1221,0.6933560477001703,home improvement,big box,none,restaurant,False,False,Lowe's / Subway
+Menards,Home Depot,341,2013,3.965265054880282,11,0.03225806451612903,41,0.12023460410557185,78,0.2287390029325513,home improvement,big box,home improvement,big box,True,True,Home Depot / Menards
+Menards,Lowe's,341,1761,4.531675818109184,8,0.02346041055718475,29,0.08504398826979472,62,0.18181818181818182,home improvement,big box,home improvement,big box,True,True,Lowe's / Menards
+Menards,Costco,341,655,11.935698591834475,7,0.020527859237536656,13,0.03812316715542522,24,0.07038123167155426,home improvement,big box,warehouse club,big box,True,False,Costco / Menards
+Menards,Sam's Club,341,595,6.8346563186791105,8,0.02346041055718475,28,0.08211143695014662,55,0.16129032258064516,home improvement,big box,warehouse club,big box,True,False,Menards / Sam's Club
+Menards,BJ's Wholesale,341,269,186.824613935638,1,0.002932551319648094,3,0.008797653958944282,4,0.011730205278592375,home improvement,big box,warehouse club,big box,True,False,BJ's Wholesale / Menards
+Menards,PetSmart,341,1525,3.442681046582806,12,0.03519061583577713,33,0.0967741935483871,73,0.21407624633431085,home improvement,big box,pet supplies,big box,True,False,Menards / PetSmart
+Menards,Petco,341,1373,5.943939553983888,8,0.02346041055718475,34,0.09970674486803519,57,0.16715542521994134,home improvement,big box,pet supplies,big box,True,False,Menards / Petco
+Menards,Target,341,2026,2.2188213712302947,10,0.02932551319648094,44,0.12903225806451613,111,0.3255131964809384,home improvement,big box,none,big box,True,False,Menards / Target
+Menards,Kohl's,341,1150,2.2903710967375055,23,0.06744868035190615,52,0.15249266862170088,98,0.2873900293255132,home improvement,big box,none,big box,True,False,Kohl's / Menards
+Menards,Best Buy,341,1010,4.508259416898887,8,0.02346041055718475,23,0.06744868035190615,54,0.15835777126099707,home improvement,big box,none,big box,True,False,Best Buy / Menards
+Menards,CVS,341,7103,2.571063981853403,2,0.005865102639296188,5,0.01466275659824047,37,0.10850439882697947,home improvement,big box,pharmacy,small box,False,False,CVS / Menards
+Menards,Walgreens,341,7680,1.4212260791030116,17,0.04985337243401759,46,0.1348973607038123,115,0.33724340175953077,home improvement,big box,pharmacy,small box,False,False,Menards / Walgreens
+Menards,Dollar General,341,20494,1.9393165983514533,6,0.017595307917888565,22,0.06451612903225806,60,0.17595307917888564,home improvement,big box,dollar store,small box,False,False,Dollar General / Menards
+Menards,Family Dollar,341,7080,4.141066053229466,2,0.005865102639296188,4,0.011730205278592375,16,0.0469208211143695,home improvement,big box,dollar store,small box,False,False,Family Dollar / Menards
+Menards,Dollar Tree,341,9103,0.6607786287116539,50,0.1466275659824047,129,0.3782991202346041,217,0.6363636363636364,home improvement,big box,dollar store,small box,False,False,Dollar Tree / Menards
+Menards,AutoZone,341,6394,1.4868311705337165,23,0.06744868035190615,58,0.17008797653958943,110,0.3225806451612903,home improvement,big box,auto parts,small box,False,False,AutoZone / Menards
+Menards,O'Reilly,341,6613,1.3711650932904536,16,0.0469208211143695,48,0.14076246334310852,115,0.33724340175953077,home improvement,big box,auto parts,small box,False,False,Menards / O'Reilly
+Menards,Advance Auto Parts,341,4049,2.095967497480069,9,0.026392961876832845,28,0.08211143695014662,75,0.21994134897360704,home improvement,big box,auto parts,small box,False,False,Advance Auto Parts / Menards
+Menards,Chase,341,3569,24.220063849980818,12,0.03519061583577713,27,0.07917888563049853,49,0.1436950146627566,home improvement,big box,bank,small box,False,False,Chase / Menards
+Menards,Bank of America,341,3531,32.282096488065605,8,0.02346041055718475,19,0.05571847507331378,34,0.09970674486803519,home improvement,big box,bank,small box,False,False,Bank of America / Menards
+Menards,Wells Fargo,341,4056,26.39015643202887,3,0.008797653958944282,10,0.02932551319648094,28,0.08211143695014662,home improvement,big box,bank,small box,False,False,Menards / Wells Fargo
+Menards,McDonald's,341,13486,0.7656231204250059,38,0.11143695014662756,109,0.3196480938416422,213,0.624633431085044,home improvement,big box,burgers,restaurant,False,False,McDonald's / Menards
+Menards,Burger King,341,6168,1.3455105727293764,22,0.06451612903225806,56,0.16422287390029325,128,0.375366568914956,home improvement,big box,burgers,restaurant,False,False,Burger King / Menards
+Menards,Wendy's,341,5867,1.3535309511219877,30,0.08797653958944282,67,0.19648093841642228,131,0.3841642228739003,home improvement,big box,burgers,restaurant,False,False,Menards / Wendy's
+Menards,KFC,341,3661,2.2685055271018637,10,0.02932551319648094,40,0.11730205278592376,72,0.21114369501466276,home improvement,big box,chicken,restaurant,False,False,KFC / Menards
+Menards,Popeyes,341,3124,3.6099489095747526,13,0.03812316715542522,41,0.12023460410557185,78,0.2287390029325513,home improvement,big box,chicken,restaurant,False,False,Menards / Popeyes
+Menards,Chick-fil-A,341,3440,2.913679421808857,16,0.0469208211143695,49,0.1436950146627566,85,0.24926686217008798,home improvement,big box,chicken,restaurant,False,False,Chick-fil-A / Menards
+Menards,Starbucks,341,9983,0.7980877666859927,50,0.1466275659824047,110,0.3225806451612903,201,0.5894428152492669,home improvement,big box,coffee,restaurant,False,False,Menards / Starbucks
+Menards,Dunkin',341,10482,1.6337023626931428,28,0.08211143695014662,69,0.20234604105571846,120,0.3519061583577713,home improvement,big box,coffee,restaurant,False,False,Dunkin' / Menards
+Menards,Taco Bell,341,8280,0.8561140410368325,46,0.1348973607038123,94,0.2756598240469208,201,0.5894428152492669,home improvement,big box,none,restaurant,False,False,Menards / Taco Bell
+Menards,Subway,341,17793,0.6941872567804314,47,0.1378299120234604,127,0.3724340175953079,225,0.6598240469208211,home improvement,big box,none,restaurant,False,False,Menards / Subway
+Costco,Home Depot,655,2013,1.3616112264416416,63,0.09618320610687023,140,0.21374045801526717,259,0.39541984732824426,warehouse club,big box,home improvement,big box,True,False,Costco / Home Depot
+Costco,Lowe's,655,1761,2.297634318121231,41,0.06259541984732825,80,0.12213740458015267,167,0.2549618320610687,warehouse club,big box,home improvement,big box,True,False,Costco / Lowe's
+Costco,Menards,655,341,425.9359018327094,7,0.010687022900763359,13,0.01984732824427481,24,0.0366412213740458,warehouse club,big box,home improvement,big box,True,False,Costco / Menards
+Costco,Sam's Club,655,595,6.365653081985789,5,0.007633587786259542,25,0.03816793893129771,61,0.09312977099236641,warehouse club,big box,warehouse club,big box,True,True,Costco / Sam's Club
+Costco,BJ's Wholesale,655,269,266.8012449701449,2,0.0030534351145038168,5,0.007633587786259542,17,0.025954198473282442,warehouse club,big box,warehouse club,big box,True,True,BJ's Wholesale / Costco
+Costco,PetSmart,655,1525,1.5783922662475516,72,0.1099236641221374,139,0.21221374045801528,245,0.37404580152671757,warehouse club,big box,pet supplies,big box,True,False,Costco / PetSmart
+Costco,Petco,655,1373,2.329190609304161,38,0.05801526717557252,95,0.1450381679389313,173,0.2641221374045801,warehouse club,big box,pet supplies,big box,True,False,Costco / Petco
+Costco,Target,655,2026,1.3016087842417448,47,0.0717557251908397,145,0.22137404580152673,266,0.40610687022900765,warehouse club,big box,none,big box,True,False,Costco / Target
+Costco,Kohl's,655,1150,3.0610761867492235,29,0.044274809160305344,71,0.1083969465648855,139,0.21221374045801528,warehouse club,big box,none,big box,True,False,Costco / Kohl's
+Costco,Best Buy,655,1010,2.0300564112984696,52,0.07938931297709924,112,0.17099236641221374,222,0.33893129770992364,warehouse club,big box,none,big box,True,False,Best Buy / Costco
+Costco,CVS,655,7103,1.5957536921501507,20,0.030534351145038167,59,0.0900763358778626,176,0.2687022900763359,warehouse club,big box,pharmacy,small box,False,False,CVS / Costco
+Costco,Walgreens,655,7680,1.4822014214536443,22,0.03358778625954199,65,0.09923664122137404,188,0.2870229007633588,warehouse club,big box,pharmacy,small box,False,False,Costco / Walgreens
+Costco,Dollar General,655,20494,3.9316362597533083,2,0.0030534351145038168,8,0.012213740458015267,41,0.06259541984732825,warehouse club,big box,dollar store,small box,False,False,Costco / Dollar General
+Costco,Family Dollar,655,7080,5.4722927312892455,2,0.0030534351145038168,5,0.007633587786259542,33,0.050381679389312976,warehouse club,big box,dollar store,small box,False,False,Costco / Family Dollar
+Costco,Dollar Tree,655,9103,1.0478993997292794,67,0.10229007633587786,179,0.2732824427480916,314,0.47938931297709925,warehouse club,big box,dollar store,small box,False,False,Costco / Dollar Tree
+Costco,AutoZone,655,6394,1.530213514723967,29,0.044274809160305344,83,0.1267175572519084,197,0.300763358778626,warehouse club,big box,auto parts,small box,False,False,AutoZone / Costco
+Costco,O'Reilly,655,6613,1.832239576793814,23,0.035114503816793895,65,0.09923664122137404,156,0.2381679389312977,warehouse club,big box,auto parts,small box,False,False,Costco / O'Reilly
+Costco,Advance Auto Parts,655,4049,3.8965548185566066,13,0.01984732824427481,31,0.04732824427480916,84,0.1282442748091603,warehouse club,big box,auto parts,small box,False,False,Advance Auto Parts / Costco
+Costco,Chase,655,3569,1.825199856133472,27,0.04122137404580153,83,0.1267175572519084,176,0.2687022900763359,warehouse club,big box,bank,small box,False,False,Chase / Costco
+Costco,Bank of America,655,3531,1.499693799678906,34,0.051908396946564885,98,0.14961832061068703,210,0.32061068702290074,warehouse club,big box,bank,small box,False,False,Bank of America / Costco
+Costco,Wells Fargo,655,4056,1.5350838456912077,36,0.0549618320610687,102,0.15572519083969466,207,0.31603053435114503,warehouse club,big box,bank,small box,False,False,Costco / Wells Fargo
+Costco,McDonald's,655,13486,0.719102545517963,89,0.13587786259541984,228,0.3480916030534351,425,0.648854961832061,warehouse club,big box,burgers,restaurant,False,False,Costco / McDonald's
+Costco,Burger King,655,6168,1.4573874695169176,34,0.051908396946564885,99,0.15114503816793892,220,0.33587786259541985,warehouse club,big box,burgers,restaurant,False,False,Burger King / Costco
+Costco,Wendy's,655,5867,1.2725990784021777,45,0.06870229007633588,116,0.17709923664122137,254,0.38778625954198476,warehouse club,big box,burgers,restaurant,False,False,Costco / Wendy's
+Costco,KFC,655,3661,2.216181755313727,15,0.022900763358778626,46,0.07022900763358779,143,0.2183206106870229,warehouse club,big box,chicken,restaurant,False,False,Costco / KFC
+Costco,Popeyes,655,3124,2.133703769429387,26,0.03969465648854962,80,0.12213740458015267,169,0.2580152671755725,warehouse club,big box,chicken,restaurant,False,False,Costco / Popeyes
+Costco,Chick-fil-A,655,3440,1.1845092093663347,89,0.13587786259541984,181,0.27633587786259545,303,0.46259541984732827,warehouse club,big box,chicken,restaurant,False,False,Chick-fil-A / Costco
+Costco,Starbucks,655,9983,0.5073308465108566,156,0.2381679389312977,325,0.4961832061068702,502,0.766412213740458,warehouse club,big box,coffee,restaurant,False,False,Costco / Starbucks
+Costco,Dunkin',655,10482,1.601089818282246,35,0.05343511450381679,107,0.1633587786259542,208,0.31755725190839695,warehouse club,big box,coffee,restaurant,False,False,Costco / Dunkin'
+Costco,Taco Bell,655,8280,0.9299733851522411,63,0.09618320610687023,153,0.233587786259542,356,0.5435114503816794,warehouse club,big box,none,restaurant,False,False,Costco / Taco Bell
+Costco,Subway,655,17793,0.781370308790326,73,0.11145038167938931,213,0.3251908396946565,396,0.6045801526717557,warehouse club,big box,none,restaurant,False,False,Costco / Subway
+Sam's Club,Home Depot,595,2013,1.1529747695849661,61,0.10252100840336134,145,0.24369747899159663,269,0.45210084033613446,warehouse club,big box,home improvement,big box,True,False,Home Depot / Sam's Club
+Sam's Club,Lowe's,595,1761,1.3690942729200302,58,0.09747899159663866,148,0.24873949579831933,247,0.4151260504201681,warehouse club,big box,home improvement,big box,True,False,Lowe's / Sam's Club
+Sam's Club,Menards,595,341,236.9869935019521,8,0.013445378151260505,28,0.047058823529411764,55,0.09243697478991597,warehouse club,big box,home improvement,big box,True,False,Menards / Sam's Club
+Sam's Club,Costco,595,655,6.087539659991747,5,0.008403361344537815,25,0.04201680672268908,60,0.10084033613445378,warehouse club,big box,warehouse club,big box,True,True,Costco / Sam's Club
+Sam's Club,BJ's Wholesale,595,269,100.01509659796542,0,0.0,5,0.008403361344537815,16,0.02689075630252101,warehouse club,big box,warehouse club,big box,True,True,BJ's Wholesale / Sam's Club
+Sam's Club,PetSmart,595,1525,1.2608633349706688,51,0.08571428571428572,138,0.2319327731092437,243,0.4084033613445378,warehouse club,big box,pet supplies,big box,True,False,PetSmart / Sam's Club
+Sam's Club,Petco,595,1373,2.587931376385211,26,0.043697478991596636,87,0.146218487394958,166,0.27899159663865547,warehouse club,big box,pet supplies,big box,True,False,Petco / Sam's Club
+Sam's Club,Target,595,2026,1.2575380291405727,27,0.0453781512605042,131,0.22016806722689075,247,0.4151260504201681,warehouse club,big box,none,big box,True,False,Sam's Club / Target
+Sam's Club,Kohl's,595,1150,2.1030121019474213,40,0.06722689075630252,116,0.1949579831932773,184,0.3092436974789916,warehouse club,big box,none,big box,True,False,Kohl's / Sam's Club
+Sam's Club,Best Buy,595,1010,1.6530773489588484,35,0.058823529411764705,121,0.20336134453781513,230,0.3865546218487395,warehouse club,big box,none,big box,True,False,Best Buy / Sam's Club
+Sam's Club,CVS,595,7103,1.7616928290597695,8,0.013445378151260505,42,0.07058823529411765,136,0.22857142857142856,warehouse club,big box,pharmacy,small box,False,False,CVS / Sam's Club
+Sam's Club,Walgreens,595,7680,1.3066178099355426,24,0.040336134453781515,82,0.13781512605042018,213,0.35798319327731093,warehouse club,big box,pharmacy,small box,False,False,Sam's Club / Walgreens
+Sam's Club,Dollar General,595,20494,1.7011830059785242,9,0.015126050420168067,33,0.05546218487394958,128,0.21512605042016808,warehouse club,big box,dollar store,small box,False,False,Dollar General / Sam's Club
+Sam's Club,Family Dollar,595,7080,2.654438932506091,2,0.0033613445378151263,16,0.02689075630252101,67,0.11260504201680673,warehouse club,big box,dollar store,small box,False,False,Family Dollar / Sam's Club
+Sam's Club,Dollar Tree,595,9103,0.7020585926825159,92,0.1546218487394958,217,0.36470588235294116,392,0.6588235294117647,warehouse club,big box,dollar store,small box,False,False,Dollar Tree / Sam's Club
+Sam's Club,AutoZone,595,6394,1.2857863267123961,31,0.052100840336134456,96,0.16134453781512606,230,0.3865546218487395,warehouse club,big box,auto parts,small box,False,False,AutoZone / Sam's Club
+Sam's Club,O'Reilly,595,6613,1.530283534747341,18,0.030252100840336135,51,0.08571428571428572,158,0.26554621848739496,warehouse club,big box,auto parts,small box,False,False,O'Reilly / Sam's Club
+Sam's Club,Advance Auto Parts,595,4049,1.8913354131641427,20,0.03361344537815126,59,0.09915966386554621,159,0.2672268907563025,warehouse club,big box,auto parts,small box,False,False,Advance Auto Parts / Sam's Club
+Sam's Club,Chase,595,3569,3.578590780995844,16,0.02689075630252101,57,0.0957983193277311,129,0.21680672268907564,warehouse club,big box,bank,small box,False,False,Chase / Sam's Club
+Sam's Club,Bank of America,595,3531,2.1723876877418036,31,0.052100840336134456,77,0.12941176470588237,155,0.2605042016806723,warehouse club,big box,bank,small box,False,False,Bank of America / Sam's Club
+Sam's Club,Wells Fargo,595,4056,1.934352627411061,32,0.05378151260504202,82,0.13781512605042018,165,0.2773109243697479,warehouse club,big box,bank,small box,False,False,Sam's Club / Wells Fargo
+Sam's Club,McDonald's,595,13486,0.5878084477039898,105,0.17647058823529413,258,0.4336134453781513,451,0.7579831932773109,warehouse club,big box,burgers,restaurant,False,False,McDonald's / Sam's Club
+Sam's Club,Burger King,595,6168,1.227644105982102,35,0.058823529411764705,115,0.19327731092436976,248,0.41680672268907565,warehouse club,big box,burgers,restaurant,False,False,Burger King / Sam's Club
+Sam's Club,Wendy's,595,5867,0.9609346211522805,66,0.11092436974789915,168,0.2823529411764706,308,0.5176470588235295,warehouse club,big box,burgers,restaurant,False,False,Sam's Club / Wendy's
+Sam's Club,KFC,595,3661,1.8267315694534152,36,0.06050420168067227,75,0.12605042016806722,159,0.2672268907563025,warehouse club,big box,chicken,restaurant,False,False,KFC / Sam's Club
+Sam's Club,Popeyes,595,3124,1.654207796201605,34,0.05714285714285714,81,0.1361344537815126,180,0.3025210084033613,warehouse club,big box,chicken,restaurant,False,False,Popeyes / Sam's Club
+Sam's Club,Chick-fil-A,595,3440,0.7794257503016315,59,0.09915966386554621,195,0.3277310924369748,338,0.5680672268907563,warehouse club,big box,chicken,restaurant,False,False,Chick-fil-A / Sam's Club
+Sam's Club,Starbucks,595,9983,0.5857872814378339,84,0.1411764705882353,251,0.4218487394957983,430,0.7226890756302521,warehouse club,big box,coffee,restaurant,False,False,Sam's Club / Starbucks
+Sam's Club,Dunkin',595,10482,1.2984078059387811,51,0.08571428571428572,134,0.22521008403361345,242,0.40672268907563025,warehouse club,big box,coffee,restaurant,False,False,Dunkin' / Sam's Club
+Sam's Club,Taco Bell,595,8280,0.7838869042640533,78,0.13109243697478992,192,0.3226890756302521,370,0.6218487394957983,warehouse club,big box,none,restaurant,False,False,Sam's Club / Taco Bell
+Sam's Club,Subway,595,17793,0.6798373607945397,120,0.20168067226890757,228,0.3831932773109244,401,0.6739495798319328,warehouse club,big box,none,restaurant,False,False,Sam's Club / Subway
+BJ's Wholesale,Home Depot,269,2013,1.0831827582467484,36,0.13382899628252787,79,0.2936802973977695,130,0.483271375464684,warehouse club,big box,home improvement,big box,True,False,BJ's Wholesale / Home Depot
+BJ's Wholesale,Lowe's,269,1761,1.840051650740393,32,0.11895910780669144,65,0.241635687732342,94,0.34944237918215615,warehouse club,big box,home improvement,big box,True,False,BJ's Wholesale / Lowe's
+BJ's Wholesale,Menards,269,341,329.36984496180736,1,0.0037174721189591076,3,0.011152416356877323,4,0.01486988847583643,warehouse club,big box,home improvement,big box,True,False,BJ's Wholesale / Menards
+BJ's Wholesale,Costco,269,655,5.864994326696075,2,0.007434944237918215,5,0.01858736059479554,18,0.06691449814126393,warehouse club,big box,warehouse club,big box,True,True,BJ's Wholesale / Costco
+BJ's Wholesale,Sam's Club,269,595,11.206726192174473,0,0.0,5,0.01858736059479554,16,0.05947955390334572,warehouse club,big box,warehouse club,big box,True,True,BJ's Wholesale / Sam's Club
+BJ's Wholesale,PetSmart,269,1525,1.585708962819698,38,0.1412639405204461,64,0.2379182156133829,111,0.41263940520446096,warehouse club,big box,pet supplies,big box,True,False,BJ's Wholesale / PetSmart
+BJ's Wholesale,Petco,269,1373,2.7663959045801256,17,0.06319702602230483,40,0.14869888475836432,70,0.26022304832713755,warehouse club,big box,pet supplies,big box,True,False,BJ's Wholesale / Petco
+BJ's Wholesale,Target,269,2026,1.2339373974860444,39,0.1449814126394052,72,0.26765799256505574,123,0.45724907063197023,warehouse club,big box,none,big box,True,False,BJ's Wholesale / Target
+BJ's Wholesale,Kohl's,269,1150,2.5322183694488087,20,0.07434944237918216,41,0.1524163568773234,83,0.30855018587360594,warehouse club,big box,none,big box,True,False,BJ's Wholesale / Kohl's
+BJ's Wholesale,Best Buy,269,1010,2.333558625718204,20,0.07434944237918216,43,0.15985130111524162,85,0.3159851301115242,warehouse club,big box,none,big box,True,False,BJ's Wholesale / Best Buy
+BJ's Wholesale,CVS,269,7103,1.2002605059248939,25,0.09293680297397769,50,0.18587360594795538,118,0.43866171003717475,warehouse club,big box,pharmacy,small box,False,False,BJ's Wholesale / CVS
+BJ's Wholesale,Walgreens,269,7680,1.3570678014472608,17,0.06319702602230483,41,0.1524163568773234,104,0.38661710037174724,warehouse club,big box,pharmacy,small box,False,False,BJ's Wholesale / Walgreens
+BJ's Wholesale,Dollar General,269,20494,2.1711529091191872,5,0.01858736059479554,18,0.06691449814126393,50,0.18587360594795538,warehouse club,big box,dollar store,small box,False,False,BJ's Wholesale / Dollar General
+BJ's Wholesale,Family Dollar,269,7080,2.9986501396206546,4,0.01486988847583643,7,0.026022304832713755,24,0.08921933085501858,warehouse club,big box,dollar store,small box,False,False,BJ's Wholesale / Family Dollar
+BJ's Wholesale,Dollar Tree,269,9103,0.6567800356864635,52,0.19330855018587362,114,0.42379182156133827,182,0.6765799256505576,warehouse club,big box,dollar store,small box,False,False,BJ's Wholesale / Dollar Tree
+BJ's Wholesale,AutoZone,269,6394,1.2958097693943342,25,0.09293680297397769,53,0.1970260223048327,104,0.38661710037174724,warehouse club,big box,auto parts,small box,False,False,AutoZone / BJ's Wholesale
+BJ's Wholesale,O'Reilly,269,6613,2.942950906228229,9,0.03345724907063197,19,0.07063197026022305,41,0.1524163568773234,warehouse club,big box,auto parts,small box,False,False,BJ's Wholesale / O'Reilly
+BJ's Wholesale,Advance Auto Parts,269,4049,1.322671407477313,15,0.055762081784386616,51,0.1895910780669145,111,0.41263940520446096,warehouse club,big box,auto parts,small box,False,False,Advance Auto Parts / BJ's Wholesale
+BJ's Wholesale,Chase,269,3569,21.523629814927002,13,0.048327137546468404,27,0.10037174721189591,53,0.1970260223048327,warehouse club,big box,bank,small box,False,False,BJ's Wholesale / Chase
+BJ's Wholesale,Bank of America,269,3531,1.3515340331775507,24,0.08921933085501858,43,0.15985130111524162,99,0.3680297397769517,warehouse club,big box,bank,small box,False,False,BJ's Wholesale / Bank of America
+BJ's Wholesale,Wells Fargo,269,4056,2.5714034276574873,11,0.040892193308550186,26,0.09665427509293681,59,0.21933085501858737,warehouse club,big box,bank,small box,False,False,BJ's Wholesale / Wells Fargo
+BJ's Wholesale,McDonald's,269,13486,0.6498987513930108,53,0.1970260223048327,107,0.39776951672862454,196,0.7286245353159851,warehouse club,big box,burgers,restaurant,False,False,BJ's Wholesale / McDonald's
+BJ's Wholesale,Burger King,269,6168,1.1585405455692306,25,0.09293680297397769,63,0.2342007434944238,119,0.4423791821561338,warehouse club,big box,burgers,restaurant,False,False,BJ's Wholesale / Burger King
+BJ's Wholesale,Wendy's,269,5867,0.8771256918885135,49,0.1821561338289963,87,0.32342007434944237,150,0.5576208178438662,warehouse club,big box,burgers,restaurant,False,False,BJ's Wholesale / Wendy's
+BJ's Wholesale,KFC,269,3661,1.9990096252347438,18,0.06691449814126393,40,0.14869888475836432,74,0.275092936802974,warehouse club,big box,chicken,restaurant,False,False,BJ's Wholesale / KFC
+BJ's Wholesale,Popeyes,269,3124,2.0684925080538252,20,0.07434944237918216,43,0.15985130111524162,78,0.2899628252788104,warehouse club,big box,chicken,restaurant,False,False,BJ's Wholesale / Popeyes
+BJ's Wholesale,Chick-fil-A,269,3440,0.9222289817242514,40,0.14869888475836432,94,0.34944237918215615,138,0.5130111524163569,warehouse club,big box,chicken,restaurant,False,False,BJ's Wholesale / Chick-fil-A
+BJ's Wholesale,Starbucks,269,9983,0.5168402769210919,66,0.24535315985130113,131,0.48698884758364314,192,0.7137546468401487,warehouse club,big box,coffee,restaurant,False,False,BJ's Wholesale / Starbucks
+BJ's Wholesale,Dunkin',269,10482,0.5019476641363718,65,0.241635687732342,134,0.49814126394052044,211,0.7843866171003717,warehouse club,big box,coffee,restaurant,False,False,BJ's Wholesale / Dunkin'
+BJ's Wholesale,Taco Bell,269,8280,0.7836186439474405,39,0.1449814126394052,83,0.30855018587360594,152,0.5650557620817844,warehouse club,big box,none,restaurant,False,False,BJ's Wholesale / Taco Bell
+BJ's Wholesale,Subway,269,17793,0.8264703414048054,33,0.12267657992565056,87,0.32342007434944237,152,0.5650557620817844,warehouse club,big box,none,restaurant,False,False,BJ's Wholesale / Subway
+PetSmart,Home Depot,1525,2013,1.1954591724650752,231,0.15147540983606558,469,0.30754098360655735,707,0.4636065573770492,pet supplies,big box,home improvement,big box,True,False,Home Depot / PetSmart
+PetSmart,Lowe's,1525,1761,1.6364758572398799,183,0.12,378,0.24786885245901638,601,0.3940983606557377,pet supplies,big box,home improvement,big box,True,False,Lowe's / PetSmart
+PetSmart,Menards,1525,341,302.15571031333343,12,0.007868852459016393,33,0.021639344262295083,73,0.04786885245901639,pet supplies,big box,home improvement,big box,True,False,Menards / PetSmart
+PetSmart,Costco,1525,655,5.159403304485697,72,0.04721311475409836,137,0.0898360655737705,243,0.15934426229508197,pet supplies,big box,warehouse club,big box,True,False,Costco / PetSmart
+PetSmart,Sam's Club,1525,595,5.788124664278803,51,0.03344262295081967,138,0.09049180327868853,245,0.16065573770491803,pet supplies,big box,warehouse club,big box,True,False,PetSmart / Sam's Club
+PetSmart,BJ's Wholesale,1525,269,89.81380812649859,38,0.024918032786885248,64,0.0419672131147541,108,0.07081967213114754,pet supplies,big box,warehouse club,big box,True,False,BJ's Wholesale / PetSmart
+PetSmart,Petco,1525,1373,3.2117100276593824,54,0.03540983606557377,160,0.10491803278688525,313,0.20524590163934425,pet supplies,big box,pet supplies,big box,True,True,PetSmart / Petco
+PetSmart,Target,1525,2026,0.6799220651895603,388,0.2544262295081967,658,0.4314754098360656,886,0.580983606557377,pet supplies,big box,none,big box,True,False,PetSmart / Target
+PetSmart,Kohl's,1525,1150,2.4658431324129064,195,0.12786885245901639,370,0.24262295081967214,529,0.3468852459016393,pet supplies,big box,none,big box,True,False,Kohl's / PetSmart
+PetSmart,Best Buy,1525,1010,2.3160581585393,271,0.17770491803278687,439,0.2878688524590164,610,0.4,pet supplies,big box,none,big box,True,False,Best Buy / PetSmart
+PetSmart,CVS,1525,7103,1.4419697824802455,108,0.07081967213114754,233,0.15278688524590164,479,0.3140983606557377,pet supplies,big box,pharmacy,small box,False,False,CVS / PetSmart
+PetSmart,Walgreens,1525,7680,1.1809481826981025,147,0.09639344262295083,310,0.20327868852459016,628,0.41180327868852457,pet supplies,big box,pharmacy,small box,False,False,PetSmart / Walgreens
+PetSmart,Dollar General,1525,20494,2.2502181911314407,18,0.01180327868852459,56,0.036721311475409836,243,0.15934426229508197,pet supplies,big box,dollar store,small box,False,False,Dollar General / PetSmart
+PetSmart,Family Dollar,1525,7080,3.526181354860478,6,0.003934426229508197,28,0.018360655737704918,111,0.07278688524590164,pet supplies,big box,dollar store,small box,False,False,Family Dollar / PetSmart
+PetSmart,Dollar Tree,1525,9103,0.5199108445609794,433,0.2839344262295082,740,0.4852459016393443,1089,0.7140983606557377,pet supplies,big box,dollar store,small box,False,False,Dollar Tree / PetSmart
+PetSmart,AutoZone,1525,6394,1.2838716020709142,124,0.08131147540983606,294,0.19278688524590165,583,0.3822950819672131,pet supplies,big box,auto parts,small box,False,False,AutoZone / PetSmart
+PetSmart,O'Reilly,1525,6613,1.6371014916799294,91,0.05967213114754098,199,0.13049180327868853,428,0.28065573770491803,pet supplies,big box,auto parts,small box,False,False,O'Reilly / PetSmart
+PetSmart,Advance Auto Parts,1525,4049,2.0345162255466622,68,0.04459016393442623,174,0.11409836065573771,389,0.25508196721311477,pet supplies,big box,auto parts,small box,False,False,Advance Auto Parts / PetSmart
+PetSmart,Chase,1525,3569,2.800128386315948,136,0.08918032786885247,265,0.1737704918032787,431,0.28262295081967215,pet supplies,big box,bank,small box,False,False,Chase / PetSmart
+PetSmart,Bank of America,1525,3531,1.6027749426721427,177,0.1160655737704918,338,0.2216393442622951,555,0.3639344262295082,pet supplies,big box,bank,small box,False,False,Bank of America / PetSmart
+PetSmart,Wells Fargo,1525,4056,1.5557175362079694,189,0.12393442622950819,353,0.23147540983606557,560,0.36721311475409835,pet supplies,big box,bank,small box,False,False,PetSmart / Wells Fargo
+PetSmart,McDonald's,1525,13486,0.5363884803891839,367,0.24065573770491802,728,0.47737704918032786,1147,0.7521311475409836,pet supplies,big box,burgers,restaurant,False,False,McDonald's / PetSmart
+PetSmart,Burger King,1525,6168,1.2586155036297741,155,0.10163934426229508,327,0.21442622950819673,621,0.4072131147540984,pet supplies,big box,burgers,restaurant,False,False,Burger King / PetSmart
+PetSmart,Wendy's,1525,5867,0.9829886823133535,229,0.1501639344262295,468,0.30688524590163935,773,0.5068852459016393,pet supplies,big box,burgers,restaurant,False,False,PetSmart / Wendy's
+PetSmart,KFC,1525,3661,1.9230254658785388,104,0.06819672131147542,219,0.1436065573770492,402,0.2636065573770492,pet supplies,big box,chicken,restaurant,False,False,KFC / PetSmart
+PetSmart,Popeyes,1525,3124,1.9143975283722727,87,0.057049180327868855,222,0.14557377049180328,445,0.29180327868852457,pet supplies,big box,chicken,restaurant,False,False,PetSmart / Popeyes
+PetSmart,Chick-fil-A,1525,3440,0.6875561736318556,349,0.22885245901639345,632,0.41442622950819674,919,0.6026229508196721,pet supplies,big box,chicken,restaurant,False,False,Chick-fil-A / PetSmart
+PetSmart,Starbucks,1525,9983,0.4020385994830658,471,0.30885245901639347,892,0.5849180327868853,1239,0.8124590163934426,pet supplies,big box,coffee,restaurant,False,False,PetSmart / Starbucks
+PetSmart,Dunkin',1525,10482,1.2377236422740316,190,0.12459016393442623,391,0.25639344262295083,658,0.4314754098360656,pet supplies,big box,coffee,restaurant,False,False,Dunkin' / PetSmart
+PetSmart,Taco Bell,1525,8280,0.7631220959055913,271,0.17770491803278687,542,0.35540983606557375,929,0.6091803278688525,pet supplies,big box,none,restaurant,False,False,PetSmart / Taco Bell
+PetSmart,Subway,1525,17793,0.6811294918312087,315,0.20655737704918034,612,0.4013114754098361,999,0.6550819672131147,pet supplies,big box,none,restaurant,False,False,PetSmart / Subway
+Petco,Home Depot,1373,2013,1.6446260582310388,136,0.09905316824471959,282,0.20538965768390385,473,0.3445010924981792,pet supplies,big box,home improvement,big box,True,False,Home Depot / Petco
+Petco,Lowe's,1373,1761,2.5392638765251316,101,0.07356154406409322,256,0.1864530225782957,410,0.2986161689730517,pet supplies,big box,home improvement,big box,True,False,Lowe's / Petco
+Petco,Menards,1373,341,338.26993380810677,8,0.005826656955571741,34,0.024763292061179897,57,0.041514930808448654,pet supplies,big box,home improvement,big box,True,False,Menards / Petco
+Petco,Costco,1373,655,5.172428979676273,38,0.027676620538965767,94,0.06846321922796796,171,0.12454479242534595,pet supplies,big box,warehouse club,big box,True,False,Costco / Petco
+Petco,Sam's Club,1373,595,6.700215549380942,26,0.018936635105608158,87,0.06336489439184267,166,0.12090313182811362,pet supplies,big box,warehouse club,big box,True,False,Petco / Sam's Club
+Petco,BJ's Wholesale,1373,269,157.08875497471598,17,0.012381646030589949,39,0.028404952658412235,69,0.050254916241806266,pet supplies,big box,warehouse club,big box,True,False,BJ's Wholesale / Petco
+Petco,PetSmart,1373,1525,2.7621088812670513,54,0.03932993445010925,160,0.11653313911143481,312,0.22723962126729788,pet supplies,big box,pet supplies,big box,True,True,PetSmart / Petco
+Petco,Target,1373,2026,1.242157805442306,292,0.21267297887836853,449,0.32702112163146396,622,0.45302257829570286,pet supplies,big box,none,big box,True,False,Petco / Target
+Petco,Kohl's,1373,1150,3.21948338545852,148,0.10779315367807721,287,0.2090313182811362,409,0.29788783685360526,pet supplies,big box,none,big box,True,False,Kohl's / Petco
+Petco,Best Buy,1373,1010,3.271553079326796,172,0.12527312454479242,287,0.2090313182811362,408,0.29715950473415875,pet supplies,big box,none,big box,True,False,Best Buy / Petco
+Petco,CVS,1373,7103,1.2838131698101058,162,0.11798980335032774,289,0.21048798252002912,546,0.3976693372177713,pet supplies,big box,pharmacy,small box,False,False,CVS / Petco
+Petco,Walgreens,1373,7680,1.0586446585058145,195,0.14202476329206118,380,0.2767662053896577,664,0.48361252731245447,pet supplies,big box,pharmacy,small box,False,False,Petco / Walgreens
+Petco,Dollar General,1373,20494,2.840032960452126,35,0.025491624180626365,74,0.053896576839038604,191,0.13911143481427532,pet supplies,big box,dollar store,small box,False,False,Dollar General / Petco
+Petco,Family Dollar,1373,7080,3.966906033704767,11,0.008011653313911144,21,0.01529497450837582,86,0.06263656227239621,pet supplies,big box,dollar store,small box,False,False,Family Dollar / Petco
+Petco,Dollar Tree,1373,9103,0.5794347756432664,394,0.2869628550619082,632,0.46030589949016754,916,0.6671522214129643,pet supplies,big box,dollar store,small box,False,False,Dollar Tree / Petco
+Petco,AutoZone,1373,6394,1.2433929946492532,143,0.10415149308084487,292,0.21267297887836853,560,0.40786598689002185,pet supplies,big box,auto parts,small box,False,False,AutoZone / Petco
+Petco,O'Reilly,1373,6613,1.5651435971991103,97,0.07064821558630735,196,0.14275309541150766,431,0.3139111434814275,pet supplies,big box,auto parts,small box,False,False,O'Reilly / Petco
+Petco,Advance Auto Parts,1373,4049,2.4335082785245907,70,0.05098324836125273,170,0.12381646030589949,329,0.23962126729788782,pet supplies,big box,auto parts,small box,False,False,Advance Auto Parts / Petco
+Petco,Chase,1373,3569,2.086079227439008,189,0.13765477057538236,317,0.23088128186453022,456,0.33211944646758923,pet supplies,big box,bank,small box,False,False,Chase / Petco
+Petco,Bank of America,1373,3531,1.4481501377166526,174,0.12672978878368535,333,0.2425345957756737,549,0.3998543335761107,pet supplies,big box,bank,small box,False,False,Bank of America / Petco
+Petco,Wells Fargo,1373,4056,1.4720304491702696,190,0.13838310269482884,328,0.23889293517844137,533,0.38820101966496723,pet supplies,big box,bank,small box,False,False,Petco / Wells Fargo
+Petco,McDonald's,1373,13486,0.5106831276347167,339,0.2469045884923525,677,0.49308084486525855,1050,0.764748725418791,pet supplies,big box,burgers,restaurant,False,False,McDonald's / Petco
+Petco,Burger King,1373,6168,1.3176142848542118,168,0.12235979606700656,323,0.23525127458120904,561,0.4085943190094683,pet supplies,big box,burgers,restaurant,False,False,Burger King / Petco
+Petco,Wendy's,1373,5867,1.0486253364933649,204,0.14857975236707938,391,0.2847778587035688,661,0.48142753095411506,pet supplies,big box,burgers,restaurant,False,False,Petco / Wendy's
+Petco,KFC,1373,3661,2.01028653652697,102,0.07428987618353969,195,0.14202476329206118,385,0.28040786598689005,pet supplies,big box,chicken,restaurant,False,False,KFC / Petco
+Petco,Popeyes,1373,3124,2.1627117844823744,81,0.05899490167516387,204,0.14857975236707938,363,0.26438455935906774,pet supplies,big box,chicken,restaurant,False,False,Petco / Popeyes
+Petco,Chick-fil-A,1373,3440,1.0630782164570685,250,0.1820830298616169,473,0.3445010924981792,669,0.48725418790968683,pet supplies,big box,chicken,restaurant,False,False,Chick-fil-A / Petco
+Petco,Starbucks,1373,9983,0.36823245448525244,494,0.359796067006555,831,0.6052439912600146,1136,0.8273852876911871,pet supplies,big box,coffee,restaurant,False,False,Petco / Starbucks
+Petco,Dunkin',1373,10482,1.2243681372976332,207,0.15076474872541878,381,0.27749453750910413,614,0.4471959213401311,pet supplies,big box,coffee,restaurant,False,False,Dunkin' / Petco
+Petco,Taco Bell,1373,8280,0.8026199592513897,252,0.18353969410050983,493,0.3590677348871085,810,0.5899490167516388,pet supplies,big box,none,restaurant,False,False,Petco / Taco Bell
+Petco,Subway,1373,17793,0.576678243804838,340,0.24763292061179898,614,0.4471959213401311,969,0.705753823743627,pet supplies,big box,none,restaurant,False,False,Petco / Subway
+Target,Home Depot,2026,2013,1.5264406942388926,241,0.11895360315893386,488,0.24086870681145114,772,0.3810463968410661,none,big box,home improvement,big box,True,False,Home Depot / Target
+Target,Lowe's,2026,1761,2.4031783564344282,149,0.07354392892398816,343,0.16929911154985192,601,0.2966436327739388,none,big box,home improvement,big box,True,False,Lowe's / Target
+Target,Menards,2026,341,313.99364179405495,10,0.004935834155972359,44,0.02171767028627838,112,0.055281342546890426,none,big box,home improvement,big box,True,False,Menards / Target
+Target,Costco,2026,655,4.690102216086311,47,0.02319842053307009,142,0.0700888450148075,263,0.12981243830207306,none,big box,warehouse club,big box,True,False,Costco / Target
+Target,Sam's Club,2026,595,5.922560179433177,27,0.01332675222112537,131,0.06465942744323791,248,0.12240868706811452,none,big box,warehouse club,big box,True,False,Sam's Club / Target
+Target,BJ's Wholesale,2026,269,141.55347290118374,39,0.0192497532082922,72,0.035538005923000986,121,0.05972359328726555,none,big box,warehouse club,big box,True,False,BJ's Wholesale / Target
+Target,PetSmart,2026,1525,1.3931557207690104,388,0.19151036525172754,658,0.32477788746298125,895,0.44175715695952616,none,big box,pet supplies,big box,True,False,PetSmart / Target
+Target,Petco,2026,1373,2.410763276738469,292,0.1441263573543929,449,0.22161895360315895,633,0.31243830207305034,none,big box,pet supplies,big box,True,False,Petco / Target
+Target,Kohl's,2026,1150,2.9042404286731496,227,0.11204343534057255,403,0.19891411648568608,609,0.3005923000987167,none,big box,none,big box,True,False,Kohl's / Target
+Target,Best Buy,2026,1010,2.788908478745335,231,0.1140177690029615,443,0.21865745310957552,656,0.32379072063178677,none,big box,none,big box,True,False,Best Buy / Target
+Target,CVS,2026,7103,1.4061210277902298,164,0.08094768015794669,323,0.1594274432379072,702,0.3464955577492596,none,big box,pharmacy,small box,False,False,CVS / Target
+Target,Walgreens,2026,7680,1.1626148365585487,204,0.10069101678183613,450,0.22211253701875616,873,0.430898321816387,none,big box,pharmacy,small box,False,False,Target / Walgreens
+Target,Dollar General,2026,20494,2.7531546641201006,25,0.012339585389930898,82,0.040473840078973346,247,0.12191510365251727,none,big box,dollar store,small box,False,False,Dollar General / Target
+Target,Family Dollar,2026,7080,3.8770342594132883,4,0.0019743336623889436,29,0.014313919052319843,131,0.06465942744323791,none,big box,dollar store,small box,False,False,Family Dollar / Target
+Target,Dollar Tree,2026,9103,0.6646770360108736,471,0.23247778874629813,833,0.41115498519249755,1282,0.6327739387956565,none,big box,dollar store,small box,False,False,Dollar Tree / Target
+Target,AutoZone,2026,6394,1.3497808078515112,132,0.06515301085883514,333,0.16436327739387957,724,0.35735439289239884,none,big box,auto parts,small box,False,False,AutoZone / Target
+Target,O'Reilly,2026,6613,1.7668855956523277,103,0.0508390918065153,242,0.1194471865745311,532,0.26258637709772953,none,big box,auto parts,small box,False,False,O'Reilly / Target
+Target,Advance Auto Parts,2026,4049,2.420564463094513,69,0.03405725567620928,171,0.08440276406712735,399,0.19693978282329713,none,big box,auto parts,small box,False,False,Advance Auto Parts / Target
+Target,Chase,2026,3569,2.0411009817270953,254,0.12537018756169793,440,0.21717670286278382,669,0.3302073050345508,none,big box,bank,small box,False,False,Chase / Target
+Target,Bank of America,2026,3531,1.3867151815241616,266,0.13129318854886476,488,0.24086870681145114,795,0.3923988153998026,none,big box,bank,small box,False,False,Bank of America / Target
+Target,Wells Fargo,2026,4056,1.3694263281140489,301,0.14856860809476802,543,0.2680157946692991,826,0.4076999012833169,none,big box,bank,small box,False,False,Target / Wells Fargo
+Target,McDonald's,2026,13486,0.550883174646517,462,0.228035538005923,942,0.46495557749259625,1502,0.7413622902270484,none,big box,burgers,restaurant,False,False,McDonald's / Target
+Target,Burger King,2026,6168,1.3766809462086567,186,0.09180651530108588,433,0.21372161895360317,782,0.3859822309970385,none,big box,burgers,restaurant,False,False,Burger King / Target
+Target,Wendy's,2026,5867,1.1018884832848692,247,0.12191510365251727,532,0.26258637709772953,935,0.4615004935834156,none,big box,burgers,restaurant,False,False,Target / Wendy's
+Target,KFC,2026,3661,1.958778220144326,118,0.05824284304047384,271,0.13376110562685095,528,0.26061204343534056,none,big box,chicken,restaurant,False,False,KFC / Target
+Target,Popeyes,2026,3124,1.9964981580137597,136,0.06712734452122408,298,0.14708785784797632,586,0.28923988153998026,none,big box,chicken,restaurant,False,False,Popeyes / Target
+Target,Chick-fil-A,2026,3440,0.7853186959176819,411,0.20286278381046396,782,0.3859822309970385,1098,0.5419545903257651,none,big box,chicken,restaurant,False,False,Chick-fil-A / Target
+Target,Starbucks,2026,9983,0.40242506472960776,652,0.32181638696939785,1175,0.5799605133267522,1627,0.8030602171767028,none,big box,coffee,restaurant,False,False,Starbucks / Target
+Target,Dunkin',2026,10482,1.1996297400859701,252,0.12438302073050346,533,0.26307996051332677,891,0.4397828232971372,none,big box,coffee,restaurant,False,False,Dunkin' / Target
+Target,Taco Bell,2026,8280,0.7639496815382096,321,0.15844027640671274,712,0.351431391905232,1212,0.5982230997038499,none,big box,none,restaurant,False,False,Taco Bell / Target
+Target,Subway,2026,17793,0.6308637107818142,448,0.2211253701875617,855,0.4220138203356367,1363,0.6727541954590326,none,big box,none,restaurant,False,False,Subway / Target
+Kohl's,Home Depot,1150,2013,1.4642098814402447,114,0.09913043478260869,269,0.23391304347826086,461,0.4008695652173913,none,big box,home improvement,big box,True,False,Home Depot / Kohl's
+Kohl's,Lowe's,1150,1761,1.6768228901266122,105,0.09130434782608696,255,0.2217391304347826,441,0.3834782608695652,none,big box,home improvement,big box,True,False,Kohl's / Lowe's
+Kohl's,Menards,1150,341,234.16780326210306,23,0.02,52,0.04521739130434783,98,0.08521739130434783,none,big box,home improvement,big box,True,False,Kohl's / Menards
+Kohl's,Costco,1150,655,6.001810855458459,29,0.025217391304347827,71,0.06173913043478261,138,0.12,none,big box,warehouse club,big box,True,False,Costco / Kohl's
+Kohl's,Sam's Club,1150,595,5.922640796755232,40,0.034782608695652174,116,0.10086956521739131,184,0.16,none,big box,warehouse club,big box,True,False,Kohl's / Sam's Club
+Kohl's,BJ's Wholesale,1150,269,84.19624568647663,20,0.017391304347826087,41,0.035652173913043476,82,0.07130434782608695,none,big box,warehouse club,big box,True,False,BJ's Wholesale / Kohl's
+Kohl's,PetSmart,1150,1525,1.2300549403365437,195,0.16956521739130434,369,0.3208695652173913,528,0.4591304347826087,none,big box,pet supplies,big box,True,False,Kohl's / PetSmart
+Kohl's,Petco,1150,1373,2.4786608782121182,148,0.12869565217391304,287,0.24956521739130436,409,0.3556521739130435,none,big box,pet supplies,big box,True,False,Kohl's / Petco
+Kohl's,Target,1150,2026,0.8699363276642178,227,0.1973913043478261,403,0.35043478260869565,607,0.5278260869565218,none,big box,none,big box,True,False,Kohl's / Target
+Kohl's,Best Buy,1150,1010,2.792739224608769,110,0.09565217391304348,247,0.21478260869565216,392,0.3408695652173913,none,big box,none,big box,True,False,Best Buy / Kohl's
+Kohl's,CVS,1150,7103,1.592246334460421,68,0.059130434782608696,150,0.13043478260869565,329,0.28608695652173916,none,big box,pharmacy,small box,False,False,CVS / Kohl's
+Kohl's,Walgreens,1150,7680,1.2043968582610525,92,0.08,242,0.21043478260869566,485,0.4217391304347826,none,big box,pharmacy,small box,False,False,Kohl's / Walgreens
+Kohl's,Dollar General,1150,20494,2.353742060313672,13,0.011304347826086957,51,0.04434782608695652,199,0.17304347826086958,none,big box,dollar store,small box,False,False,Dollar General / Kohl's
+Kohl's,Family Dollar,1150,7080,3.890621412222747,8,0.006956521739130435,13,0.011304347826086957,58,0.050434782608695654,none,big box,dollar store,small box,False,False,Family Dollar / Kohl's
+Kohl's,Dollar Tree,1150,9103,0.5582795164260392,268,0.23304347826086957,527,0.4582608695652174,809,0.7034782608695652,none,big box,dollar store,small box,False,False,Dollar Tree / Kohl's
+Kohl's,AutoZone,1150,6394,1.333449137961035,76,0.06608695652173913,213,0.18521739130434783,432,0.37565217391304345,none,big box,auto parts,small box,False,False,AutoZone / Kohl's
+Kohl's,O'Reilly,1150,6613,1.7205715476164123,32,0.02782608695652174,136,0.11826086956521739,322,0.28,none,big box,auto parts,small box,False,False,Kohl's / O'Reilly
+Kohl's,Advance Auto Parts,1150,4049,2.044135060381592,51,0.04434782608695652,148,0.12869565217391304,302,0.26260869565217393,none,big box,auto parts,small box,False,False,Advance Auto Parts / Kohl's
+Kohl's,Chase,1150,3569,3.30263444504659,92,0.08,185,0.1608695652173913,304,0.2643478260869565,none,big box,bank,small box,False,False,Chase / Kohl's
+Kohl's,Bank of America,1150,3531,1.9864777449674196,93,0.0808695652173913,204,0.17739130434782607,356,0.3095652173913043,none,big box,bank,small box,False,False,Bank of America / Kohl's
+Kohl's,Wells Fargo,1150,4056,1.9770084119938045,94,0.0817391304347826,202,0.17565217391304347,344,0.2991304347826087,none,big box,bank,small box,False,False,Kohl's / Wells Fargo
+Kohl's,McDonald's,1150,13486,0.5647762749541441,239,0.20782608695652174,513,0.44608695652173913,853,0.7417391304347826,none,big box,burgers,restaurant,False,False,Kohl's / McDonald's
+Kohl's,Burger King,1150,6168,1.2393311912509708,101,0.08782608695652173,247,0.21478260869565216,496,0.43130434782608695,none,big box,burgers,restaurant,False,False,Burger King / Kohl's
+Kohl's,Wendy's,1150,5867,0.9873403980213689,120,0.10434782608695652,315,0.27391304347826084,583,0.5069565217391304,none,big box,burgers,restaurant,False,False,Kohl's / Wendy's
+Kohl's,KFC,1150,3661,1.9444599567595864,55,0.04782608695652174,159,0.13826086956521738,315,0.27391304347826084,none,big box,chicken,restaurant,False,False,KFC / Kohl's
+Kohl's,Popeyes,1150,3124,2.2621892471804372,58,0.050434782608695654,161,0.14,315,0.27391304347826084,none,big box,chicken,restaurant,False,False,Kohl's / Popeyes
+Kohl's,Chick-fil-A,1150,3440,0.8394009092466435,172,0.14956521739130435,407,0.35391304347826086,622,0.5408695652173913,none,big box,chicken,restaurant,False,False,Chick-fil-A / Kohl's
+Kohl's,Starbucks,1150,9983,0.47673435340638937,292,0.2539130434782609,604,0.5252173913043479,902,0.7843478260869565,none,big box,coffee,restaurant,False,False,Kohl's / Starbucks
+Kohl's,Dunkin',1150,10482,1.1514669107768105,124,0.10782608695652174,305,0.26521739130434785,524,0.45565217391304347,none,big box,coffee,restaurant,False,False,Dunkin' / Kohl's
+Kohl's,Taco Bell,1150,8280,0.7568452810442704,177,0.15391304347826087,382,0.33217391304347826,696,0.6052173913043478,none,big box,none,restaurant,False,False,Kohl's / Taco Bell
+Kohl's,Subway,1150,17793,0.6875164978192438,213,0.18521739130434783,431,0.37478260869565216,754,0.6556521739130434,none,big box,none,restaurant,False,False,Kohl's / Subway
+Best Buy,Home Depot,1010,2013,0.9971304808515931,133,0.1316831683168317,285,0.28217821782178215,505,0.5,none,big box,home improvement,big box,True,False,Best Buy / Home Depot
+Best Buy,Lowe's,1010,1761,1.6006862164182598,109,0.10792079207920792,238,0.23564356435643563,403,0.39900990099009903,none,big box,home improvement,big box,True,False,Best Buy / Lowe's
+Best Buy,Menards,1010,341,313.885377218078,8,0.007920792079207921,23,0.02277227722772277,54,0.053465346534653464,none,big box,home improvement,big box,True,False,Best Buy / Menards
+Best Buy,Costco,1010,655,4.227812336091272,53,0.05247524752475247,113,0.11188118811881188,225,0.22277227722772278,none,big box,warehouse club,big box,True,False,Best Buy / Costco
+Best Buy,Sam's Club,1010,595,4.50233099577896,35,0.034653465346534656,122,0.12079207920792079,234,0.2316831683168317,none,big box,warehouse club,big box,True,False,Best Buy / Sam's Club
+Best Buy,BJ's Wholesale,1010,269,113.91158911595357,20,0.019801980198019802,43,0.04257425742574258,85,0.08415841584158416,none,big box,warehouse club,big box,True,False,BJ's Wholesale / Best Buy
+Best Buy,PetSmart,1010,1525,0.621139366050492,273,0.2702970297029703,441,0.43663366336633663,619,0.6128712871287129,none,big box,pet supplies,big box,True,False,Best Buy / PetSmart
+Best Buy,Petco,1010,1373,1.7006294644491842,173,0.1712871287128713,292,0.2891089108910891,414,0.4099009900990099,none,big box,pet supplies,big box,True,False,Best Buy / Petco
+Best Buy,Target,1010,2026,0.608292761336132,233,0.2306930693069307,446,0.4415841584158416,658,0.6514851485148515,none,big box,none,big box,True,False,Best Buy / Target
+Best Buy,Kohl's,1010,1150,1.7539807763717281,111,0.1099009900990099,250,0.24752475247524752,397,0.3930693069306931,none,big box,none,big box,True,False,Best Buy / Kohl's
+Best Buy,CVS,1010,7103,1.541619349416337,39,0.03861386138613861,118,0.11683168316831684,297,0.29405940594059404,none,big box,pharmacy,small box,False,False,Best Buy / CVS
+Best Buy,Walgreens,1010,7680,1.2848314658744433,62,0.061386138613861385,174,0.17227722772277226,377,0.37326732673267327,none,big box,pharmacy,small box,False,False,Best Buy / Walgreens
+Best Buy,Dollar General,1010,20494,2.5270428306560433,4,0.0039603960396039604,18,0.01782178217821782,143,0.14158415841584157,none,big box,dollar store,small box,False,False,Best Buy / Dollar General
+Best Buy,Family Dollar,1010,7080,3.351897211396383,3,0.0029702970297029703,12,0.011881188118811881,68,0.06732673267326733,none,big box,dollar store,small box,False,False,Best Buy / Family Dollar
+Best Buy,Dollar Tree,1010,9103,0.6259202466625967,192,0.1900990099009901,417,0.41287128712871285,694,0.6871287128712872,none,big box,dollar store,small box,False,False,Best Buy / Dollar Tree
+Best Buy,AutoZone,1010,6394,1.3723053317000473,55,0.054455445544554455,144,0.14257425742574256,356,0.35247524752475246,none,big box,auto parts,small box,False,False,AutoZone / Best Buy
+Best Buy,O'Reilly,1010,6613,1.684395264037684,30,0.0297029702970297,98,0.09702970297029703,248,0.24554455445544554,none,big box,auto parts,small box,False,False,Best Buy / O'Reilly
+Best Buy,Advance Auto Parts,1010,4049,2.274459733407684,30,0.0297029702970297,93,0.09207920792079208,212,0.2099009900990099,none,big box,auto parts,small box,False,False,Advance Auto Parts / Best Buy
+Best Buy,Chase,1010,3569,2.075081417364622,85,0.08415841584158416,183,0.18118811881188118,325,0.3217821782178218,none,big box,bank,small box,False,False,Best Buy / Chase
+Best Buy,Bank of America,1010,3531,1.4147039110601822,98,0.09702970297029703,215,0.21287128712871287,413,0.4089108910891089,none,big box,bank,small box,False,False,Bank of America / Best Buy
+Best Buy,Wells Fargo,1010,4056,1.4944782409864916,85,0.08415841584158416,203,0.200990099009901,379,0.37524752475247525,none,big box,bank,small box,False,False,Best Buy / Wells Fargo
+Best Buy,McDonald's,1010,13486,0.5522399276036938,188,0.18613861386138614,461,0.45643564356435645,774,0.7663366336633664,none,big box,burgers,restaurant,False,False,Best Buy / McDonald's
+Best Buy,Burger King,1010,6168,1.1812513818025365,79,0.07821782178217822,212,0.2099009900990099,439,0.43465346534653465,none,big box,burgers,restaurant,False,False,Best Buy / Burger King
+Best Buy,Wendy's,1010,5867,0.9802484183351672,118,0.11683168316831684,283,0.2801980198019802,512,0.5069306930693069,none,big box,burgers,restaurant,False,False,Best Buy / Wendy's
+Best Buy,KFC,1010,3661,1.9185035252565636,46,0.04554455445544554,126,0.12475247524752475,261,0.2584158415841584,none,big box,chicken,restaurant,False,False,Best Buy / KFC
+Best Buy,Popeyes,1010,3124,1.6974788726550014,48,0.047524752475247525,165,0.16336633663366337,327,0.3237623762376238,none,big box,chicken,restaurant,False,False,Best Buy / Popeyes
+Best Buy,Chick-fil-A,1010,3440,0.5524240398775708,229,0.22673267326732674,458,0.4534653465346535,664,0.6574257425742575,none,big box,chicken,restaurant,False,False,Best Buy / Chick-fil-A
+Best Buy,Starbucks,1010,9983,0.4365528159462626,289,0.2861386138613861,559,0.5534653465346535,841,0.8326732673267326,none,big box,coffee,restaurant,False,False,Best Buy / Starbucks
+Best Buy,Dunkin',1010,10482,1.2350149268581485,89,0.08811881188118811,241,0.2386138613861386,435,0.4306930693069307,none,big box,coffee,restaurant,False,False,Best Buy / Dunkin'
+Best Buy,Taco Bell,1010,8280,0.7780423471536233,136,0.13465346534653466,337,0.3336633663366337,612,0.6059405940594059,none,big box,none,restaurant,False,False,Best Buy / Taco Bell
+Best Buy,Subway,1010,17793,0.672362358913724,136,0.13465346534653466,375,0.3712871287128713,694,0.6871287128712872,none,big box,none,restaurant,False,False,Best Buy / Subway
+CVS,Home Depot,7103,2013,3.0414123561246225,95,0.013374630437843165,246,0.034633253554835985,678,0.09545262565113333,pharmacy,small box,home improvement,big box,False,False,CVS / Home Depot
+CVS,Lowe's,7103,1761,3.718251603761171,99,0.01393777277206814,224,0.03153597071659862,532,0.07489793045192172,pharmacy,small box,home improvement,big box,False,False,CVS / Lowe's
+CVS,Menards,7103,341,323.43945476690664,2,0.0002815711671124877,5,0.0007039279177812192,37,0.005209066591581022,pharmacy,small box,home improvement,big box,False,False,CVS / Menards
+CVS,Costco,7103,655,6.577729792425949,20,0.002815711671124877,60,0.008447135013374631,196,0.027593974377023794,pharmacy,small box,warehouse club,big box,False,False,CVS / Costco
+CVS,Sam's Club,7103,595,8.54110918737454,8,0.0011262846684499507,42,0.005912994509362241,139,0.019569196114317892,pharmacy,small box,warehouse club,big box,False,False,CVS / Sam's Club
+CVS,BJ's Wholesale,7103,269,25.24194610940853,24,0.0033788540053498522,48,0.0067577080106997044,131,0.018442911445867943,pharmacy,small box,warehouse club,big box,False,False,BJ's Wholesale / CVS
+CVS,PetSmart,7103,1525,3.616104980317634,109,0.015345628607630578,244,0.0343516823877235,546,0.07686892862170913,pharmacy,small box,pet supplies,big box,False,False,CVS / PetSmart
+CVS,Petco,7103,1373,4.026670669704042,167,0.023511192453892722,310,0.04364353090243559,664,0.0934816274813459,pharmacy,small box,pet supplies,big box,False,False,CVS / Petco
+CVS,Target,7103,2026,3.0404173817205007,171,0.024074334788117695,370,0.05209066591581022,877,0.12346895677882584,pharmacy,small box,none,big box,False,False,CVS / Target
+CVS,Kohl's,7103,1150,4.859691651902742,68,0.00957341968182458,150,0.021117837533436577,346,0.04871181191046037,pharmacy,small box,none,big box,False,False,CVS / Kohl's
+CVS,Best Buy,7103,1010,4.5684753364548625,40,0.005631423342249754,136,0.01914683936364916,372,0.052372237082922705,pharmacy,small box,none,big box,False,False,Best Buy / CVS
+CVS,Walgreens,7103,7680,1.2501618355322497,1274,0.17936083345065465,1852,0.26073490074616357,2935,0.41320568773757566,pharmacy,small box,pharmacy,small box,True,True,CVS / Walgreens
+CVS,Dollar General,7103,20494,1.8729229935008391,776,0.10924961283964522,1349,0.18991975221737295,2342,0.32971983668872307,pharmacy,small box,dollar store,small box,True,False,CVS / Dollar General
+CVS,Family Dollar,7103,7080,3.2297742075570235,489,0.06884415035900324,801,0.11276925242855132,1421,0.2000563142334225,pharmacy,small box,dollar store,small box,True,False,CVS / Family Dollar
+CVS,Dollar Tree,7103,9103,1.211165529056178,1001,0.14092636913980008,1678,0.23623820920737718,2995,0.4216528227509503,pharmacy,small box,dollar store,small box,True,False,CVS / Dollar Tree
+CVS,AutoZone,7103,6394,1.4812616039790645,853,0.120090102773476,1437,0.2023088835703224,2437,0.3430944671265662,pharmacy,small box,auto parts,small box,True,False,AutoZone / CVS
+CVS,O'Reilly,7103,6613,1.9017192530397395,698,0.0982683373222582,1169,0.16457834717724906,2038,0.2869210192876249,pharmacy,small box,auto parts,small box,True,False,CVS / O'Reilly
+CVS,Advance Auto Parts,7103,4049,2.3004659574254007,615,0.08658313388708996,989,0.13923694213712515,1723,0.24257356046740813,pharmacy,small box,auto parts,small box,True,False,Advance Auto Parts / CVS
+CVS,Chase,7103,3569,5.71077862650478,759,0.10685625791918907,1106,0.1557088554132057,1751,0.24651555680698298,pharmacy,small box,bank,small box,True,False,CVS / Chase
+CVS,Bank of America,7103,3531,2.0178838883947803,811,0.11417710826411376,1263,0.17781219203153598,2065,0.2907222300436435,pharmacy,small box,bank,small box,True,False,Bank of America / CVS
+CVS,Wells Fargo,7103,4056,2.2274840437517875,787,0.1107982542587639,1198,0.1686611291003801,1985,0.279459383359144,pharmacy,small box,bank,small box,True,False,CVS / Wells Fargo
+CVS,McDonald's,7103,13486,0.7635028375158306,1744,0.24553005772208925,2669,0.3757567225116148,4359,0.6136843587216669,pharmacy,small box,burgers,restaurant,False,False,CVS / McDonald's
+CVS,Burger King,7103,6168,1.6406517591776388,751,0.10572997325073913,1223,0.17218076868928622,2207,0.31071378290863017,pharmacy,small box,burgers,restaurant,False,False,Burger King / CVS
+CVS,Wendy's,7103,5867,1.625953888982279,705,0.09925383640715191,1187,0.16711248768126144,2203,0.31015064057440517,pharmacy,small box,burgers,restaurant,False,False,CVS / Wendy's
+CVS,KFC,7103,3661,2.285405476301243,464,0.06532451077009714,788,0.11093903984232015,1504,0.21174151766859073,pharmacy,small box,chicken,restaurant,False,False,CVS / KFC
+CVS,Popeyes,7103,3124,2.695386027953466,365,0.051386737998029,649,0.09136984372800225,1249,0.17584119386174857,pharmacy,small box,chicken,restaurant,False,False,CVS / Popeyes
+CVS,Chick-fil-A,7103,3440,2.519988186459641,338,0.04758552724201042,690,0.09714205265380825,1349,0.18991975221737295,pharmacy,small box,chicken,restaurant,False,False,CVS / Chick-fil-A
+CVS,Starbucks,7103,9983,1.0312155832171934,1597,0.2248345769393214,2270,0.3195832746726735,3468,0.4882444037730536,pharmacy,small box,coffee,restaurant,False,False,CVS / Starbucks
+CVS,Dunkin',7103,10482,1.2302508461983714,1425,0.2006194565676475,2090,0.2942418696325496,3163,0.4453048007883993,pharmacy,small box,coffee,restaurant,False,False,CVS / Dunkin'
+CVS,Taco Bell,7103,8280,1.2055731183067067,1050,0.14782486273405604,1717,0.24172884696607067,3000,0.4223567506687315,pharmacy,small box,none,restaurant,False,False,CVS / Taco Bell
+CVS,Subway,7103,17793,0.7141411709671376,1879,0.2645361115021822,2855,0.40194284105307615,4463,0.6283260594115163,pharmacy,small box,none,restaurant,False,False,CVS / Subway
+Walgreens,Home Depot,7680,2013,2.8882848225934503,173,0.022526041666666666,415,0.054036458333333336,926,0.12057291666666667,pharmacy,small box,home improvement,big box,False,False,Home Depot / Walgreens
+Walgreens,Lowe's,7680,1761,3.557591450329331,158,0.020572916666666666,367,0.04778645833333333,773,0.10065104166666666,pharmacy,small box,home improvement,big box,False,False,Lowe's / Walgreens
+Walgreens,Menards,7680,341,301.8716939721096,17,0.0022135416666666666,46,0.005989583333333334,119,0.015494791666666667,pharmacy,small box,home improvement,big box,False,False,Menards / Walgreens
+Walgreens,Costco,7680,655,6.73482345881461,21,0.002734375,64,0.008333333333333333,203,0.026432291666666666,pharmacy,small box,warehouse club,big box,False,False,Costco / Walgreens
+Walgreens,Sam's Club,7680,595,7.026424412078395,24,0.003125,82,0.010677083333333334,224,0.029166666666666667,pharmacy,small box,warehouse club,big box,False,False,Sam's Club / Walgreens
+Walgreens,BJ's Wholesale,7680,269,83.37982693208545,17,0.0022135416666666666,42,0.00546875,113,0.014713541666666666,pharmacy,small box,warehouse club,big box,False,False,BJ's Wholesale / Walgreens
+Walgreens,PetSmart,7680,1525,3.564177329390451,147,0.019140625,317,0.041276041666666666,684,0.0890625,pharmacy,small box,pet supplies,big box,False,False,PetSmart / Walgreens
+Walgreens,Petco,7680,1373,4.069055901451064,197,0.025651041666666666,399,0.051953125,773,0.10065104166666666,pharmacy,small box,pet supplies,big box,False,False,Petco / Walgreens
+Walgreens,Target,7680,2026,3.0347561176743625,215,0.027994791666666668,503,0.06549479166666666,1023,0.133203125,pharmacy,small box,none,big box,False,False,Target / Walgreens
+Walgreens,Kohl's,7680,1150,4.628869889727239,92,0.011979166666666667,242,0.031510416666666666,505,0.06575520833333333,pharmacy,small box,none,big box,False,False,Kohl's / Walgreens
+Walgreens,Best Buy,7680,1010,4.57976989285604,62,0.008072916666666667,191,0.024869791666666665,450,0.05859375,pharmacy,small box,none,big box,False,False,Best Buy / Walgreens
+Walgreens,CVS,7680,7103,1.4032654606198582,1285,0.16731770833333334,1851,0.241015625,2929,0.38138020833333336,pharmacy,small box,pharmacy,small box,True,True,CVS / Walgreens
+Walgreens,Dollar General,7680,20494,1.612863524446671,807,0.105078125,1525,0.19856770833333334,2712,0.353125,pharmacy,small box,dollar store,small box,True,False,Dollar General / Walgreens
+Walgreens,Family Dollar,7680,7080,2.9184793050330313,536,0.06979166666666667,897,0.116796875,1717,0.22356770833333334,pharmacy,small box,dollar store,small box,True,False,Family Dollar / Walgreens
+Walgreens,Dollar Tree,7680,9103,1.0296631625014827,1348,0.17552083333333332,2289,0.298046875,3735,0.486328125,pharmacy,small box,dollar store,small box,True,False,Dollar Tree / Walgreens
+Walgreens,AutoZone,7680,6394,1.2232080830467806,1196,0.15572916666666667,1995,0.259765625,3238,0.42161458333333335,pharmacy,small box,auto parts,small box,True,False,AutoZone / Walgreens
+Walgreens,O'Reilly,7680,6613,1.4391233063854052,1004,0.13072916666666667,1729,0.22513020833333333,2839,0.36966145833333336,pharmacy,small box,auto parts,small box,True,False,O'Reilly / Walgreens
+Walgreens,Advance Auto Parts,7680,4049,2.1578803832894238,753,0.098046875,1232,0.16041666666666668,2051,0.26705729166666664,pharmacy,small box,auto parts,small box,True,False,Advance Auto Parts / Walgreens
+Walgreens,Chase,7680,3569,3.3721198204409175,849,0.110546875,1241,0.16158854166666667,1887,0.245703125,pharmacy,small box,bank,small box,True,False,Chase / Walgreens
+Walgreens,Bank of America,7680,3531,2.310194332637019,772,0.10052083333333334,1255,0.16341145833333334,1977,0.257421875,pharmacy,small box,bank,small box,True,False,Bank of America / Walgreens
+Walgreens,Wells Fargo,7680,4056,2.5178363143457494,841,0.10950520833333334,1308,0.1703125,2047,0.26653645833333334,pharmacy,small box,bank,small box,True,False,Walgreens / Wells Fargo
+Walgreens,McDonald's,7680,13486,0.603063641097022,2296,0.2989583333333333,3437,0.44752604166666665,5182,0.6747395833333333,pharmacy,small box,burgers,restaurant,False,False,McDonald's / Walgreens
+Walgreens,Burger King,7680,6168,1.444832991256645,1063,0.13841145833333332,1699,0.22122395833333333,2805,0.365234375,pharmacy,small box,burgers,restaurant,False,False,Burger King / Walgreens
+Walgreens,Wendy's,7680,5867,1.4939274078258915,992,0.12916666666666668,1640,0.21354166666666666,2679,0.348828125,pharmacy,small box,burgers,restaurant,False,False,Walgreens / Wendy's
+Walgreens,KFC,7680,3661,2.1265075618043037,679,0.08841145833333333,1142,0.14869791666666668,1872,0.24375,pharmacy,small box,chicken,restaurant,False,False,KFC / Walgreens
+Walgreens,Popeyes,7680,3124,2.5120722479146314,465,0.060546875,865,0.11263020833333333,1591,0.20716145833333333,pharmacy,small box,chicken,restaurant,False,False,Popeyes / Walgreens
+Walgreens,Chick-fil-A,7680,3440,2.4042552249792184,509,0.06627604166666666,942,0.12265625,1600,0.20833333333333334,pharmacy,small box,chicken,restaurant,False,False,Chick-fil-A / Walgreens
+Walgreens,Starbucks,7680,9983,0.988090524359224,1708,0.22239583333333332,2549,0.3319010416666667,3877,0.5048177083333333,pharmacy,small box,coffee,restaurant,False,False,Starbucks / Walgreens
+Walgreens,Dunkin',7680,10482,1.3129513970194164,1428,0.1859375,2199,0.286328125,3245,0.4225260416666667,pharmacy,small box,coffee,restaurant,False,False,Dunkin' / Walgreens
+Walgreens,Taco Bell,7680,8280,1.022095935492976,1446,0.18828125,2397,0.312109375,3753,0.488671875,pharmacy,small box,none,restaurant,False,False,Taco Bell / Walgreens
+Walgreens,Subway,7680,17793,0.604171304995329,2274,0.29609375,3455,0.4498697916666667,5156,0.6713541666666667,pharmacy,small box,none,restaurant,False,False,Subway / Walgreens
+Dollar General,Home Depot,20494,2013,13.295787674626027,47,0.002293354152434859,146,0.007124036303308285,438,0.021372108909924855,dollar store,small box,home improvement,big box,False,False,Dollar General / Home Depot
+Dollar General,Lowe's,20494,1761,9.390777611292283,58,0.0028300966136430173,164,0.008002342148921636,484,0.023616668293158973,dollar store,small box,home improvement,big box,False,False,Dollar General / Lowe's
+Dollar General,Menards,20494,341,187.67833042695065,6,0.0002927686152044501,22,0.001073484922416317,67,0.0032692495364496925,dollar store,small box,home improvement,big box,False,False,Dollar General / Menards
+Dollar General,Costco,20494,655,33.9240691805057,2,9.758953840148337e-05,8,0.00039035815360593347,43,0.002098175075631892,dollar store,small box,warehouse club,big box,False,False,Costco / Dollar General
+Dollar General,Sam's Club,20494,595,19.8736701697216,9,0.00043915292280667515,33,0.0016102273836244754,136,0.0066360886113008685,dollar store,small box,warehouse club,big box,False,False,Dollar General / Sam's Club
+Dollar General,BJ's Wholesale,20494,269,77.58387318640249,5,0.0002439738460037084,18,0.0008783058456133503,53,0.002586122767639309,dollar store,small box,warehouse club,big box,False,False,BJ's Wholesale / Dollar General
+Dollar General,PetSmart,20494,1525,13.99428616748638,18,0.0008783058456133503,56,0.0027325070752415343,263,0.012833024299795062,dollar store,small box,pet supplies,big box,False,False,Dollar General / PetSmart
+Dollar General,Petco,20494,1373,18.369058263181877,35,0.0017078169220259589,74,0.0036108129208548842,206,0.010051722455352786,dollar store,small box,pet supplies,big box,False,False,Dollar General / Petco
+Dollar General,Target,20494,2026,15.701132009482833,25,0.001219869230018542,82,0.004001171074460818,257,0.012540255684590612,dollar store,small box,none,big box,False,False,Dollar General / Target
+Dollar General,Kohl's,20494,1150,15.59513223030817,13,0.0006343319996096418,51,0.0024885332292378256,213,0.010393285839757979,dollar store,small box,none,big box,False,False,Dollar General / Kohl's
+Dollar General,Best Buy,20494,1010,18.634592109955555,4,0.00019517907680296673,18,0.0008783058456133503,155,0.007563189226114961,dollar store,small box,none,big box,False,False,Best Buy / Dollar General
+Dollar General,CVS,20494,7103,5.986442679055058,776,0.03786474089977555,1360,0.06636088611300868,2569,0.12535376207670537,dollar store,small box,pharmacy,small box,True,False,CVS / Dollar General
+Dollar General,Walgreens,20494,7680,5.420261867297009,807,0.03937737874499853,1527,0.07450961256953255,2943,0.14360300575778276,dollar store,small box,pharmacy,small box,True,False,Dollar General / Walgreens
+Dollar General,Family Dollar,20494,7080,4.903862696173455,1273,0.062115741192544156,2256,0.11008099931687323,4028,0.1965453303405875,dollar store,small box,dollar store,small box,True,True,Dollar General / Family Dollar
+Dollar General,Dollar Tree,20494,9103,3.713945540626357,1098,0.05357665658241437,2064,0.10071240363033084,3741,0.18254123157997462,dollar store,small box,dollar store,small box,True,True,Dollar General / Dollar Tree
+Dollar General,AutoZone,20494,6394,4.492531324984527,976,0.04762369473992388,1713,0.08358543964087049,3206,0.15643603005757784,dollar store,small box,auto parts,small box,True,False,AutoZone / Dollar General
+Dollar General,O'Reilly,20494,6613,3.9830776797689706,1259,0.061432614423733774,2122,0.10354250024397385,3742,0.18259002634917537,dollar store,small box,auto parts,small box,True,False,Dollar General / O'Reilly
+Dollar General,Advance Auto Parts,20494,4049,6.175128249526282,727,0.0354737972089392,1285,0.06270127842295306,2392,0.1167170879281741,dollar store,small box,auto parts,small box,True,False,Advance Auto Parts / Dollar General
+Dollar General,Chase,20494,3569,57.31265698566436,164,0.008002342148921636,302,0.014736020298623987,663,0.032350931980091736,dollar store,small box,bank,small box,True,False,Chase / Dollar General
+Dollar General,Bank of America,20494,3531,31.327836917975134,152,0.007416804918512735,307,0.014979994144627695,676,0.032985263979701376,dollar store,small box,bank,small box,True,False,Bank of America / Dollar General
+Dollar General,Wells Fargo,20494,4056,31.099510961398675,212,0.010344491070557236,437,0.021323314140724116,978,0.047721284278325365,dollar store,small box,bank,small box,True,False,Dollar General / Wells Fargo
+Dollar General,McDonald's,20494,13486,2.5411352025826375,1627,0.07938908948960671,2855,0.1393090660681175,5235,0.2554406167658827,dollar store,small box,burgers,restaurant,False,False,Dollar General / McDonald's
+Dollar General,Burger King,20494,6168,4.988358024795131,716,0.034937054747731046,1346,0.0656777593441983,2658,0.1296964965355714,dollar store,small box,burgers,restaurant,False,False,Burger King / Dollar General
+Dollar General,Wendy's,20494,5867,5.147197308212053,531,0.025910022445593834,1078,0.05260076119839953,2296,0.1120327900849029,dollar store,small box,burgers,restaurant,False,False,Dollar General / Wendy's
+Dollar General,KFC,20494,3661,6.803647284790481,447,0.02181126183273153,866,0.0422562701278423,1740,0.08490289840929052,dollar store,small box,chicken,restaurant,False,False,Dollar General / KFC
+Dollar General,Popeyes,20494,3124,10.718720808095437,265,0.012930613838196546,513,0.02503171659998048,1175,0.05733385381087147,dollar store,small box,chicken,restaurant,False,False,Dollar General / Popeyes
+Dollar General,Chick-fil-A,20494,3440,9.785570821666873,106,0.005172245535278618,271,0.013223382453400996,865,0.042207475358641555,dollar store,small box,chicken,restaurant,False,False,Chick-fil-A / Dollar General
+Dollar General,Starbucks,20494,9983,6.81275099236384,358,0.017468527373865523,713,0.03479067044012882,1692,0.08256074948765492,dollar store,small box,coffee,restaurant,False,False,Dollar General / Starbucks
+Dollar General,Dunkin',20494,10482,6.965678962896718,748,0.036498487362154775,1327,0.06475065872938421,2436,0.11886405777300674,dollar store,small box,coffee,restaurant,False,False,Dollar General / Dunkin'
+Dollar General,Taco Bell,20494,8280,3.772881985820079,871,0.042500243973846004,1664,0.08119449595003415,3281,0.16009563774763344,dollar store,small box,none,restaurant,False,False,Dollar General / Taco Bell
+Dollar General,Subway,20494,17793,1.8329817031950544,2307,0.11256953254611106,4028,0.1965453303405875,6806,0.3320971991802479,dollar store,small box,none,restaurant,False,False,Dollar General / Subway
+Family Dollar,Home Depot,7080,2013,5.760841825998225,24,0.003389830508474576,72,0.010169491525423728,258,0.036440677966101696,dollar store,small box,home improvement,big box,False,False,Family Dollar / Home Depot
+Family Dollar,Lowe's,7080,1761,5.735415216471381,19,0.0026836158192090395,51,0.007203389830508475,198,0.027966101694915254,dollar store,small box,home improvement,big box,False,False,Family Dollar / Lowe's
+Family Dollar,Menards,7080,341,266.44210099904717,2,0.0002824858757062147,4,0.0005649717514124294,19,0.0026836158192090395,dollar store,small box,home improvement,big box,False,False,Family Dollar / Menards
+Family Dollar,Costco,7080,655,22.403118446487365,2,0.0002824858757062147,5,0.0007062146892655367,35,0.0049435028248587575,dollar store,small box,warehouse club,big box,False,False,Costco / Family Dollar
+Family Dollar,Sam's Club,7080,595,12.151831731527428,2,0.0002824858757062147,16,0.0022598870056497176,74,0.010451977401129943,dollar store,small box,warehouse club,big box,False,False,Family Dollar / Sam's Club
+Family Dollar,BJ's Wholesale,7080,269,75.10317284040245,4,0.0005649717514124294,7,0.0009887005649717514,27,0.0038135593220338985,dollar store,small box,warehouse club,big box,False,False,BJ's Wholesale / Family Dollar
+Family Dollar,PetSmart,7080,1525,7.157133143280899,6,0.000847457627118644,28,0.0039548022598870055,122,0.017231638418079096,dollar store,small box,pet supplies,big box,False,False,Family Dollar / PetSmart
+Family Dollar,Petco,7080,1373,10.151094635777808,11,0.0015536723163841809,21,0.0029661016949152543,94,0.01327683615819209,dollar store,small box,pet supplies,big box,False,False,Family Dollar / Petco
+Family Dollar,Target,7080,2026,7.49959688239798,4,0.0005649717514124294,29,0.004096045197740113,141,0.019915254237288134,dollar store,small box,none,big box,False,False,Family Dollar / Target
+Family Dollar,Kohl's,7080,1150,9.638406556139905,8,0.0011299435028248588,13,0.0018361581920903955,60,0.00847457627118644,dollar store,small box,none,big box,False,False,Family Dollar / Kohl's
+Family Dollar,Best Buy,7080,1010,9.371954030252118,3,0.000423728813559322,12,0.001694915254237288,77,0.010875706214689265,dollar store,small box,none,big box,False,False,Best Buy / Family Dollar
+Family Dollar,CVS,7080,7103,2.4954529842314663,489,0.06906779661016949,810,0.11440677966101695,1525,0.2153954802259887,dollar store,small box,pharmacy,small box,True,False,CVS / Family Dollar
+Family Dollar,Walgreens,7080,7680,2.0889610832369176,536,0.07570621468926554,902,0.12740112994350283,1812,0.2559322033898305,dollar store,small box,pharmacy,small box,True,False,Family Dollar / Walgreens
+Family Dollar,Dollar General,7080,20494,0.8832680375897277,1274,0.17994350282485877,2247,0.3173728813559322,3911,0.5524011299435029,dollar store,small box,dollar store,small box,True,True,Dollar General / Family Dollar
+Family Dollar,Dollar Tree,7080,9103,1.7804060114590752,531,0.075,881,0.12443502824858757,1916,0.2706214689265537,dollar store,small box,dollar store,small box,True,True,Dollar Tree / Family Dollar
+Family Dollar,AutoZone,7080,6394,1.657680385590846,726,0.10254237288135593,1190,0.16807909604519775,2207,0.3117231638418079,dollar store,small box,auto parts,small box,True,False,AutoZone / Family Dollar
+Family Dollar,O'Reilly,7080,6613,1.7452242353199,764,0.10790960451977401,1257,0.17754237288135594,2082,0.2940677966101695,dollar store,small box,auto parts,small box,True,False,Family Dollar / O'Reilly
+Family Dollar,Advance Auto Parts,7080,4049,2.6826604477707967,483,0.06822033898305084,822,0.11610169491525424,1509,0.21313559322033898,dollar store,small box,auto parts,small box,True,False,Advance Auto Parts / Family Dollar
+Family Dollar,Chase,7080,3569,34.1936533818371,140,0.01977401129943503,245,0.0346045197740113,571,0.0806497175141243,dollar store,small box,bank,small box,True,False,Chase / Family Dollar
+Family Dollar,Bank of America,7080,3531,15.758245770510735,116,0.01638418079096045,249,0.03516949152542373,615,0.08686440677966102,dollar store,small box,bank,small box,True,False,Bank of America / Family Dollar
+Family Dollar,Wells Fargo,7080,4056,17.19377431141437,141,0.019915254237288134,277,0.03912429378531074,685,0.09675141242937853,dollar store,small box,bank,small box,True,False,Family Dollar / Wells Fargo
+Family Dollar,McDonald's,7080,13486,1.1811904275520757,1018,0.14378531073446327,1695,0.23940677966101695,3042,0.42966101694915254,dollar store,small box,burgers,restaurant,False,False,Family Dollar / McDonald's
+Family Dollar,Burger King,7080,6168,2.0669945805282275,470,0.06638418079096045,804,0.1135593220338983,1680,0.23728813559322035,dollar store,small box,burgers,restaurant,False,False,Burger King / Family Dollar
+Family Dollar,Wendy's,7080,5867,2.337466022895016,319,0.04505649717514124,606,0.08559322033898305,1331,0.18799435028248587,dollar store,small box,burgers,restaurant,False,False,Family Dollar / Wendy's
+Family Dollar,KFC,7080,3661,2.820983428645586,301,0.04251412429378531,522,0.07372881355932204,1134,0.16016949152542373,dollar store,small box,chicken,restaurant,False,False,Family Dollar / KFC
+Family Dollar,Popeyes,7080,3124,3.918378915573943,232,0.0327683615819209,446,0.06299435028248587,947,0.13375706214689265,dollar store,small box,chicken,restaurant,False,False,Family Dollar / Popeyes
+Family Dollar,Chick-fil-A,7080,3440,4.484900012487197,50,0.007062146892655367,127,0.017937853107344633,462,0.06525423728813559,dollar store,small box,chicken,restaurant,False,False,Chick-fil-A / Family Dollar
+Family Dollar,Starbucks,7080,9983,3.044570964550569,168,0.023728813559322035,357,0.050423728813559325,988,0.13954802259887006,dollar store,small box,coffee,restaurant,False,False,Family Dollar / Starbucks
+Family Dollar,Dunkin',7080,10482,3.284433449063177,514,0.07259887005649718,858,0.1211864406779661,1490,0.21045197740112995,dollar store,small box,coffee,restaurant,False,False,Dunkin' / Family Dollar
+Family Dollar,Taco Bell,7080,8280,1.861331517373473,453,0.06398305084745763,815,0.11511299435028248,1752,0.24745762711864408,dollar store,small box,none,restaurant,False,False,Family Dollar / Taco Bell
+Family Dollar,Subway,7080,17793,0.9875905947204345,1248,0.17627118644067796,2071,0.2925141242937853,3582,0.5059322033898305,dollar store,small box,none,restaurant,False,False,Family Dollar / Subway
+Dollar Tree,Home Depot,9103,2013,3.098710541167888,348,0.03822915522355268,731,0.08030319674832473,1377,0.15126881247940238,dollar store,small box,home improvement,big box,False,False,Dollar Tree / Home Depot
+Dollar Tree,Lowe's,9103,1761,3.585450113184064,347,0.03811930132923212,775,0.08513676809842909,1378,0.15137866637372294,dollar store,small box,home improvement,big box,False,False,Dollar Tree / Lowe's
+Dollar Tree,Menards,9103,341,267.5572068056678,50,0.0054926947160276835,131,0.01439086015599253,230,0.025266395693727343,dollar store,small box,home improvement,big box,False,False,Dollar Tree / Menards
+Dollar Tree,Costco,9103,655,8.747475038427622,67,0.007360210919477096,183,0.02010326266066132,360,0.03954740195539932,dollar store,small box,warehouse club,big box,False,False,Costco / Dollar Tree
+Dollar Tree,Sam's Club,9103,595,7.959894070493142,92,0.010106558277490936,220,0.024167856750521806,433,0.04756673624079974,dollar store,small box,warehouse club,big box,False,False,Dollar Tree / Sam's Club
+Dollar Tree,BJ's Wholesale,9103,269,76.14750601032621,52,0.00571240250466879,119,0.013072613424145885,213,0.02339887949027793,dollar store,small box,warehouse club,big box,False,False,BJ's Wholesale / Dollar Tree
+Dollar Tree,PetSmart,9103,1525,3.879508085437256,434,0.04767659013512029,752,0.08261012852905636,1230,0.135120290014281,dollar store,small box,pet supplies,big box,False,False,Dollar Tree / PetSmart
+Dollar Tree,Petco,9103,1373,4.7749517684496094,395,0.0433922882566187,645,0.07085576183675711,1024,0.11249038778424696,dollar store,small box,pet supplies,big box,False,False,Dollar Tree / Petco
+Dollar Tree,Target,9103,2026,3.3883155947175707,471,0.05174118422498077,845,0.09282654070086785,1426,0.15665165330110953,dollar store,small box,none,big box,False,False,Dollar Tree / Target
+Dollar Tree,Kohl's,9103,1150,4.976790277341432,268,0.029440843677908383,532,0.058442271778534546,895,0.09831923541689552,dollar store,small box,none,big box,False,False,Dollar Tree / Kohl's
+Dollar Tree,Best Buy,9103,1010,5.139790810436844,191,0.02098209381522575,426,0.04679775898055586,804,0.08832253103372514,dollar store,small box,none,big box,False,False,Best Buy / Dollar Tree
+Dollar Tree,CVS,9103,7103,1.5739282907200305,999,0.1097440404262331,1679,0.1844446885642096,3037,0.3336262770515215,dollar store,small box,pharmacy,small box,True,False,CVS / Dollar Tree
+Dollar Tree,Walgreens,9103,7680,1.2172245735907021,1347,0.14797319564978578,2291,0.25167527188838845,3816,0.4192024607272328,dollar store,small box,pharmacy,small box,True,False,Dollar Tree / Walgreens
+Dollar Tree,Dollar General,9103,20494,1.369453579819646,1096,0.12039986817532682,2057,0.22596946061737888,3561,0.3911897176754916,dollar store,small box,dollar store,small box,True,True,Dollar General / Dollar Tree
+Dollar Tree,Family Dollar,9103,7080,2.8798135308437898,532,0.058442271778534546,883,0.09700098868504889,1827,0.20070306492365153,dollar store,small box,dollar store,small box,True,True,Dollar Tree / Family Dollar
+Dollar Tree,AutoZone,9103,6394,1.1353494625025238,1389,0.15258705921124904,2423,0.2661759859387015,4098,0.45018125892562894,dollar store,small box,auto parts,small box,True,False,AutoZone / Dollar Tree
+Dollar Tree,O'Reilly,9103,6613,1.2972100001949718,1273,0.1398440074700648,2226,0.24453476875755245,3661,0.40217510710754695,dollar store,small box,auto parts,small box,True,False,Dollar Tree / O'Reilly
+Dollar Tree,Advance Auto Parts,9103,4049,2.1896067905027796,814,0.08942106997693068,1426,0.15665165330110953,2472,0.27155882676040866,dollar store,small box,auto parts,small box,True,False,Advance Auto Parts / Dollar Tree
+Dollar Tree,Chase,9103,3569,11.283870802074867,580,0.06371525870592112,987,0.10842579369438647,1657,0.18202790288915743,dollar store,small box,bank,small box,True,False,Chase / Dollar Tree
+Dollar Tree,Bank of America,9103,3531,3.029207367899959,609,0.06690102164121718,1049,0.1152367351422608,1830,0.2010326266066132,dollar store,small box,bank,small box,True,False,Bank of America / Dollar Tree
+Dollar Tree,Wells Fargo,9103,4056,3.3442916727799807,654,0.0718444468856421,1138,0.12501373173679006,1943,0.21344611666483576,dollar store,small box,bank,small box,True,False,Dollar Tree / Wells Fargo
+Dollar Tree,McDonald's,9103,13486,0.6036087450407847,2390,0.26255080742612324,4036,0.44337031747775457,6248,0.6863671317148193,dollar store,small box,burgers,restaurant,False,False,Dollar Tree / McDonald's
+Dollar Tree,Burger King,9103,6168,1.4348386386730463,1213,0.1332527738108316,2100,0.2306931780731627,3443,0.37822695814566626,dollar store,small box,burgers,restaurant,False,False,Burger King / Dollar Tree
+Dollar Tree,Wendy's,9103,5867,1.4574343067535651,1183,0.129957156981215,2102,0.2309128858618038,3349,0.36790069207953424,dollar store,small box,burgers,restaurant,False,False,Dollar Tree / Wendy's
+Dollar Tree,KFC,9103,3661,2.1158767702010395,733,0.08052290453696584,1371,0.15060968911347908,2345,0.2576073821816983,dollar store,small box,chicken,restaurant,False,False,Dollar Tree / KFC
+Dollar Tree,Popeyes,9103,3124,2.754601248040716,572,0.0628364275513567,1082,0.11886191365483906,1903,0.2090519608920136,dollar store,small box,chicken,restaurant,False,False,Dollar Tree / Popeyes
+Dollar Tree,Chick-fil-A,9103,3440,2.678037377668564,575,0.06316598923431836,1211,0.13303306602219048,1999,0.21959793474678677,dollar store,small box,chicken,restaurant,False,False,Chick-fil-A / Dollar Tree
+Dollar Tree,Starbucks,9103,9983,1.0977402519101909,1671,0.18356585740964518,2859,0.31407228386246294,4310,0.4734702845215863,dollar store,small box,coffee,restaurant,False,False,Dollar Tree / Starbucks
+Dollar Tree,Dunkin',9103,10482,1.5792108850221802,1328,0.14588597165769526,2240,0.2460727232780402,3493,0.38371965286169396,dollar store,small box,coffee,restaurant,False,False,Dollar Tree / Dunkin'
+Dollar Tree,Taco Bell,9103,8280,0.943574082478824,1708,0.18763045149950566,2997,0.32923212127869933,4743,0.521037020762386,dollar store,small box,none,restaurant,False,False,Dollar Tree / Taco Bell
+Dollar Tree,Subway,9103,17793,0.6055227171883963,2579,0.2833131934527079,4066,0.44666593430737117,6077,0.6675821157860046,dollar store,small box,none,restaurant,False,False,Dollar Tree / Subway
+AutoZone,Home Depot,6394,2013,3.0859807508928077,166,0.025961839224272757,426,0.06662496090084455,854,0.13356271504535502,auto parts,small box,home improvement,big box,False,False,AutoZone / Home Depot
+AutoZone,Lowe's,6394,1761,3.62467937709275,180,0.028151391929934315,383,0.0598999061620269,770,0.12042539881138567,auto parts,small box,home improvement,big box,False,False,AutoZone / Lowe's
+AutoZone,Menards,6394,341,296.9347665803401,23,0.0035971223021582736,58,0.009071004066312168,111,0.017360025023459492,auto parts,small box,home improvement,big box,False,False,AutoZone / Menards
+AutoZone,Costco,6394,655,8.559309849161668,29,0.004535502033156084,82,0.01282452299030341,200,0.03127932436659368,auto parts,small box,warehouse club,big box,False,False,AutoZone / Costco
+AutoZone,Sam's Club,6394,595,7.908402169019144,32,0.005004691898654989,97,0.015170472317797936,235,0.036753206130747576,auto parts,small box,warehouse club,big box,False,False,AutoZone / Sam's Club
+AutoZone,BJ's Wholesale,6394,269,92.83254366819867,25,0.00390991554582421,53,0.008289020957147326,103,0.016108852048795745,auto parts,small box,warehouse club,big box,False,False,AutoZone / BJ's Wholesale
+AutoZone,PetSmart,6394,1525,4.073092618522937,124,0.019393181107288084,295,0.04613700344072568,597,0.09336878323428215,auto parts,small box,pet supplies,big box,False,False,AutoZone / PetSmart
+AutoZone,Petco,6394,1373,4.9239410688247585,143,0.022364716922114482,292,0.04566781357522678,571,0.08930247106662496,auto parts,small box,pet supplies,big box,False,False,AutoZone / Petco
+AutoZone,Target,6394,2026,3.555993021865068,132,0.02064435408195183,333,0.05208007507037848,737,0.11526431029089772,auto parts,small box,none,big box,False,False,AutoZone / Target
+AutoZone,Kohl's,6394,1150,5.322719913944099,76,0.0118861432593056,214,0.03346887707225524,438,0.06850172036284016,auto parts,small box,none,big box,False,False,AutoZone / Kohl's
+AutoZone,Best Buy,6394,1010,5.3276085568251546,54,0.008445417578980294,142,0.022208320300281515,360,0.05630278385986863,auto parts,small box,none,big box,False,False,AutoZone / Best Buy
+AutoZone,CVS,6394,7103,1.4350627299266931,852,0.1332499218016891,1435,0.22442915233030966,2354,0.36815764779480764,auto parts,small box,pharmacy,small box,True,False,AutoZone / CVS
+AutoZone,Walgreens,6394,7680,1.0260943784692993,1195,0.18689396309039724,1976,0.3090397247419456,3125,0.48873944322802626,auto parts,small box,pharmacy,small box,True,False,AutoZone / Walgreens
+AutoZone,Dollar General,6394,20494,1.1656508861771457,977,0.15279949953081012,1697,0.2654050672505474,2864,0.4479199249296215,auto parts,small box,dollar store,small box,True,False,AutoZone / Dollar General
+AutoZone,Family Dollar,6394,7080,2.2643593480835147,727,0.11370034407256803,1178,0.1842352205192368,1943,0.3038786362214576,auto parts,small box,dollar store,small box,True,False,AutoZone / Family Dollar
+AutoZone,Dollar Tree,6394,9103,0.7558598056128585,1389,0.21723490772599313,2393,0.3742571160462934,3849,0.6019705974350954,auto parts,small box,dollar store,small box,True,False,AutoZone / Dollar Tree
+AutoZone,O'Reilly,6394,6613,0.830502781855363,1538,0.2405380043791054,2453,0.3836409133562715,3516,0.5498905223647169,auto parts,small box,auto parts,small box,True,True,AutoZone / O'Reilly
+AutoZone,Advance Auto Parts,6394,4049,2.165092093074856,858,0.1341883015326869,1408,0.22020644354081953,2092,0.3271817328745699,auto parts,small box,auto parts,small box,True,True,Advance Auto Parts / AutoZone
+AutoZone,Chase,6394,3569,6.504252539249401,377,0.05896152643102909,679,0.10619330622458555,1219,0.1906474820143885,auto parts,small box,bank,small box,True,False,AutoZone / Chase
+AutoZone,Bank of America,6394,3531,2.943705684352111,353,0.055208007507037846,688,0.10760087582108227,1352,0.21144823271817328,auto parts,small box,bank,small box,True,False,AutoZone / Bank of America
+AutoZone,Wells Fargo,6394,4056,2.949484424299746,411,0.06427901157335002,759,0.11870503597122302,1450,0.22677510165780418,auto parts,small box,bank,small box,True,False,AutoZone / Wells Fargo
+AutoZone,McDonald's,6394,13486,0.5461943863474391,1745,0.27291210509852987,3000,0.46918986549890523,4679,0.7317797935564592,auto parts,small box,burgers,restaurant,False,False,AutoZone / McDonald's
+AutoZone,Burger King,6394,6168,1.237505100149877,890,0.1391929934313419,1613,0.25226775101657806,2706,0.4232092586800125,auto parts,small box,burgers,restaurant,False,False,AutoZone / Burger King
+AutoZone,Wendy's,6394,5867,1.3473475297575206,808,0.12636847044103847,1451,0.22693149827963716,2477,0.38739443228026277,auto parts,small box,burgers,restaurant,False,False,AutoZone / Wendy's
+AutoZone,KFC,6394,3661,1.8260304171179809,641,0.10025023459493275,1147,0.17938692524241476,1944,0.3040350328432906,auto parts,small box,chicken,restaurant,False,False,AutoZone / KFC
+AutoZone,Popeyes,6394,3124,2.414531261943001,454,0.07100406631216766,839,0.1312167657178605,1514,0.23678448545511416,auto parts,small box,chicken,restaurant,False,False,AutoZone / Popeyes
+AutoZone,Chick-fil-A,6394,3440,2.697092511466704,293,0.04582421019705974,604,0.09446355958711292,1150,0.17985611510791366,auto parts,small box,chicken,restaurant,False,False,AutoZone / Chick-fil-A
+AutoZone,Starbucks,6394,9983,1.1687624190772694,969,0.1515483265561464,1719,0.2688457929308727,2841,0.44432280262746326,auto parts,small box,coffee,restaurant,False,False,AutoZone / Starbucks
+AutoZone,Dunkin',6394,10482,1.6765121352477115,856,0.13387550828902095,1492,0.23334375977478886,2351,0.3676884579293087,auto parts,small box,coffee,restaurant,False,False,AutoZone / Dunkin'
+AutoZone,Taco Bell,6394,8280,0.8439208514132456,1277,0.19971848608070067,2237,0.3498592430403503,3623,0.5666249609008446,auto parts,small box,none,restaurant,False,False,AutoZone / Taco Bell
+AutoZone,Subway,6394,17793,0.5990971023141518,1668,0.2608695652173913,2815,0.4402564904598061,4471,0.6992492962152017,auto parts,small box,none,restaurant,False,False,AutoZone / Subway
+O'Reilly,Home Depot,6613,2013,4.218032619365338,117,0.01769242401330712,287,0.04339936488734311,633,0.0957205504309693,auto parts,small box,home improvement,big box,False,False,Home Depot / O'Reilly
+O'Reilly,Lowe's,6613,1761,4.675925735623809,89,0.013458339634054135,240,0.03629215182216845,569,0.08604264327839105,auto parts,small box,home improvement,big box,False,False,Lowe's / O'Reilly
+O'Reilly,Menards,6613,341,291.875235890781,16,0.0024194767881445638,48,0.007258430364433691,115,0.017389989414789052,auto parts,small box,home improvement,big box,False,False,Menards / O'Reilly
+O'Reilly,Costco,6613,655,13.042533143923508,22,0.003326780583698775,64,0.009677907152578255,159,0.0240435505821866,auto parts,small box,warehouse club,big box,False,False,Costco / O'Reilly
+O'Reilly,Sam's Club,6613,595,11.06974265956851,18,0.0027219113866626342,51,0.007712082262210797,162,0.024497202479963707,auto parts,small box,warehouse club,big box,False,False,O'Reilly / Sam's Club
+O'Reilly,BJ's Wholesale,6613,269,182.18181834773821,9,0.0013609556933313171,18,0.0027219113866626342,41,0.006199909269620445,auto parts,small box,warehouse club,big box,False,False,BJ's Wholesale / O'Reilly
+O'Reilly,PetSmart,6613,1525,5.432436926219579,91,0.013760774232572206,199,0.030092242552548013,439,0.06638439437471647,auto parts,small box,pet supplies,big box,False,False,O'Reilly / PetSmart
+O'Reilly,Petco,6613,1373,6.671813854705069,97,0.014668078028126417,197,0.02978980795402994,446,0.06744291546952971,auto parts,small box,pet supplies,big box,False,False,O'Reilly / Petco
+O'Reilly,Target,6613,2026,4.944992617588513,103,0.01557538182368063,242,0.036594586420686526,541,0.08180855889913806,auto parts,small box,none,big box,False,False,O'Reilly / Target
+O'Reilly,Kohl's,6613,1150,6.901370494845598,32,0.0048389535762891275,136,0.02056555269922879,331,0.05005292605474066,auto parts,small box,none,big box,False,False,Kohl's / O'Reilly
+O'Reilly,Best Buy,6613,1010,7.128101475160768,30,0.004536518977771057,98,0.014819295327385454,250,0.03780432481475881,auto parts,small box,none,big box,False,False,Best Buy / O'Reilly
+O'Reilly,CVS,6613,7103,1.9465171414467723,695,0.10509602298502949,1163,0.17586571903825798,1992,0.3012248601239982,auto parts,small box,pharmacy,small box,True,False,CVS / O'Reilly
+O'Reilly,Walgreens,6613,7680,1.2636110533835376,1001,0.15136851655829428,1717,0.2596401028277635,2765,0.4181158324512324,auto parts,small box,pharmacy,small box,True,False,O'Reilly / Walgreens
+O'Reilly,Dollar General,6613,20494,0.9866131027909859,1258,0.19023136246786632,2101,0.317707545743233,3341,0.5052169968244368,auto parts,small box,dollar store,small box,True,False,Dollar General / O'Reilly
+O'Reilly,Family Dollar,6613,7080,2.805422508174491,765,0.11568123393316196,1249,0.188870406774535,1930,0.291849387569938,auto parts,small box,dollar store,small box,True,False,Family Dollar / O'Reilly
+O'Reilly,Dollar Tree,6613,9103,0.9175960034344917,1272,0.1923484046574928,2208,0.3338877967639498,3499,0.5291093301073643,auto parts,small box,dollar store,small box,True,False,Dollar Tree / O'Reilly
+O'Reilly,AutoZone,6613,6394,0.8778294864013266,1537,0.23242098896113716,2450,0.37048238318463633,3509,0.5306215030999546,auto parts,small box,auto parts,small box,True,True,AutoZone / O'Reilly
+O'Reilly,Advance Auto Parts,6613,4049,3.8182531251426677,646,0.09768637532133675,1142,0.17269015575381824,1744,0.26372296990775745,auto parts,small box,auto parts,small box,True,True,Advance Auto Parts / O'Reilly
+O'Reilly,Chase,6613,3569,18.96122721477149,296,0.04476032058067443,568,0.08589142597913202,1033,0.1562074701345834,auto parts,small box,bank,small box,True,False,Chase / O'Reilly
+O'Reilly,Bank of America,6613,3531,7.148294433729789,264,0.039921367004385304,499,0.07545743233025858,968,0.1463783456827461,auto parts,small box,bank,small box,True,False,Bank of America / O'Reilly
+O'Reilly,Wells Fargo,6613,4056,6.026828843283395,333,0.050355360653258734,677,0.10237411159836686,1265,0.19128988356267956,auto parts,small box,bank,small box,True,False,O'Reilly / Wells Fargo
+O'Reilly,McDonald's,6613,13486,0.6046266637064517,1640,0.2479963707848178,2862,0.4327839104793588,4500,0.6804778466656586,auto parts,small box,burgers,restaurant,False,False,McDonald's / O'Reilly
+O'Reilly,Burger King,6613,6168,1.5080314663982464,789,0.1193104491153788,1438,0.21745047633449266,2425,0.3667019507031604,auto parts,small box,burgers,restaurant,False,False,Burger King / O'Reilly
+O'Reilly,Wendy's,6613,5867,1.7233284267341038,629,0.09511568123393316,1225,0.18524119159231817,2169,0.3279903220928474,auto parts,small box,burgers,restaurant,False,False,O'Reilly / Wendy's
+O'Reilly,KFC,6613,3661,2.276089027245709,575,0.08694994707394527,1071,0.16195372750642673,1763,0.2665960985936791,auto parts,small box,chicken,restaurant,False,False,KFC / O'Reilly
+O'Reilly,Popeyes,6613,3124,3.6798378425054312,338,0.05111144714955391,643,0.09723272342355965,1186,0.17934371692121578,auto parts,small box,chicken,restaurant,False,False,O'Reilly / Popeyes
+O'Reilly,Chick-fil-A,6613,3440,3.6509649276103735,183,0.02767276576440345,425,0.06426735218508997,916,0.13851504612127627,auto parts,small box,chicken,restaurant,False,False,Chick-fil-A / O'Reilly
+O'Reilly,Starbucks,6613,9983,1.5128680596314616,793,0.11991531831241493,1454,0.21986995312263724,2485,0.37577498865870257,auto parts,small box,coffee,restaurant,False,False,O'Reilly / Starbucks
+O'Reilly,Dunkin',6613,10482,2.7936593776099747,581,0.08785725086949947,1005,0.1519733857553304,1675,0.253288976258884,auto parts,small box,coffee,restaurant,False,False,Dunkin' / O'Reilly
+O'Reilly,Taco Bell,6613,8280,0.9412769628741515,1234,0.18660214728564947,2123,0.3210343263269318,3450,0.5216996824436716,auto parts,small box,none,restaurant,False,False,O'Reilly / Taco Bell
+O'Reilly,Subway,6613,17793,0.5929956901927121,1718,0.25979132012702255,2945,0.44533494631785875,4621,0.6987751398760018,auto parts,small box,none,restaurant,False,False,O'Reilly / Subway
+Advance Auto Parts,Home Depot,4049,2013,3.532629253992032,106,0.026179303531736232,240,0.059273894788836747,509,0.12571005186465795,auto parts,small box,home improvement,big box,False,False,Advance Auto Parts / Home Depot
+Advance Auto Parts,Lowe's,4049,1761,3.568257861501315,100,0.024697456162015314,229,0.05655717461101507,521,0.12867374660409978,auto parts,small box,home improvement,big box,False,False,Advance Auto Parts / Lowe's
+Advance Auto Parts,Menards,4049,341,232.61592598859139,9,0.002222771054581378,29,0.0071622622869844405,79,0.019510990367992097,auto parts,small box,home improvement,big box,False,False,Advance Auto Parts / Menards
+Advance Auto Parts,Costco,4049,655,11.800336591057395,13,0.0032106693010619906,31,0.007656211410224747,83,0.02049888861447271,auto parts,small box,warehouse club,big box,False,False,Advance Auto Parts / Costco
+Advance Auto Parts,Sam's Club,4049,595,8.380707870155625,20,0.004939491232403063,59,0.014571499135589035,163,0.04025685354408496,auto parts,small box,warehouse club,big box,False,False,Advance Auto Parts / Sam's Club
+Advance Auto Parts,BJ's Wholesale,4049,269,28.75498947749594,15,0.0037046184243022967,52,0.012842677204247963,113,0.027908125463077305,auto parts,small box,warehouse club,big box,False,False,Advance Auto Parts / BJ's Wholesale
+Advance Auto Parts,PetSmart,4049,1525,4.42394838002934,68,0.016794270190170414,174,0.04297357372190665,398,0.09829587552482094,auto parts,small box,pet supplies,big box,False,False,Advance Auto Parts / PetSmart
+Advance Auto Parts,Petco,4049,1373,5.907300714293121,70,0.017288219313410718,170,0.04198567547542603,331,0.08174857989627068,auto parts,small box,pet supplies,big box,False,False,Advance Auto Parts / Petco
+Advance Auto Parts,Target,4049,2026,4.087626155917789,70,0.017288219313410718,173,0.04272659916028649,406,0.10027167201778217,auto parts,small box,none,big box,False,False,Advance Auto Parts / Target
+Advance Auto Parts,Kohl's,4049,1150,5.789630877433085,51,0.012595702642627809,148,0.036552235119782665,303,0.0748332921709064,auto parts,small box,none,big box,False,False,Advance Auto Parts / Kohl's
+Advance Auto Parts,Best Buy,4049,1010,6.107513605845182,30,0.007409236848604593,92,0.022721659669054088,215,0.05309953074833292,auto parts,small box,none,big box,False,False,Advance Auto Parts / Best Buy
+Advance Auto Parts,CVS,4049,7103,1.3435330038804931,614,0.15164238083477402,985,0.24326994319585082,1655,0.4087428994813534,auto parts,small box,pharmacy,small box,True,False,Advance Auto Parts / CVS
+Advance Auto Parts,Walgreens,4049,7680,1.0198196852871058,751,0.18547789577673499,1229,0.3035317362311682,1994,0.4924672758705853,auto parts,small box,pharmacy,small box,True,False,Advance Auto Parts / Walgreens
+Advance Auto Parts,Dollar General,4049,20494,0.9245341731048485,727,0.17955050629785133,1270,0.31365769325759446,2126,0.5250679180044455,auto parts,small box,dollar store,small box,True,False,Advance Auto Parts / Dollar General
+Advance Auto Parts,Family Dollar,4049,7080,1.8594242695629044,483,0.11928871326253396,813,0.2007903185971845,1353,0.3341565818720672,auto parts,small box,dollar store,small box,True,False,Advance Auto Parts / Family Dollar
+Advance Auto Parts,Dollar Tree,4049,9103,0.8214715568921729,814,0.20103729315880464,1415,0.3494690046925167,2320,0.5729809829587552,auto parts,small box,dollar store,small box,True,False,Advance Auto Parts / Dollar Tree
+Advance Auto Parts,AutoZone,4049,6394,0.9280924680682271,857,0.21165719930847124,1409,0.3479871573227957,2103,0.5193875030871821,auto parts,small box,auto parts,small box,True,True,Advance Auto Parts / AutoZone
+Advance Auto Parts,O'Reilly,4049,6613,1.2842282012472868,648,0.1600395159298592,1144,0.28253889849345515,1757,0.43393430476660905,auto parts,small box,auto parts,small box,True,True,Advance Auto Parts / O'Reilly
+Advance Auto Parts,Chase,4049,3569,33.947186594822064,126,0.031118794764139295,273,0.0674240553223018,521,0.12867374660409978,auto parts,small box,bank,small box,True,False,Advance Auto Parts / Chase
+Advance Auto Parts,Bank of America,4049,3531,4.085729172027682,239,0.059026920227216596,439,0.10842183255124722,800,0.1975796492961225,auto parts,small box,bank,small box,True,False,Advance Auto Parts / Bank of America
+Advance Auto Parts,Wells Fargo,4049,4056,4.553457391354171,248,0.061249691281797976,458,0.11311434922203013,855,0.2111632501852309,auto parts,small box,bank,small box,True,False,Advance Auto Parts / Wells Fargo
+Advance Auto Parts,McDonald's,4049,13486,0.5656159683990596,1093,0.2699431958508274,1841,0.4546801679427019,2889,0.7135095085206223,auto parts,small box,burgers,restaurant,False,False,Advance Auto Parts / McDonald's
+Advance Auto Parts,Burger King,4049,6168,1.1957460774314397,591,0.14596196591751048,1064,0.2627809335638429,1774,0.43813287231415166,auto parts,small box,burgers,restaurant,False,False,Advance Auto Parts / Burger King
+Advance Auto Parts,Wendy's,4049,5867,1.2356182975273962,582,0.14373919486292913,1051,0.25957026426278096,1716,0.4238083477401828,auto parts,small box,burgers,restaurant,False,False,Advance Auto Parts / Wendy's
+Advance Auto Parts,KFC,4049,3661,1.9243946833560177,450,0.1111385527290689,775,0.19140528525561867,1250,0.3087182020251914,auto parts,small box,chicken,restaurant,False,False,Advance Auto Parts / KFC
+Advance Auto Parts,Popeyes,4049,3124,2.929284086724141,265,0.06544825882934058,491,0.12126450975549519,872,0.21536181773277352,auto parts,small box,chicken,restaurant,False,False,Advance Auto Parts / Popeyes
+Advance Auto Parts,Chick-fil-A,4049,3440,2.631892043179822,201,0.04964188688565078,429,0.1059520869350457,835,0.20622375895282785,auto parts,small box,chicken,restaurant,False,False,Advance Auto Parts / Chick-fil-A
+Advance Auto Parts,Starbucks,4049,9983,1.4401463230390144,480,0.11854778957767349,879,0.2170906396641146,1578,0.3897258582366016,auto parts,small box,coffee,restaurant,False,False,Advance Auto Parts / Starbucks
+Advance Auto Parts,Dunkin',4049,10482,1.0587270491018974,744,0.18374907384539393,1283,0.31686836255865647,1955,0.48283526796739934,auto parts,small box,coffee,restaurant,False,False,Advance Auto Parts / Dunkin'
+Advance Auto Parts,Taco Bell,4049,8280,0.8899428996701306,759,0.18745369226969621,1366,0.33736725117312916,2177,0.5376636206470734,auto parts,small box,none,restaurant,False,False,Advance Auto Parts / Taco Bell
+Advance Auto Parts,Subway,4049,17793,0.6533120247253628,1009,0.2491973326747345,1713,0.4230674240553223,2691,0.664608545319832,auto parts,small box,none,restaurant,False,False,Advance Auto Parts / Subway
+Chase,Home Depot,3569,2013,2.336303968239394,126,0.035304006724572706,290,0.08125525357242926,622,0.17427850938638273,bank,small box,home improvement,big box,False,False,Chase / Home Depot
+Chase,Lowe's,3569,1761,3.613200587899356,89,0.024936957130848977,190,0.05323620061641916,372,0.10423087699635752,bank,small box,home improvement,big box,False,False,Chase / Lowe's
+Chase,Menards,3569,341,366.3151333959906,12,0.0033622863547212102,27,0.007565144298122724,53,0.014850098066685346,bank,small box,home improvement,big box,False,False,Chase / Menards
+Chase,Costco,3569,655,4.370597568250673,27,0.007565144298122724,82,0.02297562342392827,200,0.05603810591202017,bank,small box,warehouse club,big box,False,False,Chase / Costco
+Chase,Sam's Club,3569,595,6.700529631471801,16,0.004483048472961614,59,0.016531241244045952,135,0.03782572149061362,bank,small box,warehouse club,big box,False,False,Chase / Sam's Club
+Chase,BJ's Wholesale,3569,269,148.66834503173465,13,0.0036424768842813113,31,0.008685906416363126,76,0.021294480246567667,bank,small box,warehouse club,big box,False,False,BJ's Wholesale / Chase
+Chase,PetSmart,3569,1525,3.0657256585393236,137,0.03838610254973382,276,0.07733258615858785,496,0.13897450266181002,bank,small box,pet supplies,big box,False,False,Chase / PetSmart
+Chase,Petco,3569,1373,2.8739909910278914,198,0.05547772485289997,343,0.0961053516391146,580,0.1625105071448585,bank,small box,pet supplies,big box,False,False,Chase / Petco
+Chase,Target,3569,2026,2.1704500708090677,270,0.07565144298122724,505,0.14149621742785093,857,0.24012328383300643,bank,small box,none,big box,False,False,Chase / Target
+Chase,Kohl's,3569,1150,4.037223032972111,92,0.02577752871952928,186,0.05211543849817876,325,0.09106192210703279,bank,small box,none,big box,False,False,Chase / Kohl's
+Chase,Best Buy,3569,1010,3.5004641434122785,89,0.024936957130848977,211,0.059120201737181285,417,0.11683945082656207,bank,small box,none,big box,False,False,Best Buy / Chase
+Chase,CVS,3569,7103,0.9983921871429621,767,0.21490613617259738,1123,0.31465396469599327,1789,0.5012608573830205,bank,small box,pharmacy,small box,True,False,CVS / Chase
+Chase,Walgreens,3569,7680,0.9112241818869222,856,0.23984309330344633,1263,0.3538806388344074,1920,0.5379658167553937,bank,small box,pharmacy,small box,True,False,Chase / Walgreens
+Chase,Dollar General,3569,20494,3.1099322026708918,164,0.04595124684785654,298,0.08349677780891006,631,0.17680022415242364,bank,small box,dollar store,small box,True,False,Chase / Dollar General
+Chase,Family Dollar,3569,7080,3.782253353105412,141,0.03950686466797422,246,0.06892687027178482,530,0.14850098066685347,bank,small box,dollar store,small box,True,False,Chase / Family Dollar
+Chase,Dollar Tree,3569,9103,1.1160010948791077,580,0.1625105071448585,978,0.27402633790977865,1614,0.4522275147100028,bank,small box,dollar store,small box,True,False,Chase / Dollar Tree
+Chase,AutoZone,3569,6394,1.3541947576398132,377,0.10563182964415803,688,0.1927710843373494,1279,0.358363687307369,bank,small box,auto parts,small box,True,False,AutoZone / Chase
+Chase,O'Reilly,3569,6613,1.7431551829651428,296,0.08293639674978985,570,0.1597086018492575,1040,0.2913981507425049,bank,small box,auto parts,small box,True,False,Chase / O'Reilly
+Chase,Advance Auto Parts,3569,4049,3.1709057382356187,126,0.035304006724572706,274,0.07677220509946764,553,0.15494536284673577,bank,small box,auto parts,small box,True,False,Advance Auto Parts / Chase
+Chase,Bank of America,3569,3531,1.139291925487911,819,0.2294760437097226,1167,0.3269823479966377,1668,0.46735780330624827,bank,small box,bank,small box,True,True,Bank of America / Chase
+Chase,Wells Fargo,3569,4056,1.3837616775577348,755,0.21154384981787616,1076,0.30148500980666854,1476,0.4135612216307089,bank,small box,bank,small box,True,True,Chase / Wells Fargo
+Chase,McDonald's,3569,13486,0.6233212011895759,977,0.2737461473802186,1533,0.4295320818156346,2404,0.6735780330624825,bank,small box,burgers,restaurant,False,False,Chase / McDonald's
+Chase,Burger King,3569,6168,1.4210909726742966,416,0.11655926029700196,718,0.20117680022415244,1287,0.36060521154384984,bank,small box,burgers,restaurant,False,False,Burger King / Chase
+Chase,Wendy's,3569,5867,1.4927748032616144,410,0.11487811711964135,745,0.20874194452227515,1263,0.3538806388344074,bank,small box,burgers,restaurant,False,False,Chase / Wendy's
+Chase,KFC,3569,3661,1.934079710389379,266,0.07453068086298684,492,0.13785374054356964,913,0.2558139534883721,bank,small box,chicken,restaurant,False,False,Chase / KFC
+Chase,Popeyes,3569,3124,2.120991959692718,276,0.07733258615858785,510,0.14289717007565145,926,0.2594564303726534,bank,small box,chicken,restaurant,False,False,Chase / Popeyes
+Chase,Chick-fil-A,3569,3440,2.1571297513630587,332,0.09302325581395349,564,0.15802745867189688,919,0.2574950966657327,bank,small box,chicken,restaurant,False,False,Chase / Chick-fil-A
+Chase,Starbucks,3569,9983,0.5134585943950073,1199,0.33594844494256093,1757,0.49229476043709725,2408,0.6746987951807228,bank,small box,coffee,restaurant,False,False,Chase / Starbucks
+Chase,Dunkin',3569,10482,1.3722085452439443,715,0.20033622863547212,1058,0.2964415802745867,1493,0.4183244606332306,bank,small box,coffee,restaurant,False,False,Chase / Dunkin'
+Chase,Taco Bell,3569,8280,1.002568490575312,601,0.16839450826562063,1059,0.2967217708041468,1781,0.4990193331465396,bank,small box,none,restaurant,False,False,Chase / Taco Bell
+Chase,Subway,3569,17793,0.5778564946445808,1057,0.2961613897450266,1655,0.46371532642196694,2469,0.691790417483889,bank,small box,none,restaurant,False,False,Chase / Subway
+Bank of America,Home Depot,3531,2013,2.271684885022004,131,0.03709997167941093,311,0.08807703200226565,668,0.1891815349759275,bank,small box,home improvement,big box,False,False,Bank of America / Home Depot
+Bank of America,Lowe's,3531,1761,3.349835066865717,114,0.03228547153780799,246,0.06966864910790145,458,0.129708297932597,bank,small box,home improvement,big box,False,False,Bank of America / Lowe's
+Bank of America,Menards,3531,341,430.30100694477517,8,0.0022656471254602095,19,0.0053809119229679975,36,0.010195412064570943,bank,small box,home improvement,big box,False,False,Bank of America / Menards
+Bank of America,Costco,3531,655,4.451636045239797,34,0.009629000283205891,96,0.027187765505522515,214,0.06060606060606061,bank,small box,warehouse club,big box,False,False,Bank of America / Costco
+Bank of America,Sam's Club,3531,595,6.981357270118918,31,0.008779382611158312,77,0.021806853582554516,157,0.04446332483715661,bank,small box,warehouse club,big box,False,False,Bank of America / Sam's Club
+Bank of America,BJ's Wholesale,3531,269,21.595619657252698,24,0.006796941376380629,46,0.013027470971396206,110,0.03115264797507788,bank,small box,warehouse club,big box,False,False,BJ's Wholesale / Bank of America
+Bank of America,PetSmart,3531,1525,2.918020242226707,179,0.05069385443217219,344,0.09742282639478901,589,0.16680826961200793,bank,small box,pet supplies,big box,False,False,Bank of America / PetSmart
+Bank of America,Petco,3531,1373,2.938777441694863,174,0.04927782497875956,344,0.09742282639478901,614,0.17388841687907108,bank,small box,pet supplies,big box,False,False,Bank of America / Petco
+Bank of America,Target,3531,2026,2.108034302753215,273,0.07731520815632965,524,0.14839988671764373,905,0.2563013310676862,bank,small box,none,big box,False,False,Bank of America / Target
+Bank of America,Kohl's,3531,1150,4.215756678887446,93,0.026338147833474938,204,0.05777400169923534,367,0.10393656188048711,bank,small box,none,big box,False,False,Bank of America / Kohl's
+Bank of America,Best Buy,3531,1010,3.5257386457153164,100,0.02832058906825262,227,0.06428773718493344,452,0.12800906258850184,bank,small box,none,big box,False,False,Bank of America / Best Buy
+Bank of America,CVS,3531,7103,0.9016412032947694,797,0.22571509487397337,1222,0.346077598414047,1903,0.5389408099688473,bank,small box,pharmacy,small box,True,False,Bank of America / CVS
+Bank of America,Walgreens,3531,7680,0.9142041586939166,770,0.21806853582554517,1241,0.35145851033701503,1889,0.534975927499292,bank,small box,pharmacy,small box,True,False,Bank of America / Walgreens
+Bank of America,Dollar General,3531,20494,3.0273741035751844,152,0.04304729538374398,305,0.08637779665817048,630,0.1784197111299915,bank,small box,dollar store,small box,True,False,Bank of America / Dollar General
+Bank of America,Family Dollar,3531,7080,3.609656924782511,116,0.03285188331917304,241,0.06825261965448881,536,0.15179835740583403,bank,small box,dollar store,small box,True,False,Bank of America / Family Dollar
+Bank of America,Dollar Tree,3531,9103,1.052885562364386,609,0.17247238742565846,1031,0.2919852732936845,1690,0.4786179552534693,bank,small box,dollar store,small box,True,False,Bank of America / Dollar Tree
+Bank of America,AutoZone,3531,6394,1.33543411842768,352,0.09968847352024922,688,0.19484565278957802,1333,0.3775134522798074,bank,small box,auto parts,small box,True,False,AutoZone / Bank of America
+Bank of America,O'Reilly,3531,6613,1.79979487943432,264,0.07476635514018691,499,0.14131973945058057,973,0.275559331634098,bank,small box,auto parts,small box,True,False,Bank of America / O'Reilly
+Bank of America,Advance Auto Parts,3531,4049,2.595286613884333,239,0.06768620787312377,437,0.12376097422826395,796,0.22543188898329086,bank,small box,auto parts,small box,True,False,Advance Auto Parts / Bank of America
+Bank of America,Chase,3531,3569,1.3818670983247412,794,0.2248654772019258,1114,0.3154913622203342,1512,0.4282073067119796,bank,small box,bank,small box,True,True,Bank of America / Chase
+Bank of America,Wells Fargo,3531,4056,1.0342186320198883,825,0.2336448598130841,1252,0.3545737751345228,1726,0.4888133673180402,bank,small box,bank,small box,True,True,Bank of America / Wells Fargo
+Bank of America,McDonald's,3531,13486,0.5595443978289222,980,0.27754177286887566,1620,0.45879354290569246,2507,0.7099971679410931,bank,small box,burgers,restaurant,False,False,Bank of America / McDonald's
+Bank of America,Burger King,3531,6168,1.3846124347314301,413,0.11696403285188332,740,0.20957235910506938,1311,0.37128292268479185,bank,small box,burgers,restaurant,False,False,Bank of America / Burger King
+Bank of America,Wendy's,3531,5867,1.388379210808809,452,0.12800906258850184,825,0.2336448598130841,1353,0.38317757009345793,bank,small box,burgers,restaurant,False,False,Bank of America / Wendy's
+Bank of America,KFC,3531,3661,1.8710138259917415,324,0.09175870858113849,572,0.16199376947040497,982,0.27810818465024073,bank,small box,chicken,restaurant,False,False,Bank of America / KFC
+Bank of America,Popeyes,3531,3124,2.002051422558624,301,0.08524497309544038,538,0.1523647691871991,951,0.26932880203908244,bank,small box,chicken,restaurant,False,False,Bank of America / Popeyes
+Bank of America,Chick-fil-A,3531,3440,1.834767471261836,404,0.11441517983574058,728,0.20617388841687906,1153,0.3265363919569527,bank,small box,chicken,restaurant,False,False,Bank of America / Chick-fil-A
+Bank of America,Starbucks,3531,9983,0.46349970052137623,1217,0.3446615689606344,1841,0.5213820447465307,2527,0.7156612857547437,bank,small box,coffee,restaurant,False,False,Bank of America / Starbucks
+Bank of America,Dunkin',3531,10482,1.0025806511469137,808,0.22883035967148116,1244,0.3523081280090626,1759,0.49815916171056357,bank,small box,coffee,restaurant,False,False,Bank of America / Dunkin'
+Bank of America,Taco Bell,3531,8280,0.9660684945611443,634,0.17955253469272162,1081,0.3061455678278108,1817,0.5145851033701501,bank,small box,none,restaurant,False,False,Bank of America / Taco Bell
+Bank of America,Subway,3531,17793,0.5833752170738348,991,0.28065703766638345,1633,0.46247521948456527,2369,0.6709147550269046,bank,small box,none,restaurant,False,False,Bank of America / Subway
+Wells Fargo,Home Depot,4056,2013,2.595331797872268,134,0.033037475345167655,310,0.07642998027613412,631,0.15557199211045364,bank,small box,home improvement,big box,False,False,Home Depot / Wells Fargo
+Wells Fargo,Lowe's,4056,1761,3.4761956750562986,114,0.028106508875739646,275,0.06780078895463511,533,0.13141025641025642,bank,small box,home improvement,big box,False,False,Lowe's / Wells Fargo
+Wells Fargo,Menards,4056,341,419.3207636728339,3,0.0007396449704142012,10,0.002465483234714004,28,0.006903353057199211,bank,small box,home improvement,big box,False,False,Menards / Wells Fargo
+Wells Fargo,Costco,4056,655,5.098519637336924,37,0.009122287968441814,104,0.02564102564102564,222,0.05473372781065089,bank,small box,warehouse club,big box,False,False,Costco / Wells Fargo
+Wells Fargo,Sam's Club,4056,595,7.302406181496968,32,0.007889546351084813,82,0.02021696252465483,173,0.04265285996055227,bank,small box,warehouse club,big box,False,False,Sam's Club / Wells Fargo
+Wells Fargo,BJ's Wholesale,4056,269,174.79436392244594,11,0.0027120315581854043,26,0.00641025641025641,62,0.015285996055226824,bank,small box,warehouse club,big box,False,False,BJ's Wholesale / Wells Fargo
+Wells Fargo,PetSmart,4056,1525,3.049454873389924,189,0.04659763313609468,357,0.08801775147928995,604,0.14891518737672585,bank,small box,pet supplies,big box,False,False,PetSmart / Wells Fargo
+Wells Fargo,Petco,4056,1373,3.2917421915200142,190,0.04684418145956608,334,0.08234714003944774,585,0.14423076923076922,bank,small box,pet supplies,big box,False,False,Petco / Wells Fargo
+Wells Fargo,Target,4056,2026,2.4014218001114607,306,0.07544378698224852,565,0.1392998027613412,916,0.22583826429980275,bank,small box,none,big box,False,False,Target / Wells Fargo
+Wells Fargo,Kohl's,4056,1150,4.601559103924633,95,0.02342209072978304,205,0.05054240631163708,356,0.08777120315581854,bank,small box,none,big box,False,False,Kohl's / Wells Fargo
+Wells Fargo,Best Buy,4056,1010,3.936471649729654,85,0.020956607495069033,209,0.05152859960552268,416,0.10256410256410256,bank,small box,none,big box,False,False,Best Buy / Wells Fargo
+Wells Fargo,CVS,4056,7103,1.0954988240336128,771,0.1900887573964497,1150,0.28353057199211046,1870,0.46104536489151876,bank,small box,pharmacy,small box,True,False,CVS / Wells Fargo
+Wells Fargo,Walgreens,4056,7680,1.016328313539681,836,0.20611439842209073,1277,0.31484220907297833,1983,0.488905325443787,bank,small box,pharmacy,small box,True,False,Walgreens / Wells Fargo
+Wells Fargo,Dollar General,4056,20494,2.9441547611232224,213,0.05251479289940828,431,0.10626232741617357,904,0.22287968441814596,bank,small box,dollar store,small box,True,False,Dollar General / Wells Fargo
+Wells Fargo,Family Dollar,4056,7080,4.030755882362509,141,0.03476331360946745,271,0.0668145956607495,621,0.15310650887573965,bank,small box,dollar store,small box,True,False,Family Dollar / Wells Fargo
+Wells Fargo,Dollar Tree,4056,9103,1.1251620253306114,656,0.16173570019723865,1127,0.27785996055226825,1852,0.45660749506903353,bank,small box,dollar store,small box,True,False,Dollar Tree / Wells Fargo
+Wells Fargo,AutoZone,4056,6394,1.4097318707281743,411,0.10133136094674557,759,0.1871301775147929,1458,0.3594674556213018,bank,small box,auto parts,small box,True,False,AutoZone / Wells Fargo
+Wells Fargo,O'Reilly,4056,6613,1.6370225887276901,333,0.08210059171597633,678,0.16715976331360946,1297,0.3197731755424063,bank,small box,auto parts,small box,True,False,O'Reilly / Wells Fargo
+Wells Fargo,Advance Auto Parts,4056,4049,2.9748584821153043,248,0.0611439842209073,460,0.11341222879684418,864,0.21301775147928995,bank,small box,auto parts,small box,True,False,Advance Auto Parts / Wells Fargo
+Wells Fargo,Chase,4056,3569,2.1595519774031247,726,0.17899408284023668,1006,0.2480276134122288,1372,0.33826429980276135,bank,small box,bank,small box,True,True,Chase / Wells Fargo
+Wells Fargo,Bank of America,4056,3531,1.3110123817114334,820,0.20216962524654833,1230,0.3032544378698225,1739,0.4287475345167653,bank,small box,bank,small box,True,True,Bank of America / Wells Fargo
+Wells Fargo,McDonald's,4056,13486,0.6407605119356343,1026,0.2529585798816568,1715,0.4228303747534517,2723,0.6713510848126233,bank,small box,burgers,restaurant,False,False,McDonald's / Wells Fargo
+Wells Fargo,Burger King,4056,6168,1.5638855790181059,448,0.11045364891518737,786,0.1937869822485207,1401,0.34541420118343197,bank,small box,burgers,restaurant,False,False,Burger King / Wells Fargo
+Wells Fargo,Wendy's,4056,5867,1.5452789306622137,470,0.11587771203155818,825,0.20340236686390534,1371,0.3380177514792899,bank,small box,burgers,restaurant,False,False,Wells Fargo / Wendy's
+Wells Fargo,KFC,4056,3661,2.1019698994852214,283,0.06977317554240631,515,0.1269723865877712,956,0.2357001972386588,bank,small box,chicken,restaurant,False,False,KFC / Wells Fargo
+Wells Fargo,Popeyes,4056,3124,2.430573055315854,243,0.059911242603550297,474,0.11686390532544379,874,0.21548323471400394,bank,small box,chicken,restaurant,False,False,Popeyes / Wells Fargo
+Wells Fargo,Chick-fil-A,4056,3440,1.9834768714755093,438,0.10798816568047337,771,0.1900887573964497,1227,0.3025147928994083,bank,small box,chicken,restaurant,False,False,Chick-fil-A / Wells Fargo
+Wells Fargo,Starbucks,4056,9983,0.605626018052835,1235,0.30448717948717946,1847,0.45537475345167655,2586,0.6375739644970414,bank,small box,coffee,restaurant,False,False,Starbucks / Wells Fargo
+Wells Fargo,Dunkin',4056,10482,1.5521924412208008,598,0.14743589743589744,972,0.23964497041420119,1519,0.3745069033530572,bank,small box,coffee,restaurant,False,False,Dunkin' / Wells Fargo
+Wells Fargo,Taco Bell,4056,8280,1.057397001637756,633,0.15606508875739644,1138,0.28057199211045364,1922,0.47386587771203154,bank,small box,none,restaurant,False,False,Taco Bell / Wells Fargo
+Wells Fargo,Subway,4056,17793,0.6526181891049039,1114,0.27465483234714005,1725,0.42529585798816566,2627,0.6476824457593688,bank,small box,none,restaurant,False,False,Subway / Wells Fargo
+McDonald's,Home Depot,13486,2013,3.372515233900427,368,0.02728755746700282,856,0.06347323149933264,1677,0.1243511790004449,burgers,restaurant,home improvement,big box,False,False,Home Depot / McDonald's
+McDonald's,Lowe's,13486,1761,4.091629459120079,345,0.02558208512531514,769,0.05702209698947056,1422,0.10544268129912501,burgers,restaurant,home improvement,big box,False,False,Lowe's / McDonald's
+McDonald's,Menards,13486,341,266.96562260070743,38,0.002817736912353552,111,0.00823075782292748,225,0.016683968559988136,burgers,restaurant,home improvement,big box,False,False,McDonald's / Menards
+McDonald's,Costco,13486,655,8.43592659428348,89,0.00659943645261753,231,0.017128874388254486,505,0.03744624054575115,burgers,restaurant,warehouse club,big box,False,False,Costco / McDonald's
+McDonald's,Sam's Club,13486,595,8.598298966414548,106,0.007860002966038854,267,0.019798309357852588,515,0.0381877502595284,burgers,restaurant,warehouse club,big box,False,False,McDonald's / Sam's Club
+McDonald's,BJ's Wholesale,13486,269,92.26576654266128,53,0.003930001483019427,111,0.00823075782292748,235,0.017425478273765387,burgers,restaurant,warehouse club,big box,False,False,BJ's Wholesale / McDonald's
+McDonald's,PetSmart,13486,1525,4.227818616617501,370,0.02743585940975827,750,0.055613228533293785,1307,0.09691531959068664,burgers,restaurant,pet supplies,big box,False,False,McDonald's / PetSmart
+McDonald's,Petco,13486,1373,4.990183313029778,343,0.02543378318255969,693,0.05138662316476346,1229,0.09113154382322408,burgers,restaurant,pet supplies,big box,False,False,McDonald's / Petco
+McDonald's,Target,13486,2026,3.589913149725454,467,0.034628503633397596,985,0.07303870680705918,1764,0.130802313510307,burgers,restaurant,none,big box,False,False,McDonald's / Target
+McDonald's,Kohl's,13486,1150,5.456325226579802,239,0.017722082159276287,521,0.03863265608779475,943,0.06992436600919472,burgers,restaurant,none,big box,False,False,Kohl's / McDonald's
+McDonald's,Best Buy,13486,1010,5.347594473968029,190,0.01408868456176776,485,0.03596322111819665,923,0.06844134658164022,burgers,restaurant,none,big box,False,False,Best Buy / McDonald's
+McDonald's,CVS,13486,7103,1.7097143862448911,1741,0.1290968411686193,2641,0.19583271540857186,4406,0.32670917989025655,burgers,restaurant,pharmacy,small box,False,False,CVS / McDonald's
+McDonald's,Walgreens,13486,7680,1.3896436541141362,2281,0.16913836571259083,3395,0.25174254782737654,5279,0.3914429779030105,burgers,restaurant,pharmacy,small box,False,False,McDonald's / Walgreens
+McDonald's,Dollar General,13486,20494,1.5281476649285575,1629,0.1207919323743141,2845,0.21095951356962775,4975,0.36890108260418214,burgers,restaurant,dollar store,small box,False,False,Dollar General / McDonald's
+McDonald's,Family Dollar,13486,7080,3.0939657832885894,1016,0.07533738691976864,1685,0.1249443867714667,2947,0.21852291265015572,burgers,restaurant,dollar store,small box,False,False,Family Dollar / McDonald's
+McDonald's,Dollar Tree,13486,9103,1.1031529496237793,2390,0.17722082159276287,4041,0.2996440753373869,6297,0.46692866676553463,burgers,restaurant,dollar store,small box,False,False,Dollar Tree / McDonald's
+McDonald's,AutoZone,13486,6394,1.4391012560372942,1746,0.12946759602550795,3024,0.22423253744624055,5018,0.37208957437342427,burgers,restaurant,auto parts,small box,False,False,AutoZone / McDonald's
+McDonald's,O'Reilly,13486,6613,1.5661001255640787,1641,0.1216817440308468,2872,0.21296158979682633,4721,0.35006673587424,burgers,restaurant,auto parts,small box,False,False,McDonald's / O'Reilly
+McDonald's,Advance Auto Parts,13486,4049,2.7901094790703787,1094,0.0811211626872312,1848,0.1370309951060359,3054,0.2264570665875723,burgers,restaurant,auto parts,small box,False,False,Advance Auto Parts / McDonald's
+McDonald's,Chase,13486,3569,9.468210459972127,969,0.07185229126501558,1500,0.11122645706658757,2451,0.1817440308468041,burgers,restaurant,bank,small box,False,False,Chase / McDonald's
+McDonald's,Bank of America,13486,3531,3.3267775292881803,981,0.07274210292154827,1623,0.12034702654604776,2736,0.20287705768945574,burgers,restaurant,bank,small box,False,False,Bank of America / McDonald's
+McDonald's,Wells Fargo,13486,4056,3.6335043784874497,1034,0.0766721044045677,1740,0.12902269019724158,2874,0.21310989173958178,burgers,restaurant,bank,small box,False,False,McDonald's / Wells Fargo
+McDonald's,Burger King,13486,6168,1.6844012758536868,2102,0.15586534183597806,3175,0.23542933412427702,4647,0.3445795639922883,burgers,restaurant,burgers,restaurant,True,True,Burger King / McDonald's
+McDonald's,Wendy's,13486,5867,1.6828309445398604,2150,0.15942458846210886,3211,0.23809876909387512,4614,0.3421325819368234,burgers,restaurant,burgers,restaurant,True,True,McDonald's / Wendy's
+McDonald's,KFC,13486,3661,2.3886483499017936,1435,0.10640664392703544,2120,0.1572000593207771,3215,0.23839537297938604,burgers,restaurant,chicken,restaurant,True,False,KFC / McDonald's
+McDonald's,Popeyes,13486,3124,2.9483661397243393,1016,0.07533738691976864,1695,0.12568589648524395,2660,0.19724158386474863,burgers,restaurant,chicken,restaurant,True,False,McDonald's / Popeyes
+McDonald's,Chick-fil-A,13486,3440,2.941551493651742,985,0.07303870680705918,1686,0.12501853774284444,2696,0.19991101883434673,burgers,restaurant,chicken,restaurant,True,False,Chick-fil-A / McDonald's
+McDonald's,Starbucks,13486,9983,1.1652180219771138,2982,0.2211181966483761,4413,0.32722823668990064,6200,0.4597360225418953,burgers,restaurant,coffee,restaurant,True,False,McDonald's / Starbucks
+McDonald's,Dunkin',13486,10482,1.8668900609339079,2385,0.17685006673587425,3569,0.2646448168471007,4948,0.3668990063769835,burgers,restaurant,coffee,restaurant,True,False,Dunkin' / McDonald's
+McDonald's,Taco Bell,13486,8280,0.9515490070177096,3626,0.26887142221563104,5090,0.3774284443126205,6923,0.5133471748479905,burgers,restaurant,none,restaurant,True,False,McDonald's / Taco Bell
+McDonald's,Subway,13486,17793,0.4950032690791463,4685,0.3473973009046418,6764,0.5015571703989322,9265,0.6870087498146226,burgers,restaurant,none,restaurant,True,False,McDonald's / Subway
+Burger King,Home Depot,6168,2013,3.2232351460530184,203,0.032911802853437096,471,0.07636186770428016,905,0.14672503242542154,burgers,restaurant,home improvement,big box,False,False,Burger King / Home Depot
+Burger King,Lowe's,6168,1761,3.8551039707839445,189,0.0306420233463035,423,0.06857976653696499,789,0.12791828793774318,burgers,restaurant,home improvement,big box,False,False,Burger King / Lowe's
+Burger King,Menards,6168,341,266.8216050383502,22,0.0035667963683527885,56,0.009079118028534372,132,0.021400778210116732,burgers,restaurant,home improvement,big box,False,False,Burger King / Menards
+Burger King,Costco,6168,655,9.103738461141381,34,0.005512321660181583,101,0.01637483787289235,229,0.03712710765239948,burgers,restaurant,warehouse club,big box,False,False,Burger King / Costco
+Burger King,Sam's Club,6168,595,8.42474875943703,35,0.005674448767833982,118,0.01913099870298314,270,0.04377431906614786,burgers,restaurant,warehouse club,big box,False,False,Burger King / Sam's Club
+Burger King,BJ's Wholesale,6168,269,78.14384556292205,25,0.004053177691309987,62,0.010051880674448769,126,0.020428015564202335,burgers,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Burger King
+Burger King,PetSmart,6168,1525,4.1707555398751115,155,0.02512970168612192,327,0.05301556420233463,646,0.10473411154345007,burgers,restaurant,pet supplies,big box,False,False,Burger King / PetSmart
+Burger King,Petco,6168,1373,4.941690603938023,168,0.027237354085603113,323,0.052367055771725034,573,0.0928988326848249,burgers,restaurant,pet supplies,big box,False,False,Burger King / Petco
+Burger King,Target,6168,2026,3.6245743955390064,186,0.030155642023346304,434,0.07036316472114137,805,0.1305123216601816,burgers,restaurant,none,big box,False,False,Burger King / Target
+Burger King,Kohl's,6168,1150,5.355276717986339,101,0.01637483787289235,247,0.040045395590142675,511,0.08284695201037613,burgers,restaurant,none,big box,False,False,Burger King / Kohl's
+Burger King,Best Buy,6168,1010,5.340784681496045,79,0.012808041504539559,212,0.03437094682230869,453,0.07344357976653697,burgers,restaurant,none,big box,False,False,Best Buy / Burger King
+Burger King,CVS,6168,7103,1.6103976955610475,747,0.12110894941634241,1199,0.19439040207522698,2067,0.3351167315175097,burgers,restaurant,pharmacy,small box,False,False,Burger King / CVS
+Burger King,Walgreens,6168,7680,1.2067419499122427,1051,0.17039559014267186,1656,0.26848249027237353,2641,0.428177691309987,burgers,restaurant,pharmacy,small box,False,False,Burger King / Walgreens
+Burger King,Dollar General,6168,20494,1.3743076252281543,714,0.11575875486381323,1332,0.21595330739299612,2387,0.3869974059662776,burgers,restaurant,dollar store,small box,False,False,Burger King / Dollar General
+Burger King,Family Dollar,6168,7080,2.500338566580738,470,0.07619974059662776,799,0.1295395590142672,1516,0.2457846952010376,burgers,restaurant,dollar store,small box,False,False,Burger King / Family Dollar
+Burger King,Dollar Tree,6168,9103,0.9184912852562739,1210,0.19617380025940337,2081,0.33738651102464334,3253,0.5273994811932555,burgers,restaurant,dollar store,small box,False,False,Burger King / Dollar Tree
+Burger King,AutoZone,6168,6394,1.1587861249628777,890,0.14429312581063553,1613,0.2615110246433204,2719,0.4408236057068742,burgers,restaurant,auto parts,small box,False,False,AutoZone / Burger King
+Burger King,O'Reilly,6168,6613,1.361216136767092,790,0.12808041504539558,1436,0.23281452658884566,2419,0.39218547341115434,burgers,restaurant,auto parts,small box,False,False,Burger King / O'Reilly
+Burger King,Advance Auto Parts,6168,4049,2.155999609543305,591,0.0958171206225681,1061,0.17201686121919585,1774,0.28761348897535666,burgers,restaurant,auto parts,small box,False,False,Advance Auto Parts / Burger King
+Burger King,Chase,6168,3569,11.46152899487917,412,0.06679636835278858,680,0.11024643320363164,1135,0.18401426718547342,burgers,restaurant,bank,small box,False,False,Burger King / Chase
+Burger King,Bank of America,6168,3531,3.459235484638797,413,0.06695849546044098,719,0.11656939040207523,1267,0.20541504539559013,burgers,restaurant,bank,small box,False,False,Bank of America / Burger King
+Burger King,Wells Fargo,6168,4056,3.659121810713531,448,0.07263294422827497,778,0.1261348897535668,1346,0.2182230869001297,burgers,restaurant,bank,small box,False,False,Burger King / Wells Fargo
+Burger King,McDonald's,6168,13486,0.4842263522633687,2098,0.3401426718547341,3135,0.5082684824902723,4329,0.7018482490272373,burgers,restaurant,burgers,restaurant,True,True,Burger King / McDonald's
+Burger King,Wendy's,6168,5867,1.445303102582495,977,0.15839818417639429,1579,0.25599870298313876,2351,0.38116083009079116,burgers,restaurant,burgers,restaurant,True,True,Burger King / Wendy's
+Burger King,KFC,6168,3661,2.037849019351576,762,0.12354085603112841,1197,0.19406614785992218,1794,0.2908560311284047,burgers,restaurant,chicken,restaurant,True,False,Burger King / KFC
+Burger King,Popeyes,6168,3124,2.5938713769281625,640,0.10376134889753567,1000,0.1621271076523995,1529,0.24789234760051881,burgers,restaurant,chicken,restaurant,True,False,Burger King / Popeyes
+Burger King,Chick-fil-A,6168,3440,2.761417321075723,446,0.07230869001297018,799,0.1295395590142672,1315,0.2131971465629053,burgers,restaurant,chicken,restaurant,True,False,Burger King / Chick-fil-A
+Burger King,Starbucks,6168,9983,1.098592149634065,1284,0.20817120622568094,2012,0.32619974059662776,2926,0.47438391699092086,burgers,restaurant,coffee,restaurant,True,False,Burger King / Starbucks
+Burger King,Dunkin',6168,10482,1.575306783828196,1173,0.19017509727626458,1745,0.2829118028534371,2479,0.40191309987029833,burgers,restaurant,coffee,restaurant,True,False,Burger King / Dunkin'
+Burger King,Taco Bell,6168,8280,0.7825305573130572,1684,0.2730220492866407,2483,0.4025616083009079,3480,0.5642023346303502,burgers,restaurant,none,restaurant,True,False,Burger King / Taco Bell
+Burger King,Subway,6168,17793,0.5055018268836569,1976,0.3203631647211414,3065,0.4969195849546044,4369,0.7083333333333334,burgers,restaurant,none,restaurant,True,False,Burger King / Subway
+Wendy's,Home Depot,5867,2013,3.1505680321942777,265,0.04516788818817113,551,0.09391511845917845,971,0.1655019601159025,burgers,restaurant,home improvement,big box,False,False,Home Depot / Wendy's
+Wendy's,Lowe's,5867,1761,3.477673717715936,246,0.0419294358275098,541,0.09221066984830407,924,0.1574910516447929,burgers,restaurant,home improvement,big box,False,False,Lowe's / Wendy's
+Wendy's,Menards,5867,341,253.347108250684,30,0.005113345832623147,67,0.01141980569285836,131,0.022328276802454406,burgers,restaurant,home improvement,big box,False,False,Menards / Wendy's
+Wendy's,Costco,5867,655,8.862807500041278,45,0.00767001874893472,116,0.01977160388614283,265,0.04516788818817113,burgers,restaurant,warehouse club,big box,False,False,Costco / Wendy's
+Wendy's,Sam's Club,5867,595,7.723134225791046,66,0.011249360831770923,169,0.02880518152377706,322,0.054883245270155104,burgers,restaurant,warehouse club,big box,False,False,Sam's Club / Wendy's
+Wendy's,BJ's Wholesale,5867,269,54.64438084224927,49,0.008351798193284472,87,0.014828702914607125,151,0.02573717402420317,burgers,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Wendy's
+Wendy's,PetSmart,5867,1525,3.912128676651974,229,0.039031873189023354,470,0.08010908471109596,797,0.13584455428668826,burgers,restaurant,pet supplies,big box,False,False,PetSmart / Wendy's
+Wendy's,Petco,5867,1373,4.7160405852510126,204,0.03477075166183739,394,0.06715527526845065,681,0.11607295040054542,burgers,restaurant,pet supplies,big box,False,False,Petco / Wendy's
+Wendy's,Target,5867,2026,3.4310252405105777,247,0.04209988068859724,535,0.09118800068177944,960,0.1636270666439407,burgers,restaurant,none,big box,False,False,Target / Wendy's
+Wendy's,Kohl's,5867,1150,4.974085160496153,120,0.020453383330492587,315,0.053690131242543036,593,0.10107380262485086,burgers,restaurant,none,big box,False,False,Kohl's / Wendy's
+Wendy's,Best Buy,5867,1010,5.147236440642588,118,0.02011249360831771,283,0.048235895687745015,528,0.08999488665416738,burgers,restaurant,none,big box,False,False,Best Buy / Wendy's
+Wendy's,CVS,5867,7103,1.5341611461853737,694,0.11828873359468212,1149,0.1958411453894665,2044,0.34838929606272373,burgers,restaurant,pharmacy,small box,False,False,CVS / Wendy's
+Wendy's,Walgreens,5867,7680,1.2119381197941324,980,0.16703596386568945,1590,0.27100732912902675,2520,0.4295210499403443,burgers,restaurant,pharmacy,small box,False,False,Walgreens / Wendy's
+Wendy's,Dollar General,5867,20494,1.4913439282473235,533,0.09084711095960457,1079,0.18391000511334582,2069,0.35265041758990967,burgers,restaurant,dollar store,small box,False,False,Dollar General / Wendy's
+Wendy's,Family Dollar,5867,7080,2.7938763409940375,320,0.05454235554798023,606,0.10328958581898756,1191,0.2029998295551389,burgers,restaurant,dollar store,small box,False,False,Family Dollar / Wendy's
+Wendy's,Dollar Tree,5867,9103,0.8757006848768569,1180,0.20112493608317708,2080,0.35452531106187146,3164,0.5392875404806545,burgers,restaurant,dollar store,small box,False,False,Dollar Tree / Wendy's
+Wendy's,AutoZone,5867,6394,1.2239408024716725,809,0.13788989261973753,1458,0.24850860746548492,2480,0.4227032554968468,burgers,restaurant,auto parts,small box,False,False,AutoZone / Wendy's
+Wendy's,O'Reilly,5867,6613,1.4701534353040397,632,0.10772115220726095,1230,0.209647179137549,2159,0.3679904550877791,burgers,restaurant,auto parts,small box,False,False,O'Reilly / Wendy's
+Wendy's,Advance Auto Parts,5867,4049,2.0062459484345077,581,0.09902846429180161,1051,0.17913754900289755,1727,0.2943582750980058,burgers,restaurant,auto parts,small box,False,False,Advance Auto Parts / Wendy's
+Wendy's,Chase,5867,3569,10.672823759609232,397,0.06766660985171297,699,0.11914095790011932,1120,0.1908982444179308,burgers,restaurant,bank,small box,False,False,Chase / Wendy's
+Wendy's,Bank of America,5867,3531,3.112148662593952,444,0.07567751832282257,799,0.13618544400886312,1287,0.21936253621953297,burgers,restaurant,bank,small box,False,False,Bank of America / Wendy's
+Wendy's,Wells Fargo,5867,4056,3.6255916958087453,467,0.07959775012783364,812,0.13840122720299983,1309,0.2231123231634566,burgers,restaurant,bank,small box,False,False,Wells Fargo / Wendy's
+Wendy's,McDonald's,5867,13486,0.4293560303753918,2133,0.3635588886995057,3158,0.5382648713141299,4279,0.7293335605931481,burgers,restaurant,burgers,restaurant,True,True,McDonald's / Wendy's
+Wendy's,Burger King,5867,6168,1.3680338804186052,981,0.1672064087267769,1581,0.2694733253792398,2343,0.3993523095278677,burgers,restaurant,burgers,restaurant,True,True,Burger King / Wendy's
+Wendy's,KFC,5867,3661,2.0610989387919902,744,0.12681097664905402,1161,0.19788648372251577,1744,0.2972558377364922,burgers,restaurant,chicken,restaurant,True,False,KFC / Wendy's
+Wendy's,Popeyes,5867,3124,2.600070287836919,576,0.0981762399863644,923,0.15732060678370546,1432,0.2440770410772115,burgers,restaurant,chicken,restaurant,True,False,Popeyes / Wendy's
+Wendy's,Chick-fil-A,5867,3440,2.4354801561641684,565,0.09630134651440259,1014,0.17283108914266235,1595,0.27185955343446394,burgers,restaurant,chicken,restaurant,True,False,Chick-fil-A / Wendy's
+Wendy's,Starbucks,5867,9983,0.9328628377074093,1356,0.23112323163456622,2114,0.36032043633884436,3031,0.5166183739560253,burgers,restaurant,coffee,restaurant,True,False,Starbucks / Wendy's
+Wendy's,Dunkin',5867,10482,1.2962401897777822,1182,0.20146582580535197,1827,0.3114027612067496,2584,0.4404295210499403,burgers,restaurant,coffee,restaurant,True,False,Dunkin' / Wendy's
+Wendy's,Taco Bell,5867,8280,0.6763771288284066,1701,0.2899267087097324,2578,0.4394068518834157,3524,0.6006476904721323,burgers,restaurant,none,restaurant,True,False,Taco Bell / Wendy's
+Wendy's,Subway,5867,17793,0.5398186205242776,1827,0.3114027612067496,2799,0.4770751661837396,4075,0.6945628089313107,burgers,restaurant,none,restaurant,True,False,Subway / Wendy's
+KFC,Home Depot,3661,2013,3.063676806356692,123,0.0335973777656378,294,0.08030592734225621,597,0.1630701993990713,chicken,restaurant,home improvement,big box,False,False,Home Depot / KFC
+KFC,Lowe's,3661,1761,3.5780810699791608,109,0.029773285987435127,281,0.0767549849767823,542,0.14804698169898936,chicken,restaurant,home improvement,big box,False,False,KFC / Lowe's
+KFC,Menards,3661,341,270.20872957189636,10,0.0027314941272876263,40,0.010925976509150505,72,0.01966675771647091,chicken,restaurant,home improvement,big box,False,False,KFC / Menards
+KFC,Costco,3661,655,9.50249370564243,16,0.004370390603660202,47,0.012838022398251844,144,0.03933351543294182,chicken,restaurant,warehouse club,big box,False,False,Costco / KFC
+KFC,Sam's Club,3661,595,8.940103224365176,36,0.009833378858235455,75,0.020486205954657197,160,0.04370390603660202,chicken,restaurant,warehouse club,big box,False,False,KFC / Sam's Club
+KFC,BJ's Wholesale,3661,269,77.8212716511609,18,0.004916689429117728,39,0.010652827096421742,74,0.020213056541928436,chicken,restaurant,warehouse club,big box,False,False,BJ's Wholesale / KFC
+KFC,PetSmart,3661,1525,4.155751302532526,104,0.028407538923791314,220,0.060092870800327776,407,0.1111718109806064,chicken,restaurant,pet supplies,big box,False,False,KFC / PetSmart
+KFC,Petco,3661,1373,5.021480600483724,103,0.028134389511062553,196,0.05353728489483748,393,0.10734771920240371,chicken,restaurant,pet supplies,big box,False,False,KFC / Petco
+KFC,Target,3661,2026,3.5522289633081994,119,0.032504780114722756,271,0.07402349084949468,527,0.1439497405080579,chicken,restaurant,none,big box,False,False,KFC / Target
+KFC,Kohl's,3661,1150,5.397290866807256,56,0.015296367112810707,160,0.04370390603660202,319,0.08713466266047527,chicken,restaurant,none,big box,False,False,KFC / Kohl's
+KFC,Best Buy,3661,1010,5.457067793227523,46,0.012564872985523081,126,0.03441682600382409,263,0.07183829554766458,chicken,restaurant,none,big box,False,False,Best Buy / KFC
+KFC,CVS,3661,7103,1.4107840470259707,470,0.12838022398251844,772,0.21087134662660476,1364,0.37257579896203225,chicken,restaurant,pharmacy,small box,False,False,CVS / KFC
+KFC,Walgreens,3661,7680,1.0614216260296427,677,0.1849221524173723,1115,0.3045615951925703,1738,0.4747336793225895,chicken,restaurant,pharmacy,small box,False,False,KFC / Walgreens
+KFC,Dollar General,3661,20494,1.2595593302126298,453,0.12373668396612947,869,0.23736683966129474,1551,0.42365473914231083,chicken,restaurant,dollar store,small box,False,False,Dollar General / KFC
+KFC,Family Dollar,3661,7080,2.2310894079626045,304,0.08303742146954383,517,0.14121824638077027,980,0.2676864244741874,chicken,restaurant,dollar store,small box,False,False,Family Dollar / KFC
+KFC,Dollar Tree,3661,9103,0.7684153640564622,736,0.2010379677683693,1364,0.37257579896203225,2182,0.5960120185741601,chicken,restaurant,dollar store,small box,False,False,Dollar Tree / KFC
+KFC,AutoZone,3661,6394,0.9421537653692853,646,0.17645452062278066,1155,0.3154875717017208,1920,0.5244468724392243,chicken,restaurant,auto parts,small box,False,False,AutoZone / KFC
+KFC,O'Reilly,3661,6613,1.0721830660745,584,0.15951925703359737,1083,0.29582081398524995,1754,0.47910406992624965,chicken,restaurant,auto parts,small box,False,False,KFC / O'Reilly
+KFC,Advance Auto Parts,3661,4049,1.8271099986597452,453,0.12373668396612947,778,0.21251024310297734,1245,0.3400710188473095,chicken,restaurant,auto parts,small box,False,False,Advance Auto Parts / KFC
+KFC,Chase,3661,3569,12.225585567396928,265,0.0723845943731221,458,0.12510243102977328,758,0.20704725484840208,chicken,restaurant,bank,small box,False,False,Chase / KFC
+KFC,Bank of America,3661,3531,3.0834174350104138,325,0.08877355913684785,548,0.1496858781753619,909,0.24829281617044524,chicken,restaurant,bank,small box,False,False,Bank of America / KFC
+KFC,Wells Fargo,3661,4056,2.905838471824931,287,0.07839388145315487,512,0.13985249931712646,902,0.2463807702813439,chicken,restaurant,bank,small box,False,False,KFC / Wells Fargo
+KFC,McDonald's,3661,13486,0.3879582388102503,1443,0.3941546025676045,2098,0.573067467904944,2909,0.7945916416279705,chicken,restaurant,burgers,restaurant,True,False,KFC / McDonald's
+KFC,Burger King,3661,6168,1.0492134984866952,770,0.21032504780114722,1208,0.32996449057634525,1780,0.4862059546571975,chicken,restaurant,burgers,restaurant,True,False,Burger King / KFC
+KFC,Wendy's,3661,5867,1.0824404005964683,750,0.20486205954657197,1167,0.318765364654466,1736,0.47418738049713194,chicken,restaurant,burgers,restaurant,True,False,KFC / Wendy's
+KFC,Popeyes,3661,3124,2.5265635603351986,333,0.09095875443867796,564,0.15405626877902212,927,0.25320950559956296,chicken,restaurant,chicken,restaurant,True,True,KFC / Popeyes
+KFC,Chick-fil-A,3661,3440,2.658509472598555,229,0.06255121551488664,463,0.1264681780934171,820,0.22398251843758535,chicken,restaurant,chicken,restaurant,True,True,Chick-fil-A / KFC
+KFC,Starbucks,3661,9983,1.021132450174883,769,0.21005189838841848,1239,0.3384321223709369,1815,0.4957661841027042,chicken,restaurant,coffee,restaurant,True,False,KFC / Starbucks
+KFC,Dunkin',3661,10482,1.4620983515035024,653,0.178366566511882,1033,0.2821633433488118,1491,0.4072657743785851,chicken,restaurant,coffee,restaurant,True,False,Dunkin' / KFC
+KFC,Taco Bell,3661,8280,0.427263902534324,1498,0.4091778202676864,1964,0.5364654465992899,2571,0.7022671401256487,chicken,restaurant,none,restaurant,True,False,KFC / Taco Bell
+KFC,Subway,3661,17793,0.48943139927697743,1149,0.31384867522534826,1849,0.5050532641354821,2696,0.736410816716744,chicken,restaurant,none,restaurant,True,False,KFC / Subway
+Popeyes,Home Depot,3124,2013,2.5014579477782437,118,0.03777208706786172,299,0.09571062740076824,599,0.19174135723431499,chicken,restaurant,home improvement,big box,False,False,Home Depot / Popeyes
+Popeyes,Lowe's,3124,1761,3.3418863009866,112,0.03585147247119078,259,0.08290653008962869,473,0.15140845070422534,chicken,restaurant,home improvement,big box,False,False,Lowe's / Popeyes
+Popeyes,Menards,3124,341,319.9362133502197,13,0.004161331626120359,41,0.013124199743918053,78,0.02496798975672215,chicken,restaurant,home improvement,big box,False,False,Menards / Popeyes
+Popeyes,Costco,3124,655,6.080430916841993,26,0.008322663252240717,80,0.02560819462227913,174,0.05569782330345711,chicken,restaurant,warehouse club,big box,False,False,Costco / Popeyes
+Popeyes,Sam's Club,3124,595,6.511994222523608,34,0.01088348271446863,81,0.025928297055057618,188,0.06017925736235595,chicken,restaurant,warehouse club,big box,False,False,Popeyes / Sam's Club
+Popeyes,BJ's Wholesale,3124,269,87.26313682638585,20,0.006402048655569782,44,0.014084507042253521,94,0.030089628681177975,chicken,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Popeyes
+Popeyes,PetSmart,3124,1525,3.318019544185214,87,0.027848911651728554,226,0.07234314980793854,469,0.1501280409731114,chicken,restaurant,pet supplies,big box,False,False,PetSmart / Popeyes
+Popeyes,Petco,3124,1373,3.755167019460697,81,0.025928297055057618,209,0.06690140845070422,385,0.12323943661971831,chicken,restaurant,pet supplies,big box,False,False,Petco / Popeyes
+Popeyes,Target,3124,2026,2.657361154147884,137,0.04385403329065301,306,0.09795134443021766,623,0.19942381562099873,chicken,restaurant,none,big box,False,False,Popeyes / Target
+Popeyes,Kohl's,3124,1150,4.6731715189897605,58,0.01856594110115237,162,0.051856594110115235,320,0.10243277848911651,chicken,restaurant,none,big box,False,False,Kohl's / Popeyes
+Popeyes,Best Buy,3124,1010,4.014346680991418,48,0.015364916773367477,170,0.05441741357234315,351,0.11235595390524968,chicken,restaurant,none,big box,False,False,Best Buy / Popeyes
+Popeyes,CVS,3124,7103,1.3696172236084603,358,0.11459667093469911,613,0.19622279129321382,1133,0.3626760563380282,chicken,restaurant,pharmacy,small box,False,False,CVS / Popeyes
+Popeyes,Walgreens,3124,7680,1.07618630320227,451,0.1443661971830986,821,0.2628040973111396,1447,0.46318822023047374,chicken,restaurant,pharmacy,small box,False,False,Popeyes / Walgreens
+Popeyes,Dollar General,3124,20494,1.5577380292676695,264,0.08450704225352113,508,0.16261203585147246,1076,0.3444302176696543,chicken,restaurant,dollar store,small box,False,False,Dollar General / Popeyes
+Popeyes,Family Dollar,3124,7080,2.1343394968764233,232,0.07426376440460948,440,0.14084507042253522,836,0.2676056338028169,chicken,restaurant,dollar store,small box,False,False,Family Dollar / Popeyes
+Popeyes,Dollar Tree,3124,9103,0.8352684294929125,571,0.18277848911651728,1067,0.3415492957746479,1773,0.5675416133162612,chicken,restaurant,dollar store,small box,False,False,Dollar Tree / Popeyes
+Popeyes,AutoZone,3124,6394,1.0218576278445206,453,0.14500640204865556,839,0.2685659411011524,1531,0.4900768245838668,chicken,restaurant,auto parts,small box,False,False,AutoZone / Popeyes
+Popeyes,O'Reilly,3124,6613,1.4139011505909302,338,0.10819462227912932,643,0.20582586427656852,1170,0.37451984635083224,chicken,restaurant,auto parts,small box,False,False,O'Reilly / Popeyes
+Popeyes,Advance Auto Parts,3124,4049,1.9856581824368909,265,0.08482714468629962,493,0.15781049935979513,870,0.27848911651728553,chicken,restaurant,auto parts,small box,False,False,Advance Auto Parts / Popeyes
+Popeyes,Chase,3124,3569,3.0472733670047463,257,0.0822663252240717,456,0.14596670934699105,799,0.2557618437900128,chicken,restaurant,bank,small box,False,False,Chase / Popeyes
+Popeyes,Bank of America,3124,3531,2.005824071911901,292,0.09346991037131883,515,0.16485275288092188,917,0.2935339308578745,chicken,restaurant,bank,small box,False,False,Bank of America / Popeyes
+Popeyes,Wells Fargo,3124,4056,2.1905993367043246,240,0.07682458386683738,468,0.14980793854033292,837,0.2679257362355954,chicken,restaurant,bank,small box,False,False,Popeyes / Wells Fargo
+Popeyes,McDonald's,3124,13486,0.459341289500942,1007,0.32234314980793854,1654,0.529449423815621,2387,0.7640845070422535,chicken,restaurant,burgers,restaurant,True,False,McDonald's / Popeyes
+Popeyes,Burger King,3124,6168,1.0115894241080672,637,0.20390524967989757,1003,0.32106274007682456,1551,0.4964788732394366,chicken,restaurant,burgers,restaurant,True,False,Burger King / Popeyes
+Popeyes,Wendy's,3124,5867,1.0979587407165399,572,0.18309859154929578,920,0.29449423815621,1462,0.4679897567221511,chicken,restaurant,burgers,restaurant,True,False,Popeyes / Wendy's
+Popeyes,KFC,3124,3661,1.8165783513204623,331,0.1059539052496799,569,0.18213828425096032,992,0.3175416133162612,chicken,restaurant,chicken,restaurant,True,True,KFC / Popeyes
+Popeyes,Chick-fil-A,3124,3440,1.8849955628211494,324,0.10371318822023047,594,0.19014084507042253,1019,0.3261843790012804,chicken,restaurant,chicken,restaurant,True,True,Chick-fil-A / Popeyes
+Popeyes,Starbucks,3124,9983,0.8026548483424458,715,0.22887323943661972,1169,0.3741997439180538,1777,0.5688220230473752,chicken,restaurant,coffee,restaurant,True,False,Popeyes / Starbucks
+Popeyes,Dunkin',3124,10482,1.0783921814988524,702,0.22471190781049935,1079,0.3453905249679898,1503,0.48111395646606914,chicken,restaurant,coffee,restaurant,True,False,Dunkin' / Popeyes
+Popeyes,Taco Bell,3124,8280,0.7132866071373608,782,0.25032010243277847,1250,0.4001280409731114,1927,0.6168373879641486,chicken,restaurant,none,restaurant,True,False,Popeyes / Taco Bell
+Popeyes,Subway,3124,17793,0.5415693791869695,887,0.2839308578745198,1471,0.4708706786171575,2243,0.717989756722151,chicken,restaurant,none,restaurant,True,False,Popeyes / Subway
+Chick-fil-A,Home Depot,3440,2013,2.3582214246630135,228,0.06627906976744186,570,0.16569767441860464,939,0.2729651162790698,chicken,restaurant,home improvement,big box,False,False,Chick-fil-A / Home Depot
+Chick-fil-A,Lowe's,3440,1761,2.685326036803447,280,0.08139534883720931,587,0.17063953488372094,912,0.2651162790697674,chicken,restaurant,home improvement,big box,False,False,Chick-fil-A / Lowe's
+Chick-fil-A,Menards,3440,341,271.3561301558095,16,0.004651162790697674,49,0.014244186046511629,87,0.025290697674418605,chicken,restaurant,home improvement,big box,False,False,Chick-fil-A / Menards
+Chick-fil-A,Costco,3440,655,5.992220183885276,89,0.025872093023255813,185,0.05377906976744186,330,0.09593023255813954,chicken,restaurant,warehouse club,big box,False,False,Chick-fil-A / Costco
+Chick-fil-A,Sam's Club,3440,595,5.516125973252736,59,0.017151162790697675,200,0.05813953488372093,380,0.11046511627906977,chicken,restaurant,warehouse club,big box,False,False,Chick-fil-A / Sam's Club
+Chick-fil-A,BJ's Wholesale,3440,269,56.65818409114904,40,0.011627906976744186,93,0.02703488372093023,145,0.04215116279069767,chicken,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Chick-fil-A
+Chick-fil-A,PetSmart,3440,1525,2.5471983375391387,355,0.10319767441860465,653,0.18982558139534883,995,0.28924418604651164,chicken,restaurant,pet supplies,big box,False,False,Chick-fil-A / PetSmart
+Chick-fil-A,Petco,3440,1373,3.450078149918921,252,0.07325581395348837,488,0.14186046511627906,734,0.21337209302325583,chicken,restaurant,pet supplies,big box,False,False,Chick-fil-A / Petco
+Chick-fil-A,Target,3440,2026,2.0724869379258255,416,0.12093023255813953,806,0.23430232558139535,1189,0.34563953488372096,chicken,restaurant,none,big box,False,False,Chick-fil-A / Target
+Chick-fil-A,Kohl's,3440,1150,4.09376115784853,174,0.05058139534883721,415,0.12063953488372094,658,0.19127906976744186,chicken,restaurant,none,big box,False,False,Chick-fil-A / Kohl's
+Chick-fil-A,Best Buy,3440,1010,3.678937598884266,231,0.06715116279069767,486,0.14127906976744187,745,0.21656976744186046,chicken,restaurant,none,big box,False,False,Best Buy / Chick-fil-A
+Chick-fil-A,CVS,3440,7103,1.3529180632768558,336,0.09767441860465116,666,0.1936046511627907,1278,0.3715116279069767,chicken,restaurant,pharmacy,small box,False,False,CVS / Chick-fil-A
+Chick-fil-A,Walgreens,3440,7680,1.1327082765973584,494,0.1436046511627907,894,0.25988372093023254,1520,0.4418604651162791,chicken,restaurant,pharmacy,small box,False,False,Chick-fil-A / Walgreens
+Chick-fil-A,Dollar General,3440,20494,1.8486019716680078,106,0.030813953488372094,273,0.07936046511627907,822,0.23895348837209301,chicken,restaurant,dollar store,small box,False,False,Chick-fil-A / Dollar General
+Chick-fil-A,Family Dollar,3440,7080,2.872500299445825,50,0.014534883720930232,128,0.037209302325581395,447,0.12994186046511627,chicken,restaurant,dollar store,small box,False,False,Chick-fil-A / Family Dollar
+Chick-fil-A,Dollar Tree,3440,9103,0.8479190431507178,573,0.16656976744186047,1219,0.35436046511627906,1914,0.5563953488372093,chicken,restaurant,dollar store,small box,False,False,Chick-fil-A / Dollar Tree
+Chick-fil-A,AutoZone,3440,6394,1.3814371859150418,292,0.08488372093023255,607,0.17645348837209301,1181,0.34331395348837207,chicken,restaurant,auto parts,small box,False,False,AutoZone / Chick-fil-A
+Chick-fil-A,O'Reilly,3440,6613,1.6667413376480265,183,0.05319767441860465,428,0.12441860465116279,949,0.2758720930232558,chicken,restaurant,auto parts,small box,False,False,Chick-fil-A / O'Reilly
+Chick-fil-A,Advance Auto Parts,3440,4049,2.0248895123676522,201,0.05843023255813953,433,0.1258720930232558,863,0.2508720930232558,chicken,restaurant,auto parts,small box,False,False,Advance Auto Parts / Chick-fil-A
+Chick-fil-A,Chase,3440,3569,4.840537266725098,319,0.09273255813953489,525,0.15261627906976744,807,0.23459302325581396,chicken,restaurant,bank,small box,False,False,Chase / Chick-fil-A
+Chick-fil-A,Bank of America,3440,3531,1.8730474508524986,399,0.11598837209302326,725,0.21075581395348839,1160,0.3372093023255814,chicken,restaurant,bank,small box,False,False,Bank of America / Chick-fil-A
+Chick-fil-A,Wells Fargo,3440,4056,1.6661964308049741,443,0.12877906976744186,785,0.22819767441860464,1257,0.36540697674418604,chicken,restaurant,bank,small box,False,False,Chick-fil-A / Wells Fargo
+Chick-fil-A,McDonald's,3440,13486,0.5174416472621316,980,0.28488372093023256,1675,0.48691860465116277,2545,0.7398255813953488,chicken,restaurant,burgers,restaurant,True,False,Chick-fil-A / McDonald's
+Chick-fil-A,Burger King,3440,6168,1.3576703740602887,449,0.1305232558139535,818,0.2377906976744186,1370,0.39825581395348836,chicken,restaurant,burgers,restaurant,True,False,Burger King / Chick-fil-A
+Chick-fil-A,Wendy's,3440,5867,1.0484269171919194,570,0.16569767441860464,1036,0.30116279069767443,1669,0.48517441860465116,chicken,restaurant,burgers,restaurant,True,False,Chick-fil-A / Wendy's
+Chick-fil-A,KFC,3440,3661,2.025815927824165,231,0.06715116279069767,477,0.13866279069767443,874,0.25406976744186044,chicken,restaurant,chicken,restaurant,True,True,Chick-fil-A / KFC
+Chick-fil-A,Popeyes,3440,3124,1.9208164649043828,330,0.09593023255813954,619,0.1799418604651163,1082,0.31453488372093025,chicken,restaurant,chicken,restaurant,True,True,Chick-fil-A / Popeyes
+Chick-fil-A,Starbucks,3440,9983,0.4320544388733931,1196,0.34767441860465115,1871,0.5438953488372092,2537,0.7375,chicken,restaurant,coffee,restaurant,True,False,Chick-fil-A / Starbucks
+Chick-fil-A,Dunkin',3440,10482,1.1275424752021734,588,0.17093023255813952,1021,0.29680232558139535,1577,0.4584302325581395,chicken,restaurant,coffee,restaurant,True,False,Chick-fil-A / Dunkin'
+Chick-fil-A,Taco Bell,3440,8280,0.7911152216024122,711,0.20668604651162792,1281,0.37238372093023253,2054,0.5970930232558139,chicken,restaurant,none,restaurant,True,False,Chick-fil-A / Taco Bell
+Chick-fil-A,Subway,3440,17793,0.6040803510593874,794,0.23081395348837208,1512,0.43953488372093025,2335,0.6787790697674418,chicken,restaurant,none,restaurant,True,False,Chick-fil-A / Subway
+Starbucks,Home Depot,9983,2013,2.5098597596181635,438,0.04387458679755585,998,0.09996994891315236,1908,0.19112491235099668,coffee,restaurant,home improvement,big box,False,False,Home Depot / Starbucks
+Starbucks,Lowe's,9983,1761,3.3589158497622558,412,0.04127015927076029,852,0.08534508664730041,1483,0.14855253931683862,coffee,restaurant,home improvement,big box,False,False,Lowe's / Starbucks
+Starbucks,Menards,9983,341,369.89156233779056,50,0.005008514474606832,110,0.01101873184413503,225,0.022538315135730742,coffee,restaurant,home improvement,big box,False,False,Menards / Starbucks
+Starbucks,Costco,9983,655,4.7594997968202,157,0.015726735450265452,351,0.03515977161173996,717,0.07182209756586197,coffee,restaurant,warehouse club,big box,False,False,Costco / Starbucks
+Starbucks,Sam's Club,9983,595,6.974659186891105,85,0.008514474606831614,261,0.02614444555744766,530,0.053090253430832415,coffee,restaurant,warehouse club,big box,False,False,Sam's Club / Starbucks
+Starbucks,BJ's Wholesale,9983,269,167.38654367177696,66,0.006611239106481018,136,0.013623159370930582,229,0.02293899629369929,coffee,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Starbucks
+Starbucks,PetSmart,9983,1525,2.9629990066845426,478,0.04788139837724131,955,0.09566262646499048,1640,0.16427927476710408,coffee,restaurant,pet supplies,big box,False,False,PetSmart / Starbucks
+Starbucks,Petco,9983,1373,3.1451888467166818,506,0.050686166483021135,922,0.09235700691174997,1612,0.16147450666132426,coffee,restaurant,pet supplies,big box,False,False,Petco / Starbucks
+Starbucks,Target,9983,2026,2.2723205700995313,689,0.06901732946008214,1397,0.13993789442051488,2383,0.2387057998597616,coffee,restaurant,none,big box,False,False,Starbucks / Target
+Starbucks,Kohl's,9983,1150,4.078444518816307,294,0.02945006511068817,636,0.0637083041169989,1103,0.1104878293098267,coffee,restaurant,none,big box,False,False,Kohl's / Starbucks
+Starbucks,Best Buy,9983,1010,3.742018496869068,305,0.030551938295101673,662,0.06631273164379445,1253,0.1255133727336472,coffee,restaurant,none,big box,False,False,Best Buy / Starbucks
+Starbucks,CVS,9983,7103,1.2805311614349257,1672,0.16748472403085246,2462,0.2466192527296404,4051,0.4057898427326455,coffee,restaurant,pharmacy,small box,False,False,CVS / Starbucks
+Starbucks,Walgreens,9983,7680,1.1583136374314762,1782,0.17850345587498748,2721,0.2725633577081038,4370,0.43774416508063707,coffee,restaurant,pharmacy,small box,False,False,Starbucks / Walgreens
+Starbucks,Dollar General,9983,20494,2.915636596589326,360,0.03606130421716919,719,0.07202243814484624,1676,0.167885405188821,coffee,restaurant,dollar store,small box,False,False,Dollar General / Starbucks
+Starbucks,Family Dollar,9983,7080,4.359496428775638,168,0.016828608634678954,357,0.035760793348692775,963,0.09646398878092757,coffee,restaurant,dollar store,small box,False,False,Family Dollar / Starbucks
+Starbucks,Dollar Tree,9983,9103,1.082399765654439,1673,0.1675848943203446,2921,0.29259741560653113,4672,0.46799559250726236,coffee,restaurant,dollar store,small box,False,False,Dollar Tree / Starbucks
+Starbucks,AutoZone,9983,6394,1.4913194227889912,975,0.09766603225483321,1769,0.1772012421115897,3314,0.3319643393769408,coffee,restaurant,auto parts,small box,False,False,AutoZone / Starbucks
+Starbucks,O'Reilly,9983,6613,1.6895941781088721,804,0.08053691275167785,1514,0.15165781829109487,2913,0.291796053290594,coffee,restaurant,auto parts,small box,False,False,O'Reilly / Starbucks
+Starbucks,Advance Auto Parts,9983,4049,3.314134053479141,479,0.04798156866673345,885,0.08865070620054091,1695,0.1697886406891716,coffee,restaurant,auto parts,small box,False,False,Advance Auto Parts / Starbucks
+Starbucks,Chase,9983,3569,2.1179306732556302,1268,0.12701592707602924,1922,0.1925272964038866,2977,0.29820695181809076,coffee,restaurant,bank,small box,False,False,Chase / Starbucks
+Starbucks,Bank of America,9983,3531,1.6575711305518228,1310,0.13122307923469897,2115,0.21186016227586899,3361,0.3366723429830712,coffee,restaurant,bank,small box,False,False,Bank of America / Starbucks
+Starbucks,Wells Fargo,9983,4056,1.6664156859357622,1311,0.13132324952419114,2104,0.21075828909145547,3382,0.3387759190624061,coffee,restaurant,bank,small box,False,False,Starbucks / Wells Fargo
+Starbucks,McDonald's,9983,13486,0.5603219136068526,3057,0.3062205749774617,4677,0.468496443954723,6918,0.6929780627066012,coffee,restaurant,burgers,restaurant,True,False,McDonald's / Starbucks
+Starbucks,Burger King,9983,6168,1.5096047647731192,1312,0.13142341981368327,2169,0.21726935790844434,3507,0.35129720524892316,coffee,restaurant,burgers,restaurant,True,False,Burger King / Starbucks
+Starbucks,Wendy's,9983,5867,1.4372167525064883,1392,0.1394370429730542,2280,0.22838826004207152,3699,0.3705299008314134,coffee,restaurant,burgers,restaurant,True,False,Starbucks / Wendy's
+Starbucks,KFC,9983,3661,2.1374992310536767,790,0.07913452869878794,1356,0.13583091255133728,2310,0.2313933687268356,coffee,restaurant,chicken,restaurant,True,False,KFC / Starbucks
+Starbucks,Popeyes,9983,3124,2.343839066090672,751,0.07522788740859461,1331,0.13332665531403387,2304,0.2307923469898828,coffee,restaurant,chicken,restaurant,True,False,Popeyes / Starbucks
+Starbucks,Chick-fil-A,9983,3440,1.9340280866394992,1260,0.12621456476009216,2087,0.20905539417008914,3143,0.31483521987378543,coffee,restaurant,chicken,restaurant,True,False,Chick-fil-A / Starbucks
+Starbucks,Dunkin',9983,10482,1.4891034661740026,1678,0.16808574576780527,2717,0.2721626765501352,3989,0.399579284784133,coffee,restaurant,coffee,restaurant,True,True,Dunkin' / Starbucks
+Starbucks,Taco Bell,9983,8280,0.9289095586962245,2114,0.21175999198637685,3362,0.33677251327256336,5272,0.5280977662025443,coffee,restaurant,none,restaurant,True,False,Starbucks / Taco Bell
+Starbucks,Subway,9983,17793,0.5848385400278525,2936,0.29409996994891313,4560,0.45677652008414305,6725,0.6736451968346189,coffee,restaurant,none,restaurant,True,False,Starbucks / Subway
+Dunkin',Home Depot,10482,2013,2.8265296628947993,256,0.024422820072505246,629,0.06000763213127266,1431,0.136519748139668,coffee,restaurant,home improvement,big box,False,False,Dunkin' / Home Depot
+Dunkin',Lowe's,10482,1761,3.8294137227732135,228,0.021751574127074985,541,0.05161228773134898,1035,0.09874069834001145,coffee,restaurant,home improvement,big box,False,False,Dunkin' / Lowe's
+Dunkin',Menards,10482,341,318.40704521698234,28,0.0026712459454302615,69,0.00658271322266743,135,0.01287922152261019,coffee,restaurant,home improvement,big box,False,False,Dunkin' / Menards
+Dunkin',Costco,10482,655,6.864993489128922,36,0.0034344590726960505,119,0.01135279526807861,320,0.03052852509063156,coffee,restaurant,warehouse club,big box,False,False,Costco / Dunkin'
+Dunkin',Sam's Club,10482,595,9.377940315380293,53,0.005056286968135852,143,0.013642434649875978,299,0.028525090631558864,coffee,restaurant,warehouse club,big box,False,False,Dunkin' / Sam's Club
+Dunkin',BJ's Wholesale,10482,269,8.740114564467646,69,0.00658271322266743,182,0.0173630986452967,417,0.03978248425872925,coffee,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Dunkin'
+Dunkin',PetSmart,10482,1525,3.7338139891923534,197,0.018794123258920055,453,0.0432169433314253,991,0.09454302614004961,coffee,restaurant,pet supplies,big box,False,False,Dunkin' / PetSmart
+Dunkin',Petco,10482,1373,4.021826204358151,222,0.021179164281625643,472,0.04502957450868155,1040,0.09921770654455257,coffee,restaurant,pet supplies,big box,False,False,Dunkin' / Petco
+Dunkin',Target,10482,2026,3.019428450066891,320,0.03052852509063156,800,0.0763213127265789,1657,0.15808051898492653,coffee,restaurant,none,big box,False,False,Dunkin' / Target
+Dunkin',Kohl's,10482,1150,4.646745530374119,130,0.012402213318069072,335,0.031959549704254915,707,0.0674489601221141,coffee,restaurant,none,big box,False,False,Dunkin' / Kohl's
+Dunkin',Best Buy,10482,1010,4.537873997815135,100,0.009540164090822362,319,0.030433123449723334,776,0.07403167334478153,coffee,restaurant,none,big box,False,False,Best Buy / Dunkin'
+Dunkin',CVS,10482,7103,1.2542843548960438,1554,0.1482541499713795,2468,0.2354512497614959,4375,0.41738217897347835,coffee,restaurant,pharmacy,small box,False,False,CVS / Dunkin'
+Dunkin',Walgreens,10482,7680,1.2304039168686636,1546,0.1474909368441137,2563,0.24451440564777716,4418,0.42148444953253195,coffee,restaurant,pharmacy,small box,False,False,Dunkin' / Walgreens
+Dunkin',Dollar General,10482,20494,1.9365573335572752,760,0.07250524709024996,1401,0.1336576989124213,2786,0.265788971570311,coffee,restaurant,dollar store,small box,False,False,Dollar General / Dunkin'
+Dunkin',Family Dollar,10482,7080,2.9027514767790117,521,0.049704254913184504,936,0.08929593589009731,1946,0.18565159320740315,coffee,restaurant,dollar store,small box,False,False,Dunkin' / Family Dollar
+Dunkin',Dollar Tree,10482,9103,1.2242195401558313,1355,0.129269223430643,2461,0.23478343827513834,4427,0.42234306430070595,coffee,restaurant,dollar store,small box,False,False,Dollar Tree / Dunkin'
+Dunkin',AutoZone,10482,6394,1.6090971063396733,877,0.08366723907651212,1656,0.15798511734401832,3270,0.31196336576989125,coffee,restaurant,auto parts,small box,False,False,AutoZone / Dunkin'
+Dunkin',O'Reilly,10482,6613,2.952990203047407,586,0.055905361572219044,1050,0.1001717229536348,1993,0.19013547033008968,coffee,restaurant,auto parts,small box,False,False,Dunkin' / O'Reilly
+Dunkin',Advance Auto Parts,10482,4049,2.0024189631171185,750,0.07155123068116771,1382,0.13184506773516505,2607,0.248712077847739,coffee,restaurant,auto parts,small box,False,False,Advance Auto Parts / Dunkin'
+Dunkin',Chase,10482,3569,13.749190890000648,806,0.07689372257202824,1364,0.13012783819881701,2197,0.2095974050753673,coffee,restaurant,bank,small box,False,False,Chase / Dunkin'
+Dunkin',Bank of America,10482,3531,2.050156712564343,952,0.09082236214462888,1659,0.15827132226674298,2948,0.28124403739744325,coffee,restaurant,bank,small box,False,False,Bank of America / Dunkin'
+Dunkin',Wells Fargo,10482,4056,3.584614658017448,686,0.0654455256630414,1195,0.11400496088532723,2154,0.20549513451631368,coffee,restaurant,bank,small box,False,False,Dunkin' / Wells Fargo
+Dunkin',McDonald's,10482,13486,0.7508756067493294,2546,0.24289257775233733,4092,0.39038351459645104,6342,0.6050372066399542,coffee,restaurant,burgers,restaurant,True,False,Dunkin' / McDonald's
+Dunkin',Burger King,10482,6168,1.5529233863183463,1241,0.11839343636710552,2079,0.1983400114481969,3687,0.35174585002862047,coffee,restaurant,burgers,restaurant,True,False,Burger King / Dunkin'
+Dunkin',Wendy's,10482,5867,1.4964066967362526,1295,0.12354512497614958,2173,0.20730776569356993,3701,0.35308147300133563,coffee,restaurant,burgers,restaurant,True,False,Dunkin' / Wendy's
+Dunkin',KFC,10482,3661,2.3169064993195807,698,0.0665903453539401,1235,0.11782102652165617,2273,0.2168479297843923,coffee,restaurant,chicken,restaurant,True,False,Dunkin' / KFC
+Dunkin',Popeyes,10482,3124,2.4794833468758037,810,0.07727532913566114,1455,0.13880938752146538,2520,0.24041213508872353,coffee,restaurant,chicken,restaurant,True,False,Dunkin' / Popeyes
+Dunkin',Chick-fil-A,10482,3440,2.708103982979365,679,0.06477771417668383,1264,0.12058767410799466,2184,0.20835718374356038,coffee,restaurant,chicken,restaurant,True,False,Chick-fil-A / Dunkin'
+Dunkin',Starbucks,10482,9983,1.1325814231042255,1758,0.16771608471665714,3016,0.28773134897920244,4789,0.4568784583094829,coffee,restaurant,coffee,restaurant,True,True,Dunkin' / Starbucks
+Dunkin',Taco Bell,10482,8280,1.2731668073328928,1588,0.1514978057622591,2666,0.25434077466132415,4334,0.41347071169624117,coffee,restaurant,none,restaurant,True,False,Dunkin' / Taco Bell
+Dunkin',Subway,10482,17793,0.7805909696123942,2581,0.24623163518412516,4011,0.38265598168288495,6104,0.582331616103797,coffee,restaurant,none,restaurant,True,False,Dunkin' / Subway
+Taco Bell,Home Depot,8280,2013,3.3167424513593193,234,0.02826086956521739,636,0.07681159420289856,1229,0.14842995169082127,none,restaurant,home improvement,big box,False,False,Home Depot / Taco Bell
+Taco Bell,Lowe's,8280,1761,3.8644367249602514,264,0.03188405797101449,624,0.07536231884057971,1121,0.1353864734299517,none,restaurant,home improvement,big box,False,False,Lowe's / Taco Bell
+Taco Bell,Menards,8280,341,257.1724348625156,46,0.005555555555555556,95,0.011473429951690822,203,0.024516908212560386,none,restaurant,home improvement,big box,False,False,Menards / Taco Bell
+Taco Bell,Costco,8280,655,8.586059799007081,63,0.007608695652173913,152,0.018357487922705314,376,0.04541062801932367,none,restaurant,warehouse club,big box,False,False,Costco / Taco Bell
+Taco Bell,Sam's Club,8280,595,8.295561178631,78,0.009420289855072464,193,0.023309178743961354,387,0.04673913043478261,none,restaurant,warehouse club,big box,False,False,Sam's Club / Taco Bell
+Taco Bell,BJ's Wholesale,8280,269,102.040091061737,39,0.004710144927536232,81,0.009782608695652175,157,0.01896135265700483,none,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Taco Bell
+Taco Bell,PetSmart,8280,1525,4.1050266812222445,273,0.03297101449275362,551,0.06654589371980676,973,0.11751207729468599,none,restaurant,pet supplies,big box,False,False,PetSmart / Taco Bell
+Taco Bell,Petco,8280,1373,4.951915940733744,252,0.030434782608695653,500,0.06038647342995169,860,0.10386473429951691,none,restaurant,pet supplies,big box,False,False,Petco / Taco Bell
+Taco Bell,Target,8280,2026,3.5242544479453546,322,0.03888888888888889,726,0.08768115942028985,1291,0.15591787439613528,none,restaurant,none,big box,False,False,Taco Bell / Target
+Taco Bell,Kohl's,8280,1150,5.288249604501157,177,0.021376811594202898,382,0.04613526570048309,721,0.08707729468599033,none,restaurant,none,big box,False,False,Kohl's / Taco Bell
+Taco Bell,Best Buy,8280,1010,5.378472143928764,135,0.016304347826086956,347,0.041908212560386474,652,0.078743961352657,none,restaurant,none,big box,False,False,Best Buy / Taco Bell
+Taco Bell,CVS,8280,7103,1.6327898951135214,1034,0.1248792270531401,1666,0.20120772946859902,2786,0.33647342995169083,none,restaurant,pharmacy,small box,False,False,CVS / Taco Bell
+Taco Bell,Walgreens,8280,7680,1.2043072550457388,1432,0.17294685990338166,2342,0.2828502415458937,3574,0.4316425120772947,none,restaurant,pharmacy,small box,False,False,Taco Bell / Walgreens
+Taco Bell,Dollar General,8280,20494,1.5100604146095356,871,0.10519323671497585,1654,0.19975845410628018,3041,0.36727053140096616,none,restaurant,dollar store,small box,False,False,Dollar General / Taco Bell
+Taco Bell,Family Dollar,8280,7080,3.2370643331345126,451,0.05446859903381643,805,0.09722222222222222,1604,0.193719806763285,none,restaurant,dollar store,small box,False,False,Family Dollar / Taco Bell
+Taco Bell,Dollar Tree,8280,9103,0.8694553367399152,1709,0.20640096618357487,2975,0.35929951690821255,4523,0.546256038647343,none,restaurant,dollar store,small box,False,False,Dollar Tree / Taco Bell
+Taco Bell,AutoZone,8280,6394,1.174380760975506,1276,0.15410628019323672,2237,0.27016908212560387,3652,0.44106280193236713,none,restaurant,auto parts,small box,False,False,AutoZone / Taco Bell
+Taco Bell,O'Reilly,8280,6613,1.2683333306451963,1234,0.14903381642512079,2123,0.2564009661835749,3470,0.4190821256038647,none,restaurant,auto parts,small box,False,False,O'Reilly / Taco Bell
+Taco Bell,Advance Auto Parts,8280,4049,2.6184781563156516,759,0.09166666666666666,1365,0.16485507246376813,2183,0.26364734299516907,none,restaurant,auto parts,small box,False,False,Advance Auto Parts / Taco Bell
+Taco Bell,Chase,8280,3569,7.351971353919561,588,0.07101449275362319,998,0.12053140096618357,1620,0.1956521739130435,none,restaurant,bank,small box,False,False,Chase / Taco Bell
+Taco Bell,Bank of America,8280,3531,3.515333783470522,627,0.07572463768115942,1064,0.1285024154589372,1771,0.21388888888888888,none,restaurant,bank,small box,False,False,Bank of America / Taco Bell
+Taco Bell,Wells Fargo,8280,4056,3.667294866981418,630,0.07608695652173914,1130,0.13647342995169082,1877,0.22669082125603865,none,restaurant,bank,small box,False,False,Taco Bell / Wells Fargo
+Taco Bell,McDonald's,8280,13486,0.32140609763973055,3614,0.4364734299516908,5037,0.6083333333333333,6539,0.7897342995169082,none,restaurant,burgers,restaurant,True,False,McDonald's / Taco Bell
+Taco Bell,Burger King,8280,6168,1.3359990766422236,1684,0.2033816425120773,2484,0.3,3516,0.4246376811594203,none,restaurant,burgers,restaurant,True,False,Burger King / Taco Bell
+Taco Bell,Wendy's,8280,5867,1.2826968526464162,1701,0.20543478260869566,2585,0.31219806763285024,3562,0.43019323671497584,none,restaurant,burgers,restaurant,True,False,Taco Bell / Wendy's
+Taco Bell,KFC,8280,3661,2.0517084950764017,1481,0.1788647342995169,1956,0.23623188405797102,2618,0.31618357487922705,none,restaurant,chicken,restaurant,True,False,KFC / Taco Bell
+Taco Bell,Popeyes,8280,3124,2.865421369708529,782,0.09444444444444444,1247,0.15060386473429951,1928,0.23285024154589373,none,restaurant,chicken,restaurant,True,False,Popeyes / Taco Bell
+Taco Bell,Chick-fil-A,8280,3440,2.788558378744394,701,0.08466183574879227,1257,0.15181159420289855,1991,0.24045893719806763,none,restaurant,chicken,restaurant,True,False,Chick-fil-A / Taco Bell
+Taco Bell,Starbucks,8280,9983,0.8996704475601833,2056,0.24830917874396136,3124,0.37729468599033816,4347,0.525,none,restaurant,coffee,restaurant,True,False,Starbucks / Taco Bell
+Taco Bell,Dunkin',8280,10482,1.7957787316097313,1453,0.17548309178743962,2238,0.2702898550724638,3109,0.3754830917874396,none,restaurant,coffee,restaurant,True,False,Dunkin' / Taco Bell
+Taco Bell,Subway,8280,17793,0.45300522192499293,2843,0.3433574879227053,4350,0.5253623188405797,6035,0.7288647342995169,none,restaurant,none,restaurant,True,False,Subway / Taco Bell
+Subway,Home Depot,17793,2013,3.9685251711483134,385,0.02163772269993818,866,0.04867082560557522,1812,0.10183780138256618,none,restaurant,home improvement,big box,False,False,Home Depot / Subway
+Subway,Lowe's,17793,1761,4.683666741780256,365,0.020513685157084245,828,0.04653515427415276,1506,0.08464002697690103,none,restaurant,home improvement,big box,False,False,Lowe's / Subway
+Subway,Menards,17793,341,260.32850518878826,47,0.0026414882257067385,136,0.007643455291406733,274,0.015399314337098858,none,restaurant,home improvement,big box,False,False,Menards / Subway
+Subway,Costco,17793,655,10.264414237992934,74,0.004158938908559546,223,0.012533018602821334,543,0.030517619288484236,none,restaurant,warehouse club,big box,False,False,Costco / Subway
+Subway,Sam's Club,17793,595,9.885172927417809,121,0.006800427134266284,248,0.013938065531388748,527,0.02961838925420109,none,restaurant,warehouse club,big box,False,False,Sam's Club / Subway
+Subway,BJ's Wholesale,17793,269,111.20439619228544,34,0.0019108638228516833,92,0.0051705726971280844,190,0.010678356657112347,none,restaurant,warehouse club,big box,False,False,BJ's Wholesale / Subway
+Subway,PetSmart,17793,1525,4.893701668235162,319,0.017928398808520204,669,0.037599055808464,1287,0.07233181588265047,none,restaurant,pet supplies,big box,False,False,PetSmart / Subway
+Subway,Petco,17793,1373,5.773843756950286,354,0.019895464508514583,683,0.038385882088461755,1291,0.07255662339122126,none,restaurant,pet supplies,big box,False,False,Petco / Subway
+Subway,Target,17793,2026,4.339449498095911,462,0.025965267239925812,970,0.05451582082841567,1877,0.10549092339684145,none,restaurant,none,big box,False,False,Subway / Target
+Subway,Kohl's,17793,1150,6.308455711487975,217,0.012195807339965154,467,0.026246276625639296,938,0.052717360759849376,none,restaurant,none,big box,False,False,Kohl's / Subway
+Subway,Best Buy,17793,1010,6.223252927872294,137,0.007699657168549429,420,0.023604788399932557,931,0.0523239476198505,none,restaurant,none,big box,False,False,Best Buy / Subway
+Subway,CVS,17793,7103,2.003286543713847,1903,0.10695217220255157,2947,0.16562693193952677,5068,0.2848311133591862,none,restaurant,pharmacy,small box,False,False,CVS / Subway
+Subway,Walgreens,17793,7680,1.6877670839126364,2283,0.12830888551677627,3595,0.20204574832799416,5921,0.3327713145619064,none,restaurant,pharmacy,small box,False,False,Subway / Walgreens
+Subway,Dollar General,17793,20494,1.4644608928249527,2322,0.13050075872534142,4074,0.2289664474793458,6860,0.38554487719889846,none,restaurant,dollar store,small box,False,False,Dollar General / Subway
+Subway,Family Dollar,17793,7080,3.4255217566191294,1250,0.07025234642837071,2091,0.11751812510537853,3716,0.20884617546226045,none,restaurant,dollar store,small box,False,False,Family Dollar / Subway
+Subway,Dollar Tree,17793,9103,1.403336326365257,2613,0.14685550497386612,4241,0.23835216096217612,6826,0.38363401337604675,none,restaurant,dollar store,small box,False,False,Dollar Tree / Subway
+Subway,AutoZone,17793,6394,1.7511012203840919,1691,0.09503737424829989,2933,0.16484010565952903,5325,0.2992749957848592,none,restaurant,auto parts,small box,False,False,AutoZone / Subway
+Subway,O'Reilly,17793,6613,1.7927084854622586,1730,0.09722924745686506,3041,0.17090990839094025,5317,0.29882538076771764,none,restaurant,auto parts,small box,False,False,O'Reilly / Subway
+Subway,Advance Auto Parts,17793,4049,3.579765003463195,1019,0.0572697128084078,1775,0.0997583319282864,3135,0.17619288484235374,none,restaurant,auto parts,small box,False,False,Advance Auto Parts / Subway
+Subway,Chase,17793,3569,15.556308963846144,1068,0.06002360478839993,1713,0.09627381554543922,2888,0.1623110211881077,none,restaurant,bank,small box,False,False,Chase / Subway
+Subway,Bank of America,17793,3531,4.954398283803253,1022,0.05743831843983589,1763,0.09908390940257404,3014,0.16939245770808745,none,restaurant,bank,small box,False,False,Bank of America / Subway
+Subway,Wells Fargo,17793,4056,5.755668189905694,1146,0.06440735120553026,1856,0.10431068397684483,3185,0.17900297869948856,none,restaurant,bank,small box,False,False,Subway / Wells Fargo
+Subway,McDonald's,17793,13486,0.7846836979827266,4750,0.26695891642780867,7044,0.3958860225931546,10265,0.5769122688697802,none,restaurant,burgers,restaurant,True,False,McDonald's / Subway
+Subway,Burger King,17793,6168,1.9077469526068653,2009,0.1129095711796774,3261,0.18327432136233351,5296,0.297645141347721,none,restaurant,burgers,restaurant,True,False,Burger King / Subway
+Subway,Wendy's,17793,5867,1.970109349700747,1868,0.10498510650255719,2997,0.16843702579666162,4948,0.2780868881020626,none,restaurant,burgers,restaurant,True,False,Subway / Wendy's
+Subway,KFC,17793,3661,2.6915902768976485,1154,0.06485696622267184,1955,0.10987466981397179,3377,0.18979373911088632,none,restaurant,chicken,restaurant,True,False,KFC / Subway
+Subway,Popeyes,17793,3124,3.5447930431977817,918,0.051593323216995446,1606,0.09026021469117068,2870,0.16129938739953914,none,restaurant,chicken,restaurant,True,False,Popeyes / Subway
+Subway,Chick-fil-A,17793,3440,3.431704777734072,831,0.046703759905580844,1684,0.09464396110830102,2921,0.16416568313381666,none,restaurant,chicken,restaurant,True,False,Chick-fil-A / Subway
+Subway,Starbucks,17793,9983,1.5386203152020708,2891,0.16247962681953576,4553,0.25588714663069745,6879,0.3866127128646097,none,restaurant,coffee,restaurant,True,False,Starbucks / Subway
+Subway,Dunkin',17793,10482,2.363516634036746,2431,0.13662676333389534,3635,0.20429382341370203,5307,0.29826336199629067,none,restaurant,coffee,restaurant,True,False,Dunkin' / Subway
+Subway,Taco Bell,17793,8280,1.3204884391490774,2898,0.16287303995953464,4620,0.25965267239925816,7209,0.40515933232169954,none,restaurant,none,restaurant,True,False,Subway / Taco Bell

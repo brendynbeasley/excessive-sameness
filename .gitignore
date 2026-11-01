@@ -1,0 +1,17 @@
+# Raw All the Places GeoJSON downloads (about 200 MB); src/fetch_stores.py refetches them.
+# The cleaned extract data/raw/stores.csv is committed.
+data/raw/atp/
+*.part
+
+# Secrets
+*.key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

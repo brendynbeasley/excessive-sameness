@@ -1,0 +1,9 @@
+congress,chamber,start_year,n_dem,n_rep,dem_median,rep_median,gap,dems_right_of_most_liberal_rep,reps_left_of_most_conservative_dem,most_conservative_dem,most_conservative_dem_score,most_liberal_rep,most_liberal_rep_score,overlap_members,min_gap_year
+70,House,1927,198,241,-0.2655,0.39,0.6555,41,4,"MOREHEAD, John Henry",0.117,"WELCH, Richard Joseph",-0.174,45,
+70,Senate,1927,48,53,-0.263,0.417,0.6799999999999999,1,2,"WHEELER, Burton Kendall",0.065,"BLAINE, John James",0.022,3,
+95,House,1977,294,147,-0.3235,0.262,0.5855,49,147,"McDONALD, Lawrence Patton",0.884,"WHALEN, Charles William, Jr.",-0.139,196,
+95,Senate,1977,65,38,-0.329,0.2935,0.6225,7,11,"ALLEN, Maryon Pittman",0.128,"JAVITS, Jacob Koppel",-0.124,18,
+119,House,2025,222,227,-0.395,0.53,0.925,0,0,"PEREZ, Marie Gluesenkamp",-0.099,"FITZPATRICK, Brian K.",0.141,0,
+119,Senate,2025,45,57,-0.356,0.558,0.914,0,0,"FETTERMAN, John Karl",-0.177,"COLLINS, Susan Margaret",0.124,0,
+80,House,1947,194,253,-0.2195,0.278,0.49750000000000005,72,34,"WILLIAMS, John Bell",0.127,"WELCH, Richard Joseph",-0.174,106,1947.0
+78,Senate,1943,60,42,-0.191,0.277,0.468,6,15,"O'DANIEL, Wilbert Lee (Pappy)",0.231,"LANGER, William",0.023,21,1943.0
